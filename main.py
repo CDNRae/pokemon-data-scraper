@@ -125,6 +125,10 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
     # Dropping Pokemon outside of the generation specified
     pokemon_list = pokemon_list[pokemon_list.GENERATION <= generation]
 
+    # Hidden abilities can only be had from Gen V onward; if it's earlier, we set hidden_ability_chance to 0 regardless
+    # of what the user picked
+    hidden_ability_chance = 0
+
     while loop_counter < number_to_generate:
         # random_number is used for the random number generation.  Currently represents the Pokemon that will be picked.
         # Re-seeding it every time.
@@ -210,4 +214,4 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
 if __name__ == '__main__':
     # Number of pokemon to generate, generation, % chance of egg moves, % chance of hidden abilities, % chance of shiny
-    generate_pokemon(600, 6, 100, 100, 1)
+    generate_pokemon(90, 1, 50, 50, 1)
