@@ -5,3 +5,6 @@ venv
 
 # Pycharm
 .idea/
+
+# Output data
+output/
