@@ -161,7 +161,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         pokemon_ability = get_ability(pokemon, hidden_ability_chance)
 
         # Next, IVs are determined by randomly generating numbers between 1 and 31.
-        while len(pokemon_ivs) < 5:
+        while len(pokemon_ivs) < 6:
             random_number = random.randint(1, 31)
             pokemon_ivs.append(random_number)
 
@@ -198,14 +198,15 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         pokemon_moves_as_string = ""
 
         for move in pokemon_moves:
-            pokemon_moves_as_string = pokemon_moves_as_string + f"- {move}\n"
+            if move != "":
+                pokemon_moves_as_string = pokemon_moves_as_string + f"- {move}\n"
 
         output_file.write(f"{pokemon['NAME']} {pokemon_gender}\n"
                           f"Ability: {pokemon_ability}\n"
                           f"Level: 1\n"
                           f"{pokemon_is_shiny}"
                           f"{pokemon_nature} Nature\n"
-                          f"IVs: {pokemon_ivs[0]} HP / {pokemon_ivs[1]} Def / {pokemon_ivs[2]} SpA / {pokemon_ivs[3]} SpD / {pokemon_ivs[4]} Spe\n"
+                          f"IVs: {pokemon_ivs[0]} HP / {pokemon_ivs[1]} Atk / {pokemon_ivs[2]} Def / {pokemon_ivs[3]} SpA / {pokemon_ivs[4]} SpD / {pokemon_ivs[5]} Spe\n"
                           f"{pokemon_moves_as_string}\n"
                           )
 
@@ -214,4 +215,4 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
 if __name__ == '__main__':
     # Number of pokemon to generate, generation, % chance of egg moves, % chance of hidden abilities, % chance of shiny
-    generate_pokemon(90, 1, 50, 50, 1)
+    generate_pokemon(30, 6, 50, 50, 5)
