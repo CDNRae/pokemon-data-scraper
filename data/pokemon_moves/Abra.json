@@ -1,0 +1,131 @@
+{
+  "II": {
+    "egg_moves": [
+      "Barrier",
+      "Encore",
+      "Light Screen"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Barrier",
+      "Encore",
+      "Fire Punch",
+      "Ice Punch",
+      "Knock Off",
+      "ThunderPunch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Barrier",
+      "Encore",
+      "Fire Punch",
+      "Guard Swap",
+      "Ice Punch",
+      "Power Trick",
+      "ThunderPunch",
+      "Knock Off"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Barrier",
+      "Encore",
+      "Fire Punch",
+      "Guard Split",
+      "Guard Swap",
+      "Ice Punch",
+      "Knock Off",
+      "Power Trick",
+      "Skill Swap\u2021",
+      "ThunderPunch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Ally Switch",
+      "Barrier",
+      "Encore",
+      "Fire Punch",
+      "Guard Split",
+      "Guard Swap",
+      "Ice Punch",
+      "Knock Off",
+      "Power Trick",
+      "Psycho Shift*",
+      "Skill Swap\u2021",
+      "Thunder Punch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Ally Switch",
+      "Barrier",
+      "Encore",
+      "Fire Punch",
+      "Guard Split",
+      "Guard Swap",
+      "Ice Punch",
+      "Knock Off",
+      "Psychic TerrainUSUM",
+      "Power Trick",
+      "Psycho Shift*",
+      "Skill Swap*",
+      "Thunder Punch",
+      "Ally Switch",
+      "Barrier",
+      "Encore",
+      "Fire Punch",
+      "Guard Split",
+      "Guard Swap",
+      "Ice Punch",
+      "Knock Off",
+      "Psychic TerrainUSUM",
+      "Power Trick",
+      "Psycho Shift*",
+      "Skill Swap*",
+      "Thunder Punch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "01"
+      }
+    ]
+  }
+}

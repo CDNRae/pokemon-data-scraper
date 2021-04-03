@@ -5,7 +5,7 @@ from wtforms import Form, DecimalField, SelectField, validators
 class GeneratorForm(Form):
     number_of_pokemon = DecimalField(label="number_to_generate",
                                      validators=[validators.NumberRange(min=1, max=100)])
-    generation = SelectField(label="Generation", choices=["1", "2", "3", "4", "5", "6", "7", "8"])
+    generation = SelectField(label="Generation", choices=["I", "II", "III", "IV", "V", "VI", "VII", "VIII"])
 
 
 def create_app():
@@ -14,10 +14,16 @@ def create_app():
         SECRET_KEY="Pokemon"
     )
 
-    @app.route("/index")
+    @app.route("/index", methods=["GET", "POST"])
     def index():
         generatorForm = GeneratorForm()
-        return render_template("index.html", generatorForm=generatorForm)
+
+        if request.method == "GET":
+            return render_template("index.html", generatorForm=generatorForm)
+        else:
+            data = request.form
+            print(data)
+            return render_template("index.html", generatorForm=generatorForm)
 
     return app
 

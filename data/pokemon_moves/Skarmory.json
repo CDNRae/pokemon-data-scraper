@@ -1,0 +1,423 @@
+{
+  "II": {
+    "egg_moves": [
+      "Drill Peck",
+      "Pursuit",
+      "Sky Attack",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "13"
+      },
+      {
+        "Name": "Swift",
+        "Level": "19"
+      },
+      {
+        "Name": "Agility",
+        "Level": "25"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "37"
+      },
+      {
+        "Name": "Steel Wing",
+        "Level": "49"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Curse*",
+      "Drill Peck",
+      "Pursuit",
+      "Sky Attack",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "10"
+      },
+      {
+        "Name": "Swift",
+        "Level": "13"
+      },
+      {
+        "Name": "Agility",
+        "Level": "16"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "26"
+      },
+      {
+        "Name": "Air Cutter",
+        "Level": "29"
+      },
+      {
+        "Name": "Steel Wing",
+        "Level": "32"
+      },
+      {
+        "Name": "Spikes",
+        "Level": "42"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "45"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Assurance",
+      "Brave Bird",
+      "Curse*",
+      "Drill Peck",
+      "Guard SwapHGSS",
+      "Pursuit",
+      "Sky Attack",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "011",
+        "Level": "01"
+      },
+      {
+        "Name": "011",
+        "Level": "2 "
+      },
+      {
+        "Name": "3 \u2665\u2665\u2665",
+        "Level": "Co"
+      },
+      {
+        "Name": "Cute",
+        "Level": "1"
+      },
+      {
+        "Name": "20",
+        "Level": "00\u2014}}\u2014"
+      },
+      {
+        "Name": "00\u2014}}\u2014%",
+        "Level": "0000"
+      },
+      {
+        "Name": "01515",
+        "Level": "Phys"
+      },
+      {
+        "Name": "Physical",
+        "Level": "Nor"
+      },
+      {
+        "Name": "Flying",
+        "Level": "Air C"
+      },
+      {
+        "Name": "Spikes",
+        "Level": "28"
+      },
+      {
+        "Name": "3131",
+        "Level": "33"
+      },
+      {
+        "Name": "3838",
+        "Level": "2 "
+      },
+      {
+        "Name": "3 \u2665\u2665\u2665",
+        "Level": "Co"
+      },
+      {
+        "Name": "Cool",
+        "Level": "2"
+      },
+      {
+        "Name": "20",
+        "Level": "100}}100"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "070"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Assurance",
+      "Brave Bird",
+      "Curse*",
+      "Drill Peck",
+      "Endure",
+      "Guard Swap",
+      "Pursuit",
+      "Sky Attack",
+      "Stealth Rock",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "06"
+      },
+      {
+        "Name": "Swift",
+        "Level": "09"
+      },
+      {
+        "Name": "Agility",
+        "Level": "12"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "17"
+      },
+      {
+        "Name": "Feint",
+        "Level": "20"
+      },
+      {
+        "Name": "Air Cutter",
+        "Level": "23"
+      },
+      {
+        "Name": "Spikes",
+        "Level": "28"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "31"
+      },
+      {
+        "Name": "Steel Wing",
+        "Level": "34"
+      },
+      {
+        "Name": "Autotomize",
+        "Level": "39"
+      },
+      {
+        "Name": "Air Slash",
+        "Level": "42"
+      },
+      {
+        "Name": "Slash",
+        "Level": "45"
+      },
+      {
+        "Name": "Night Slash",
+        "Level": "50"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Assurance",
+      "Brave Bird",
+      "Curse*",
+      "Drill Peck",
+      "Endure",
+      "Guard Swap",
+      "Pursuit",
+      "Sky Attack",
+      "Stealth Rock",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Assurance",
+      "Brave Bird",
+      "Curse*",
+      "Drill Peck",
+      "Endure",
+      "Guard Swap",
+      "Pursuit",
+      "Sky Attack",
+      "Stealth Rock",
+      "Whirlwind",
+      "Assurance",
+      "Brave Bird",
+      "Curse*",
+      "Drill Peck",
+      "Endure",
+      "Guard Swap",
+      "Pursuit",
+      "Sky Attack",
+      "Stealth Rock",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "06"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "09"
+      },
+      {
+        "Name": "Air Cutter",
+        "Level": "12"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "17"
+      },
+      {
+        "Name": "Feint",
+        "Level": "20"
+      },
+      {
+        "Name": "Swift",
+        "Level": "23"
+      },
+      {
+        "Name": "Spikes",
+        "Level": "28"
+      },
+      {
+        "Name": "Agility",
+        "Level": "31"
+      },
+      {
+        "Name": "Steel Wing",
+        "Level": "34"
+      },
+      {
+        "Name": "Slash",
+        "Level": "39"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "42"
+      },
+      {
+        "Name": "Air Slash",
+        "Level": "45"
+      },
+      {
+        "Name": "Autotomize",
+        "Level": "50"
+      },
+      {
+        "Name": "Night Slash",
+        "Level": "53"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "06"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "09"
+      },
+      {
+        "Name": "Air Cutter",
+        "Level": "12"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "17"
+      },
+      {
+        "Name": "Feint",
+        "Level": "20"
+      },
+      {
+        "Name": "Swift",
+        "Level": "23"
+      },
+      {
+        "Name": "Spikes",
+        "Level": "28"
+      },
+      {
+        "Name": "Agility",
+        "Level": "31"
+      },
+      {
+        "Name": "Steel Wing",
+        "Level": "34"
+      },
+      {
+        "Name": "Slash",
+        "Level": "39"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "42"
+      },
+      {
+        "Name": "Air Slash",
+        "Level": "45"
+      },
+      {
+        "Name": "Autotomize",
+        "Level": "50"
+      },
+      {
+        "Name": "Night Slash",
+        "Level": "53"
+      }
+    ]
+  }
+}

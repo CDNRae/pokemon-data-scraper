@@ -1,0 +1,369 @@
+{
+  "II": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Disable",
+      "Dragon Rage",
+      "Flail",
+      "Octazooka",
+      "Splash"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "08"
+      },
+      {
+        "Name": "Leer",
+        "Level": "15"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "22"
+      },
+      {
+        "Name": "Twister",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "36"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "43"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Disable",
+      "DragonBreath",
+      "Dragon Rage",
+      "Flail",
+      "Octazooka",
+      "Splash"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "08"
+      },
+      {
+        "Name": "Leer",
+        "Level": "15"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "22"
+      },
+      {
+        "Name": "Twister",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "36"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "43"
+      },
+      {
+        "Name": "Dragon Dance",
+        "Level": "50"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Disable",
+      "DragonBreath",
+      "Dragon Rage",
+      "Flail",
+      "Muddy WaterHGSS",
+      "Octazooka",
+      "Razor WindHGSS",
+      "Signal Beam",
+      "Splash"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "04"
+      },
+      {
+        "Name": "Leer",
+        "Level": "08"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "11"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "14"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "18"
+      },
+      {
+        "Name": "Agility",
+        "Level": "23"
+      },
+      {
+        "Name": "Twister",
+        "Level": "26"
+      },
+      {
+        "Name": "Brine",
+        "Level": "30"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "35"
+      },
+      {
+        "Name": "Dragon Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Dragon Pulse",
+        "Level": "42"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Clear Smog*",
+      "Disable",
+      "DragonBreath",
+      "Dragon Rage",
+      "Flail",
+      "Muddy Water",
+      "Octazooka",
+      "Outrage",
+      "Razor Wind",
+      "Signal Beam",
+      "Splash",
+      "Water Pulse"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "04"
+      },
+      {
+        "Name": "Leer",
+        "Level": "08"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "11"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "14"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "18"
+      },
+      {
+        "Name": "Agility",
+        "Level": "23"
+      },
+      {
+        "Name": "Twister",
+        "Level": "26"
+      },
+      {
+        "Name": "Brine",
+        "Level": "30"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "35"
+      },
+      {
+        "Name": "Dragon Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Dragon Pulse",
+        "Level": "42"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Clear Smog*",
+      "Disable",
+      "Dragon Breath",
+      "Dragon Rage",
+      "Flail",
+      "Muddy Water",
+      "Octazooka",
+      "Outrage",
+      "Razor Wind",
+      "Signal Beam",
+      "Splash",
+      "Water Pulse"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Clear Smog*",
+      "Disable",
+      "Dragon Breath",
+      "Dragon Rage",
+      "Flail",
+      "Muddy Water",
+      "Octazooka",
+      "Outrage",
+      "Razor Wind",
+      "Signal Beam",
+      "Splash",
+      "Water Pulse",
+      "Aurora Beam",
+      "Clear Smog*",
+      "Disable",
+      "Dragon Breath",
+      "Dragon Rage",
+      "Flail",
+      "Muddy Water",
+      "Octazooka",
+      "Outrage",
+      "Razor Wind",
+      "Signal Beam",
+      "Splash",
+      "Water Pulse"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      },
+      {
+        "Name": "Smokescreen",
+        "Level": "05"
+      },
+      {
+        "Name": "Leer",
+        "Level": "09"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "13"
+      },
+      {
+        "Name": "Twister",
+        "Level": "17"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "21"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "26"
+      },
+      {
+        "Name": "Brine",
+        "Level": "31"
+      },
+      {
+        "Name": "Agility",
+        "Level": "36"
+      },
+      {
+        "Name": "Dragon Pulse",
+        "Level": "41"
+      },
+      {
+        "Name": "Dragon Dance",
+        "Level": "46"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "52"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "01"
+      },
+      {
+        "Name": "Smokescreen",
+        "Level": "05"
+      },
+      {
+        "Name": "Leer",
+        "Level": "09"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "13"
+      },
+      {
+        "Name": "Twister",
+        "Level": "17"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "21"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "26"
+      },
+      {
+        "Name": "Brine",
+        "Level": "31"
+      },
+      {
+        "Name": "Agility",
+        "Level": "36"
+      },
+      {
+        "Name": "Dragon Pulse",
+        "Level": "41"
+      },
+      {
+        "Name": "Dragon Dance",
+        "Level": "46"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "52"
+      }
+    ]
+  }
+}

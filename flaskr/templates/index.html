@@ -19,21 +19,22 @@
     <h1>Pokemon Egg Generator</h1>
     <div class="content-container-inner">
         <h2>About</h2>
-        <p>Welcome to the Pokemon Egg Generator. It randomly generates level 1 Pokemon with moves, abilities, natures,
-            etc.
-            in the Pokemon Showdown format, which can then be imported into PKHeX. Using the options below, you can
-            control
-            the number of Pokemon to generate, what Generation they are compatible with, and whether or not you want
-            them to
-            be
-            shiny, have hidden abilities, or egg moves.</p>
+        <p>Welcome to the Pokemon Egg Generator. As the name suggests, it generates Pokemon eggs that can be imported
+            into PKHeX with the use of the <a href="https://github.com/CDNRae/pkhex-bulk-importer">Bulk Importer</a>
+            plugin. Both the plugin and tool were designed to help Nuzlockers set up an Egglocke that doesn't rely on
+            egg donations from others.</p>
 
-        <p>This tool is still in development.  If you find a bug, please log the issue <a href="https://github.com/CDNRae/pokemon-egg-generator/issues">here</a>.</p>
+        <p>Currently, the tool can generate Pokemon from Gens I - VII, for use in the core games from Gens II - VII. You
+            could probably use it for Sword and Shield too, though I can't guarantee that the Pokemon generated will be
+            100% compatible with those games.</p>
+
+        <p>This tool is still in development. If you find a bug, please log the issue <a
+                href="https://github.com/CDNRae/pokemon-egg-generator/issues">here</a>.</p>
     </div>
     <br>
     <div class="content-container-inner">
         <h2>Generate Pokemon</h2>
-        <form action="" method="post" role="form" class="row g-3">
+        <form action="/index" method="post" role="form" class="row g-3">
             {{generatorForm.csrf}}
 
             <div class="col-md-6">
@@ -42,16 +43,14 @@
             </div>
 
             <div class="col-md-6">
-                <label for="generation">Generation:</label>
+                <label for="generation">For Use In Generation:</label>
                 <select class="form-control" id="generation" name="generation">
-                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
                     <option value="6">6</option>
                     <option value="7">7</option>
-                    <option value="8">8</option>
                 </select>
             </div>
             <div class="col-md-4">

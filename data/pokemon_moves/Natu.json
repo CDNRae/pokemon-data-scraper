@@ -1,0 +1,435 @@
+{
+  "II": {
+    "egg_moves": [
+      "Drill Peck",
+      "Faint Attack",
+      "Haze",
+      "Quick Attack",
+      "Steel Wing"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "10"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "20"
+      },
+      {
+        "Name": "Future Sight",
+        "Level": "30"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "40"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "50"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Drill Peck",
+      "Faint Attack",
+      "FeatherDance",
+      "Haze",
+      "Psych Up*",
+      "Quick Attack",
+      "Refresh",
+      "Steel Wing"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "10"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "20"
+      },
+      {
+        "Name": "Wish",
+        "Level": "30"
+      },
+      {
+        "Name": "Future Sight",
+        "Level": "30"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "40"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "50"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Drill Peck",
+      "Faint Attack",
+      "FeatherDance",
+      "Haze",
+      "Psych Up*",
+      "Quick Attack",
+      "Refresh",
+      "Steel Wing",
+      "Sucker Punch",
+      "Zen Headbutt"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "06"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "09"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "12"
+      },
+      {
+        "Name": "Miracle Eye",
+        "Level": "17"
+      },
+      {
+        "Name": "Me First",
+        "Level": "20"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "23"
+      },
+      {
+        "Name": "Wish",
+        "Level": "28"
+      },
+      {
+        "Name": "Psycho Shift",
+        "Level": "33"
+      },
+      {
+        "Name": "Future Sight",
+        "Level": "36"
+      },
+      {
+        "Name": "Ominous Wind",
+        "Level": "39"
+      },
+      {
+        "Name": "Power Swap",
+        "Level": "44"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "44"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "47"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Drill Peck",
+      "Faint Attack",
+      "FeatherDance",
+      "Haze",
+      "Quick Attack",
+      "Refresh",
+      "Roost",
+      "Skill Swap\u2021",
+      "Steel Wing",
+      "Sucker Punch",
+      "Synchronoise",
+      "Zen Headbutt"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "06"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "09"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "12"
+      },
+      {
+        "Name": "Miracle Eye",
+        "Level": "17"
+      },
+      {
+        "Name": "Me First",
+        "Level": "20"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "23"
+      },
+      {
+        "Name": "Wish",
+        "Level": "28"
+      },
+      {
+        "Name": "Psycho Shift",
+        "Level": "33"
+      },
+      {
+        "Name": "Future Sight",
+        "Level": "36"
+      },
+      {
+        "Name": "Stored Power",
+        "Level": "39"
+      },
+      {
+        "Name": "Ominous Wind",
+        "Level": "44"
+      },
+      {
+        "Name": "Power Swap",
+        "Level": "47"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "47"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "50"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Ally Switch",
+      "Drill Peck",
+      "Feather Dance",
+      "Feint Attack",
+      "Haze",
+      "Quick Attack",
+      "Refresh",
+      "Roost",
+      "Simple Beam*",
+      "Skill Swap",
+      "Steel Wing",
+      "Sucker Punch",
+      "Synchronoise",
+      "Zen Headbutt"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Ally Switch\u2021",
+      "Drill Peck",
+      "Feather Dance",
+      "Feint Attack",
+      "Haze",
+      "Quick Attack",
+      "Refresh",
+      "Roost",
+      "Simple Beam*",
+      "Skill Swap\u2021",
+      "Steel Wing",
+      "Sucker Punch",
+      "Synchronoise",
+      "Zen Headbutt",
+      "Ally Switch\u2021",
+      "Drill Peck",
+      "Feather Dance",
+      "Feint Attack",
+      "Haze",
+      "Quick Attack",
+      "Refresh",
+      "Roost",
+      "Simple Beam*",
+      "Skill Swap\u2021",
+      "Steel Wing",
+      "Sucker Punch",
+      "Synchronoise",
+      "Zen Headbutt"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "06"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "09"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "12"
+      },
+      {
+        "Name": "Stored Power",
+        "Level": "17"
+      },
+      {
+        "Name": "Ominous Wind",
+        "Level": "20"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "23"
+      },
+      {
+        "Name": "Wish",
+        "Level": "28"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "33"
+      },
+      {
+        "Name": "Miracle Eye",
+        "Level": "36"
+      },
+      {
+        "Name": "Psycho Shift",
+        "Level": "39"
+      },
+      {
+        "Name": "Future Sight",
+        "Level": "44"
+      },
+      {
+        "Name": "Power Swap",
+        "Level": "47"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "47"
+      },
+      {
+        "Name": "Me First",
+        "Level": "50"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "06"
+      },
+      {
+        "Name": "Teleport",
+        "Level": "09"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "12"
+      },
+      {
+        "Name": "Stored Power",
+        "Level": "17"
+      },
+      {
+        "Name": "Ominous Wind",
+        "Level": "20"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "23"
+      },
+      {
+        "Name": "Wish",
+        "Level": "28"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "33"
+      },
+      {
+        "Name": "Miracle Eye",
+        "Level": "36"
+      },
+      {
+        "Name": "Psycho Shift",
+        "Level": "39"
+      },
+      {
+        "Name": "Future Sight",
+        "Level": "44"
+      },
+      {
+        "Name": "Power Swap",
+        "Level": "47"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "47"
+      },
+      {
+        "Name": "Me First",
+        "Level": "50"
+      }
+    ]
+  }
+}

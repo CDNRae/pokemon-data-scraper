@@ -1,0 +1,437 @@
+{
+  "II": {
+    "egg_moves": [
+      "Haze",
+      "Lick",
+      "Mean Look"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      },
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "05"
+      },
+      {
+        "Name": "Disable",
+        "Level": "10"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "16"
+      },
+      {
+        "Name": "Minimize",
+        "Level": "23"
+      },
+      {
+        "Name": "Screech",
+        "Level": "31"
+      },
+      {
+        "Name": "Acid Armor",
+        "Level": "40"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "50"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Curse",
+      "Explosion",
+      "Haze",
+      "Imprison",
+      "Lick",
+      "Mean Look",
+      "Shadow Punch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      },
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Disable",
+        "Level": "08"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "13"
+      },
+      {
+        "Name": "Minimize",
+        "Level": "19"
+      },
+      {
+        "Name": "Screech",
+        "Level": "26"
+      },
+      {
+        "Name": "Acid Armor",
+        "Level": "34"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "43"
+      },
+      {
+        "Name": "Memento",
+        "Level": "53"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Curse",
+      "Explosion",
+      "Haze",
+      "Imprison",
+      "Lick",
+      "Mean Look",
+      "Shadow Punch",
+      "Shadow Sneak",
+      "Stockpile",
+      "Spit Up",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      },
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Mud-Slap",
+        "Level": "07"
+      },
+      {
+        "Name": "Disable",
+        "Level": "12"
+      },
+      {
+        "Name": "Minimize",
+        "Level": "17"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "20"
+      },
+      {
+        "Name": "Mud Bomb",
+        "Level": "23"
+      },
+      {
+        "Name": "Fling",
+        "Level": "28"
+      },
+      {
+        "Name": "Screech",
+        "Level": "33"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "36"
+      },
+      {
+        "Name": "Acid Armor",
+        "Level": "39"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "44"
+      },
+      {
+        "Name": "Memento",
+        "Level": "49"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Acid Spray",
+      "Curse",
+      "Haze",
+      "Imprison",
+      "Lick",
+      "Mean Look",
+      "Scary Face",
+      "Shadow Punch",
+      "Shadow Sneak",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Acid Spray",
+      "Curse",
+      "Haze",
+      "Imprison",
+      "Lick",
+      "Mean Look",
+      "Scary Face",
+      "Shadow Punch",
+      "Shadow Sneak",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "TM06",
+      "TM09",
+      "10",
+      "100}}100%",
+      "0000\u2014",
+      "Status",
+      "Normal",
+      "Rain Dance",
+      "TM21",
+      "TM24",
+      "15",
+      "070}}70%",
+      "0000\u2014",
+      "Special",
+      "Normal",
+      "Sludge Wave",
+      "TM35",
+      "TM36",
+      "10",
+      "085}}85%",
+      "06060",
+      "Status",
+      "Normal",
+      "Rest",
+      "TM45",
+      "TM46",
+      "25",
+      "100}}100%",
+      "0000\u2014",
+      "Physical",
+      "Dark",
+      "Rock Slide",
+      "TM83",
+      "TM84",
+      "20",
+      "085}}85%",
+      "0000\u2014",
+      "Status",
+      "Normal",
+      "TM06",
+      "TM09",
+      "10",
+      "100}}100%",
+      "0000\u2014",
+      "Status",
+      "Normal",
+      "Rain Dance",
+      "TM21",
+      "TM24",
+      "15",
+      "070}}70%",
+      "0000\u2014",
+      "Special",
+      "Normal",
+      "Sludge Wave",
+      "TM35",
+      "TM36",
+      "10",
+      "085}}85%",
+      "06060",
+      "Status",
+      "Normal",
+      "Rest",
+      "TM45",
+      "TM46",
+      "25",
+      "100}}100%",
+      "0000\u2014",
+      "Physical",
+      "Dark",
+      "Rock Slide",
+      "TM83",
+      "TM84",
+      "20",
+      "085}}85%",
+      "0000\u2014",
+      "Status",
+      "Normal"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Mud-Slap",
+        "Level": "07"
+      },
+      {
+        "Name": "Disable",
+        "Level": "12"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "15"
+      },
+      {
+        "Name": "Mud Bomb",
+        "Level": "18"
+      },
+      {
+        "Name": "Minimize",
+        "Level": "21"
+      },
+      {
+        "Name": "Fling",
+        "Level": "26"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "29"
+      },
+      {
+        "Name": "Sludge Wave",
+        "Level": "32"
+      },
+      {
+        "Name": "Screech",
+        "Level": "37"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "40"
+      },
+      {
+        "Name": "Acid Armor",
+        "Level": "43"
+      },
+      {
+        "Name": "Belch",
+        "Level": "46"
+      },
+      {
+        "Name": "Memento",
+        "Level": "48"
+      },
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Mud-Slap",
+        "Level": "07"
+      },
+      {
+        "Name": "Disable",
+        "Level": "12"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "15"
+      },
+      {
+        "Name": "Mud Bomb",
+        "Level": "18"
+      },
+      {
+        "Name": "Minimize",
+        "Level": "21"
+      },
+      {
+        "Name": "Fling",
+        "Level": "26"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "29"
+      },
+      {
+        "Name": "Sludge Wave",
+        "Level": "32"
+      },
+      {
+        "Name": "Screech",
+        "Level": "37"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "40"
+      },
+      {
+        "Name": "Acid Armor",
+        "Level": "43"
+      },
+      {
+        "Name": "Belch",
+        "Level": "46"
+      },
+      {
+        "Name": "Memento",
+        "Level": "48"
+      }
+    ]
+  }
+}

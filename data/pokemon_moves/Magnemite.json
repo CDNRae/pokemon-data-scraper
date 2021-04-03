@@ -1,0 +1,400 @@
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "ThunderShock",
+        "Level": "06"
+      },
+      {
+        "Name": "Supersonic",
+        "Level": "11"
+      },
+      {
+        "Name": "SonicBoom",
+        "Level": "16"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "21"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "27"
+      },
+      {
+        "Name": "Swift",
+        "Level": "33"
+      },
+      {
+        "Name": "Screech",
+        "Level": "39"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "45"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "01"
+      },
+      {
+        "Name": "ThunderShock",
+        "Level": "06"
+      },
+      {
+        "Name": "Supersonic",
+        "Level": "11"
+      },
+      {
+        "Name": "SonicBoom",
+        "Level": "16"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "21"
+      },
+      {
+        "Name": "Spark",
+        "Level": "26"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "32"
+      },
+      {
+        "Name": "Swift",
+        "Level": "38"
+      },
+      {
+        "Name": "Screech",
+        "Level": "44"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "50"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "01"
+      },
+      {
+        "Name": "ThunderShock",
+        "Level": "06"
+      },
+      {
+        "Name": "Supersonic",
+        "Level": "11"
+      },
+      {
+        "Name": "SonicBoom",
+        "Level": "14"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "17"
+      },
+      {
+        "Name": "Spark",
+        "Level": "22"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "27"
+      },
+      {
+        "Name": "Magnet Bomb",
+        "Level": "30"
+      },
+      {
+        "Name": "Screech",
+        "Level": "33"
+      },
+      {
+        "Name": "Discharge",
+        "Level": "38"
+      },
+      {
+        "Name": "Mirror Shot",
+        "Level": "43"
+      },
+      {
+        "Name": "Magnet Rise",
+        "Level": "46"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "49"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "54"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "0011",
+        "Level": "001"
+      },
+      {
+        "Name": "01111",
+        "Level": "3"
+      },
+      {
+        "Name": "20",
+        "Level": "055}"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "040"
+      },
+      {
+        "Name": "0000\u2014",
+        "Level": "Spec"
+      },
+      {
+        "Name": "Status",
+        "Level": "Elec"
+      },
+      {
+        "Name": "Steel",
+        "Level": "Magnet"
+      },
+      {
+        "Name": "Spark",
+        "Level": "021"
+      },
+      {
+        "Name": "02525",
+        "Level": "046"
+      },
+      {
+        "Name": "0011",
+        "Level": "1"
+      },
+      {
+        "Name": "40",
+        "Level": "085}"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "0000"
+      },
+      {
+        "Name": "08080",
+        "Level": "Spec"
+      },
+      {
+        "Name": "Status",
+        "Level": "Nor"
+      },
+      {
+        "Name": "Electric",
+        "Level": "Disch"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "046"
+      },
+      {
+        "Name": "04949",
+        "Level": "049"
+      },
+      {
+        "Name": "05454",
+        "Level": "1"
+      },
+      {
+        "Name": "5",
+        "Level": "100}}100"
+      },
+      {
+        "Name": "050}}50%",
+        "Level": "120"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Supersonic",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Thunder Shock",
+        "Level": "05"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "07"
+      },
+      {
+        "Name": "Magnet Bomb",
+        "Level": "011"
+      },
+      {
+        "Name": "Light Screen",
+        "Level": "013"
+      },
+      {
+        "Name": "Sonic Boom",
+        "Level": "017"
+      },
+      {
+        "Name": "Spark",
+        "Level": "019"
+      },
+      {
+        "Name": "Mirror Shot",
+        "Level": "023"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "025"
+      },
+      {
+        "Name": "Electro Ball",
+        "Level": "029"
+      },
+      {
+        "Name": "Flash Cannon",
+        "Level": "031"
+      },
+      {
+        "Name": "Screech",
+        "Level": "035"
+      },
+      {
+        "Name": "Discharge",
+        "Level": "037"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "041"
+      },
+      {
+        "Name": "Magnet Rise",
+        "Level": "043"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "047"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "049"
+      },
+      {
+        "Name": "Supersonic",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Thunder Shock",
+        "Level": "05"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "07"
+      },
+      {
+        "Name": "Magnet Bomb",
+        "Level": "011"
+      },
+      {
+        "Name": "Light Screen",
+        "Level": "013"
+      },
+      {
+        "Name": "Sonic Boom",
+        "Level": "017"
+      },
+      {
+        "Name": "Spark",
+        "Level": "019"
+      },
+      {
+        "Name": "Mirror Shot",
+        "Level": "023"
+      },
+      {
+        "Name": "Metal Sound",
+        "Level": "025"
+      },
+      {
+        "Name": "Electro Ball",
+        "Level": "029"
+      },
+      {
+        "Name": "Flash Cannon",
+        "Level": "031"
+      },
+      {
+        "Name": "Screech",
+        "Level": "035"
+      },
+      {
+        "Name": "Discharge",
+        "Level": "037"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "041"
+      },
+      {
+        "Name": "Magnet Rise",
+        "Level": "043"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "047"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "049"
+      }
+    ]
+  }
+}

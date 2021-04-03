@@ -1,0 +1,335 @@
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "IV": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "V": {
+    "egg_moves": [
+      "Bounce",
+      "Bullet Seed",
+      "GrassWhistle",
+      "Leech Seed",
+      "Seed Bomb",
+      "Spikes",
+      "Wood Hammer",
+      "Worry Seed"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Absorb",
+        "Level": "01"
+      },
+      {
+        "Name": "Sweet Scent",
+        "Level": "03"
+      },
+      {
+        "Name": "Growth",
+        "Level": "06"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "10"
+      },
+      {
+        "Name": "Mega Drain",
+        "Level": "13"
+      },
+      {
+        "Name": "Synthesis",
+        "Level": "15"
+      },
+      {
+        "Name": "Cotton Spore",
+        "Level": "18"
+      },
+      {
+        "Name": "Needle Arm",
+        "Level": "22"
+      },
+      {
+        "Name": "Giga Drain",
+        "Level": "26"
+      },
+      {
+        "Name": "Acupressure",
+        "Level": "29"
+      },
+      {
+        "Name": "Ingrain",
+        "Level": "33"
+      },
+      {
+        "Name": "Petal Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "42"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "45"
+      },
+      {
+        "Name": "SolarBeam",
+        "Level": "50"
+      },
+      {
+        "Name": "Cotton Guard",
+        "Level": "55"
+      },
+      {
+        "Name": "After You",
+        "Level": "57"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Bounce",
+      "Bullet Seed",
+      "Grass Whistle",
+      "Grassy Terrain",
+      "Leech Seed",
+      "Seed Bomb",
+      "Spikes",
+      "Wood Hammer",
+      "Worry Seed"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Absorb",
+        "Level": "01"
+      },
+      {
+        "Name": "Spiky Shield",
+        "Level": "01"
+      },
+      {
+        "Name": "Cotton Guard",
+        "Level": "01"
+      },
+      {
+        "Name": "After You",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Bounce",
+      "Bullet Seed",
+      "Grass Whistle",
+      "Grassy Terrain",
+      "Leech Seed",
+      "Seed Bomb",
+      "Spikes",
+      "Wood Hammer",
+      "Worry Seed",
+      "Bounce",
+      "Bullet Seed",
+      "Grass Whistle",
+      "Grassy Terrain",
+      "Leech Seed",
+      "Seed Bomb",
+      "Spikes",
+      "Wood Hammer",
+      "Worry Seed"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Spiky Shield",
+        "Level": "01"
+      },
+      {
+        "Name": "Cotton Guard",
+        "Level": "01"
+      },
+      {
+        "Name": "After You",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Absorb",
+        "Level": "01"
+      },
+      {
+        "Name": "Sweet Scent",
+        "Level": "03"
+      },
+      {
+        "Name": "Growth",
+        "Level": "06"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "10"
+      },
+      {
+        "Name": "Mega Drain",
+        "Level": "13"
+      },
+      {
+        "Name": "Synthesis",
+        "Level": "15"
+      },
+      {
+        "Name": "Cotton Spore",
+        "Level": "18"
+      },
+      {
+        "Name": "Needle Arm",
+        "Level": "22"
+      },
+      {
+        "Name": "Giga Drain",
+        "Level": "26"
+      },
+      {
+        "Name": "Acupressure",
+        "Level": "29"
+      },
+      {
+        "Name": "Ingrain",
+        "Level": "33"
+      },
+      {
+        "Name": "Petal Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "42"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "45"
+      },
+      {
+        "Name": "Petal Blizzard",
+        "Level": "48"
+      },
+      {
+        "Name": "Solar Beam",
+        "Level": "50"
+      },
+      {
+        "Name": "Cotton Guard",
+        "Level": "55"
+      },
+      {
+        "Name": "After You",
+        "Level": "57"
+      },
+      {
+        "Name": "Spiky Shield",
+        "Level": "01"
+      },
+      {
+        "Name": "Cotton Guard",
+        "Level": "01"
+      },
+      {
+        "Name": "After You",
+        "Level": "01"
+      },
+      {
+        "Name": "Peck",
+        "Level": "01"
+      },
+      {
+        "Name": "Absorb",
+        "Level": "01"
+      },
+      {
+        "Name": "Sweet Scent",
+        "Level": "03"
+      },
+      {
+        "Name": "Growth",
+        "Level": "06"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "10"
+      },
+      {
+        "Name": "Mega Drain",
+        "Level": "13"
+      },
+      {
+        "Name": "Synthesis",
+        "Level": "15"
+      },
+      {
+        "Name": "Cotton Spore",
+        "Level": "18"
+      },
+      {
+        "Name": "Needle Arm",
+        "Level": "22"
+      },
+      {
+        "Name": "Giga Drain",
+        "Level": "26"
+      },
+      {
+        "Name": "Acupressure",
+        "Level": "29"
+      },
+      {
+        "Name": "Ingrain",
+        "Level": "33"
+      },
+      {
+        "Name": "Petal Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "42"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "45"
+      },
+      {
+        "Name": "Petal Blizzard",
+        "Level": "48"
+      },
+      {
+        "Name": "Solar Beam",
+        "Level": "50"
+      },
+      {
+        "Name": "Cotton Guard",
+        "Level": "55"
+      },
+      {
+        "Name": "After You",
+        "Level": "57"
+      }
+    ]
+  }
+}

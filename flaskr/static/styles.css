@@ -1,44 +1,48 @@
 body {
     width: 100%;
-    background-color:#2b2b2b;
-    color: #eeeeee;
+    background-color:#d1e5d9;
+    color: #2b2b2b;
 }
 
 h1 {
     text-align: center;
-    color: #439775;
+    background-color: #439775;
+    color:#fff;
     text-transform:uppercase;
     letter-spacing:3px;
+    padding:10px;
+    border-radius:5px;
 }
 
 h2 {
-    background-color: #121212;
     color:#439775;
     padding:10px;
     letter-spacing:3px;
     font-variant: small-caps;
+    border-bottom:1px solid #439775;
 }
 
 .content-container {
     width:75%;
     margin:20px auto;
     padding:10px;
-    background-color: #121212;
-    border: 1px solid #454545;
+    background-color: #fff;
+    border: 1px solid #b0cbbb;
+    border-radius:10px;
 }
 
 .content-container-inner {
+    background-color:#f0f8f4;
     margin: auto;
     padding:10px;
-    background-color: #2b2b2b;
-    border: 1px solid #454545;
+    border: 1px solid #b0cbbb;
+    border-radius:5px;
 }
 
 .form-control, .form-control:focus input[type=select]:focus {
-    background-color: #3e3e3e!important;
-    border: #494949 1px solid!important;
-    border-radius:0!important;
-    color: #eeeeee!important;
+    background-color: #fff!important;
+    border: #b0cbbb 1px solid!important;
+    color: #2b2b2b!important;
 }
 
 .generate-button {
@@ -47,10 +51,10 @@ h2 {
 
 .generate-button button {
     text-transform: uppercase;
-    color: #eeeeee;
-    background-color: #439775;
+    color: #2b2b2b;
+    background-color: #b0cbbb;
     padding:10px;
     border:0px;
-    width:50%;
+    width:20%;
     margin-top:15px;
 }

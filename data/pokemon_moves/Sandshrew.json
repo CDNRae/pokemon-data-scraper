@@ -1,0 +1,496 @@
+{
+  "II": {
+    "egg_moves": [
+      "Counter*",
+      "Flail",
+      "Metal ClawC",
+      "Rapid Spin",
+      "Safeguard"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "06"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "11"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "17"
+      },
+      {
+        "Name": "Slash",
+        "Level": "23"
+      },
+      {
+        "Name": "Swift",
+        "Level": "30"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "37"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "45"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Counter",
+      "Crush Claw",
+      "Flail",
+      "Metal Claw",
+      "Rapid Spin",
+      "Rock Slide",
+      "Safeguard",
+      "Swords Dance"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "06"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "11"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "17"
+      },
+      {
+        "Name": "Slash",
+        "Level": "23"
+      },
+      {
+        "Name": "Swift",
+        "Level": "30"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "37"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "45"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "53"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Counter",
+      "Crush Claw",
+      "Flail",
+      "Metal Claw",
+      "Mud ShotHGSS",
+      "Night Slash",
+      "Rapid Spin",
+      "Rock Slide",
+      "Safeguard",
+      "Swords Dance"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "03"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "07"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "09"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "13"
+      },
+      {
+        "Name": "Swift",
+        "Level": "15"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "19"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "21"
+      },
+      {
+        "Name": "Fury Cutter",
+        "Level": "25"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "27"
+      },
+      {
+        "Name": "Slash",
+        "Level": "31"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "33"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "37"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Chip Away",
+      "Counter",
+      "Crush Claw",
+      "Endure",
+      "Flail",
+      "Metal Claw",
+      "Mud Shot",
+      "Night Slash",
+      "Rapid Spin",
+      "Rock Climb"
+    ],
+    "regular_moves": [
+      {
+        "Name": "0011",
+        "Level": "001"
+      },
+      {
+        "Name": "0033",
+        "Level": "3"
+      },
+      {
+        "Name": "40",
+        "Level": "00\u2014}}\u2014"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "0000"
+      },
+      {
+        "Name": "01515",
+        "Level": "Phys"
+      },
+      {
+        "Name": "Physical",
+        "Level": "Ro"
+      },
+      {
+        "Name": "Normal",
+        "Level": "Rapid"
+      },
+      {
+        "Name": "Swift",
+        "Level": "011"
+      },
+      {
+        "Name": "01414",
+        "Level": "025"
+      },
+      {
+        "Name": "N/AN/A",
+        "Level": "2"
+      },
+      {
+        "Name": "30",
+        "Level": "100}}100"
+      },
+      {
+        "Name": "080}}80%",
+        "Level": "018"
+      },
+      {
+        "Name": "03535",
+        "Level": "Phys"
+      },
+      {
+        "Name": "Physical",
+        "Level": "Nor"
+      },
+      {
+        "Name": "Ground",
+        "Level": "Di"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "034"
+      },
+      {
+        "Name": "03838",
+        "Level": "N/A"
+      },
+      {
+        "Name": "03737",
+        "Level": "3"
+      },
+      {
+        "Name": "10",
+        "Level": "00\u2014}}\u2014"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "10010"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Chip Away",
+      "Counter",
+      "Crush Claw",
+      "Endure",
+      "Flail",
+      "Metal Claw",
+      "Mud Shot",
+      "Night Slash",
+      "Rapid Spin",
+      "Rock Climb",
+      "Rototiller"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "TM06",
+      "TM10",
+      "15",
+      "00\u2014}}\u2014%",
+      "0000\u2014",
+      "Status",
+      "Normal",
+      "Earthquake",
+      "TM27",
+      "TM31",
+      "15",
+      "00\u2014}}\u2014%",
+      "0000\u2014",
+      "Physical",
+      "Flying",
+      "Facade",
+      "TM44",
+      "TM45",
+      "15",
+      "100}}100%",
+      "06060",
+      "Physical",
+      "Ghost",
+      "Gyro Ball",
+      "TM75",
+      "TM78",
+      "20",
+      "090}}90%",
+      "08080",
+      "Physical",
+      "Normal",
+      "Sleep Talk",
+      "TM90",
+      "XTM100",
+      "20",
+      "TM06",
+      "TM10",
+      "15",
+      "00\u2014}}\u2014%",
+      "0000\u2014",
+      "Status",
+      "Normal",
+      "Earthquake",
+      "TM27",
+      "TM31",
+      "15",
+      "00\u2014}}\u2014%",
+      "0000\u2014",
+      "Physical",
+      "Flying",
+      "Facade",
+      "TM44",
+      "TM45",
+      "15",
+      "100}}100%",
+      "06060",
+      "Physical",
+      "Ghost",
+      "Gyro Ball",
+      "TM75",
+      "TM78",
+      "20",
+      "090}}90%",
+      "08080",
+      "Physical",
+      "Normal",
+      "Sleep Talk",
+      "TM90",
+      "XTM100",
+      "20"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "03"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "05"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "07"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "09"
+      },
+      {
+        "Name": "Fury Cutter",
+        "Level": "11"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "14"
+      },
+      {
+        "Name": "Swift",
+        "Level": "17"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "20"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "23"
+      },
+      {
+        "Name": "Slash",
+        "Level": "26"
+      },
+      {
+        "Name": "Dig",
+        "Level": "30"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "34"
+      },
+      {
+        "Name": "Swords Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "42"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "46"
+      },
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "03"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "05"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "07"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "09"
+      },
+      {
+        "Name": "Fury Cutter",
+        "Level": "11"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "14"
+      },
+      {
+        "Name": "Swift",
+        "Level": "17"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "20"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "23"
+      },
+      {
+        "Name": "Slash",
+        "Level": "26"
+      },
+      {
+        "Name": "Dig",
+        "Level": "30"
+      },
+      {
+        "Name": "Gyro Ball",
+        "Level": "34"
+      },
+      {
+        "Name": "Swords Dance",
+        "Level": "38"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "42"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "46"
+      }
+    ]
+  }
+}

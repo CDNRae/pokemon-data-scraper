@@ -1,0 +1,429 @@
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [
+      "Acid Armor",
+      "Dream Eater",
+      "Pain Split",
+      "Smog"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "06"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "09"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "14"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "17"
+      },
+      {
+        "Name": "Encore",
+        "Level": "23"
+      },
+      {
+        "Name": "Toxic",
+        "Level": "28"
+      },
+      {
+        "Name": "Stockpile",
+        "Level": "34"
+      },
+      {
+        "Name": "Spit Up",
+        "Level": "34"
+      },
+      {
+        "Name": "Swallow",
+        "Level": "34"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "39"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Destiny Bond",
+      "Dream Eater",
+      "Pain Split",
+      "Smog"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "06"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "09"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "14"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "17"
+      },
+      {
+        "Name": "Encore",
+        "Level": "23"
+      },
+      {
+        "Name": "Toxic",
+        "Level": "28"
+      },
+      {
+        "Name": "Stockpile",
+        "Level": "34"
+      },
+      {
+        "Name": "Spit Up",
+        "Level": "34"
+      },
+      {
+        "Name": "Swallow",
+        "Level": "34"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "39"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "44"
+      },
+      {
+        "Name": "Wring Out",
+        "Level": "49"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "54"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Destiny Bond",
+      "Gunk Shot",
+      "Mud-Slap",
+      "Pain Split",
+      "Smog"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "06"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "09"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "14"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "17"
+      },
+      {
+        "Name": "Encore",
+        "Level": "23"
+      },
+      {
+        "Name": "Toxic",
+        "Level": "28"
+      },
+      {
+        "Name": "Acid Spray",
+        "Level": "34"
+      },
+      {
+        "Name": "Stockpile",
+        "Level": "39"
+      },
+      {
+        "Name": "Spit Up",
+        "Level": "39"
+      },
+      {
+        "Name": "Swallow",
+        "Level": "39"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "44"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "49"
+      },
+      {
+        "Name": "Wring Out",
+        "Level": "54"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "59"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Destiny Bond",
+      "Gunk Shot",
+      "Mud-Slap",
+      "Pain Split",
+      "Smog",
+      "Venom Drench*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "001"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "005"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "008"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "010"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "012"
+      },
+      {
+        "Name": "Acid Spray",
+        "Level": "017"
+      },
+      {
+        "Name": "Encore",
+        "Level": "020"
+      },
+      {
+        "Name": "Toxic",
+        "Level": "025"
+      },
+      {
+        "Name": "Stockpile",
+        "Level": "028"
+      },
+      {
+        "Name": "Spit Up",
+        "Level": "028"
+      },
+      {
+        "Name": "Swallow",
+        "Level": "028"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "033"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "036"
+      },
+      {
+        "Name": "Belch",
+        "Level": "041"
+      },
+      {
+        "Name": "Wring Out",
+        "Level": "044"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "049"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Destiny Bond",
+      "Gunk Shot",
+      "Mud-Slap",
+      "Pain Split",
+      "Smog",
+      "Venom Drench",
+      "Acid Armor",
+      "Curse",
+      "Destiny Bond",
+      "Gunk Shot",
+      "Mud-Slap",
+      "Pain Split",
+      "Smog",
+      "Venom Drench"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "05"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "08"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "10"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "12"
+      },
+      {
+        "Name": "Acid Spray",
+        "Level": "17"
+      },
+      {
+        "Name": "Encore",
+        "Level": "20"
+      },
+      {
+        "Name": "Toxic",
+        "Level": "25"
+      },
+      {
+        "Name": "Stockpile",
+        "Level": "28"
+      },
+      {
+        "Name": "Spit Up",
+        "Level": "28"
+      },
+      {
+        "Name": "Swallow",
+        "Level": "28"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "33"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "36"
+      },
+      {
+        "Name": "Belch",
+        "Level": "41"
+      },
+      {
+        "Name": "Wring Out",
+        "Level": "44"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "49"
+      },
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "05"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "08"
+      },
+      {
+        "Name": "Sludge",
+        "Level": "10"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "12"
+      },
+      {
+        "Name": "Acid Spray",
+        "Level": "17"
+      },
+      {
+        "Name": "Encore",
+        "Level": "20"
+      },
+      {
+        "Name": "Toxic",
+        "Level": "25"
+      },
+      {
+        "Name": "Stockpile",
+        "Level": "28"
+      },
+      {
+        "Name": "Spit Up",
+        "Level": "28"
+      },
+      {
+        "Name": "Swallow",
+        "Level": "28"
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Level": "33"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "36"
+      },
+      {
+        "Name": "Belch",
+        "Level": "41"
+      },
+      {
+        "Name": "Wring Out",
+        "Level": "44"
+      },
+      {
+        "Name": "Gunk Shot",
+        "Level": "49"
+      }
+    ]
+  }
+}

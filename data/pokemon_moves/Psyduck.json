@@ -1,0 +1,456 @@
+{
+  "II": {
+    "egg_moves": [
+      "Cross ChopC",
+      "Foresight*",
+      "Future Sight*",
+      "Hypnosis",
+      "Ice Beam",
+      "Light Screen",
+      "Psybeam",
+      "Psychic"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "05"
+      },
+      {
+        "Name": "Disable",
+        "Level": "10"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "16"
+      },
+      {
+        "Name": "Screech",
+        "Level": "23"
+      },
+      {
+        "Name": "Psych Up",
+        "Level": "31"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "40"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "50"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Cross Chop",
+      "Foresight",
+      "Future Sight",
+      "Hypnosis",
+      "Light Screen",
+      "Psybeam",
+      "Psychic",
+      "Refresh"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Water Sport",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "05"
+      },
+      {
+        "Name": "Disable",
+        "Level": "10"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "16"
+      },
+      {
+        "Name": "Screech",
+        "Level": "23"
+      },
+      {
+        "Name": "Psych Up",
+        "Level": "31"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "40"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "50"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Confuse Ray",
+      "Cross Chop",
+      "EncoreHGSS",
+      "Foresight",
+      "Future Sight",
+      "Hypnosis",
+      "Light Screen",
+      "Mud Bomb",
+      "Psybeam",
+      "Psychic",
+      "Refresh",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Sport",
+        "Level": "01"
+      },
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "05"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "09"
+      },
+      {
+        "Name": "Disable",
+        "Level": "14"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "18"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "22"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "27"
+      },
+      {
+        "Name": "Screech",
+        "Level": "31"
+      },
+      {
+        "Name": "Psych Up",
+        "Level": "35"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "40"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "44"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "48"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Confuse Ray",
+      "Cross Chop",
+      "Encore",
+      "Foresight",
+      "Future Sight",
+      "Hypnosis",
+      "Mud Bomb",
+      "Psybeam",
+      "Refresh",
+      "Secret Power\u2021",
+      "Sleep Talk",
+      "Synchronoise",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "0011",
+        "Level": "001"
+      },
+      {
+        "Name": "0011",
+        "Level": "1"
+      },
+      {
+        "Name": "35",
+        "Level": "100}}100"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "0000"
+      },
+      {
+        "Name": "04040",
+        "Level": "Spec"
+      },
+      {
+        "Name": "Status",
+        "Level": "Nor"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "Confu"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "018"
+      },
+      {
+        "Name": "02222",
+        "Level": "027"
+      },
+      {
+        "Name": "03131",
+        "Level": "1"
+      },
+      {
+        "Name": "40",
+        "Level": "085}"
+      },
+      {
+        "Name": "090}}90%",
+        "Level": "080"
+      },
+      {
+        "Name": "09090",
+        "Level": "Phys"
+      },
+      {
+        "Name": "Status",
+        "Level": "Wat"
+      },
+      {
+        "Name": "Normal",
+        "Level": "Psyc"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "043"
+      },
+      {
+        "Name": "04646",
+        "Level": "053"
+      },
+      {
+        "Name": "05757",
+        "Level": "5"
+      },
+      {
+        "Name": "10",
+        "Level": "00\u2014}}\u2014"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Clear Smog*",
+      "Confuse Ray",
+      "Cross Chop",
+      "Encore",
+      "Foresight",
+      "Future Sight",
+      "Hypnosis",
+      "Mud Bomb",
+      "Psybeam",
+      "Refresh",
+      "Secret Power\u2021",
+      "Simple Beam*",
+      "Sleep Talk",
+      "Synchronoise",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Sport",
+        "Level": "01"
+      },
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Clear Smog*",
+      "Confuse Ray",
+      "Cross Chop",
+      "Encore",
+      "Foresight",
+      "Future Sight",
+      "Hypnosis",
+      "Mud Bomb",
+      "Psybeam",
+      "Refresh",
+      "Secret Power",
+      "Simple Beam*",
+      "Sleep Talk",
+      "Synchronoise",
+      "Yawn",
+      "Clear Smog*",
+      "Confuse Ray",
+      "Cross Chop",
+      "Encore",
+      "Foresight",
+      "Future Sight",
+      "Hypnosis",
+      "Mud Bomb",
+      "Psybeam",
+      "Refresh",
+      "Secret Power",
+      "Simple Beam*",
+      "Sleep Talk",
+      "Synchronoise",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Sport",
+        "Level": "01"
+      },
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "07"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "10"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "13"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "16"
+      },
+      {
+        "Name": "Disable",
+        "Level": "19"
+      },
+      {
+        "Name": "Screech",
+        "Level": "22"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "25"
+      },
+      {
+        "Name": "Aqua Tail",
+        "Level": "28"
+      },
+      {
+        "Name": "Soak",
+        "Level": "31"
+      },
+      {
+        "Name": "Psych Up",
+        "Level": "34"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "37"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "40"
+      },
+      {
+        "Name": "Wonder Room",
+        "Level": "43"
+      },
+      {
+        "Name": "Water Sport",
+        "Level": "01"
+      },
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "07"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "10"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "13"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "16"
+      },
+      {
+        "Name": "Disable",
+        "Level": "19"
+      },
+      {
+        "Name": "Screech",
+        "Level": "22"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "25"
+      },
+      {
+        "Name": "Aqua Tail",
+        "Level": "28"
+      },
+      {
+        "Name": "Soak",
+        "Level": "31"
+      },
+      {
+        "Name": "Psych Up",
+        "Level": "34"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "37"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "40"
+      },
+      {
+        "Name": "Wonder Room",
+        "Level": "43"
+      }
+    ]
+  }
+}

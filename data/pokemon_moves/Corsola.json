@@ -1,0 +1,479 @@
+{
+  "II": {
+    "egg_moves": [
+      "Amnesia",
+      "Mist",
+      "Rock Slide*",
+      "Safeguard",
+      "Screech"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "07"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "13"
+      },
+      {
+        "Name": "Recover",
+        "Level": "19"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "25"
+      },
+      {
+        "Name": "Spike Cannon",
+        "Level": "31"
+      },
+      {
+        "Name": "Mirror Coat",
+        "Level": "37"
+      },
+      {
+        "Name": "AncientPower",
+        "Level": "43"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Amnesia",
+      "Barrier",
+      "Confuse Ray",
+      "Icicle Spear",
+      "Ingrain",
+      "Mist",
+      "Rock Slide*",
+      "Screech"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "06"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "12"
+      },
+      {
+        "Name": "Recover",
+        "Level": "17"
+      },
+      {
+        "Name": "Refresh",
+        "Level": "17"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "23"
+      },
+      {
+        "Name": "Spike Cannon",
+        "Level": "28"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "34"
+      },
+      {
+        "Name": "Mirror Coat",
+        "Level": "39"
+      },
+      {
+        "Name": "AncientPower",
+        "Level": "45"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Amnesia",
+      "Aqua Ring",
+      "Barrier",
+      "Confuse Ray",
+      "CurseHGSS",
+      "Icicle Spear",
+      "Ingrain",
+      "Mist",
+      "Nature Power",
+      "Rock Slide*",
+      "Screech"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "08"
+      },
+      {
+        "Name": "Recover",
+        "Level": "13"
+      },
+      {
+        "Name": "Refresh",
+        "Level": "16"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "20"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "25"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "28"
+      },
+      {
+        "Name": "AncientPower",
+        "Level": "32"
+      },
+      {
+        "Name": "Aqua Ring",
+        "Level": "37"
+      },
+      {
+        "Name": "Spike Cannon",
+        "Level": "40"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "44"
+      },
+      {
+        "Name": "Mirror Coat",
+        "Level": "48"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "53"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Amnesia",
+      "Aqua Ring",
+      "Barrier",
+      "Bide",
+      "Confuse Ray",
+      "Curse",
+      "Head Smash",
+      "Icicle Spear",
+      "Ingrain",
+      "Mist",
+      "Nature Power",
+      "Screech",
+      "Water Pulse"
+    ],
+    "regular_moves": [
+      {
+        "Name": "0011",
+        "Level": "001"
+      },
+      {
+        "Name": "0044",
+        "Level": "3"
+      },
+      {
+        "Name": "30",
+        "Level": "00\u2014}}\u2014"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "020"
+      },
+      {
+        "Name": "0000\u2014",
+        "Level": "Sta"
+      },
+      {
+        "Name": "Status",
+        "Level": "Nor"
+      },
+      {
+        "Name": "Water",
+        "Level": "Bubbl"
+      },
+      {
+        "Name": "AncientPower",
+        "Level": "020"
+      },
+      {
+        "Name": "02323",
+        "Level": "028"
+      },
+      {
+        "Name": "04040",
+        "Level": "3"
+      },
+      {
+        "Name": "15",
+        "Level": "100}}100"
+      },
+      {
+        "Name": "00\u2014}}\u2014%",
+        "Level": "0000"
+      },
+      {
+        "Name": "02525",
+        "Level": "Phys"
+      },
+      {
+        "Name": "Status",
+        "Level": "Nor"
+      },
+      {
+        "Name": "Water",
+        "Level": "Aqua "
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "041"
+      },
+      {
+        "Name": "04545",
+        "Level": "048"
+      },
+      {
+        "Name": "05353",
+        "Level": "2"
+      },
+      {
+        "Name": "10",
+        "Level": "100}}100"
+      },
+      {
+        "Name": "100}}100%",
+        "Level": "0000"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Amnesia",
+      "Aqua Ring",
+      "Barrier",
+      "Bide",
+      "Camouflage",
+      "Confuse Ray",
+      "Curse",
+      "Head Smash",
+      "Icicle Spear",
+      "Ingrain",
+      "Mist",
+      "Nature Power",
+      "Screech",
+      "Water Pulse"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Amnesia",
+      "Aqua Ring",
+      "Barrier",
+      "Bide",
+      "Camouflage",
+      "Confuse Ray",
+      "Curse",
+      "Head Smash",
+      "Icicle Spear",
+      "Ingrain",
+      "Liquidation",
+      "Mist",
+      "Nature Power",
+      "Screech",
+      "Water Pulse",
+      "Amnesia",
+      "Aqua Ring",
+      "Barrier",
+      "Bide",
+      "Camouflage",
+      "Confuse Ray",
+      "Curse",
+      "Head Smash",
+      "Icicle Spear",
+      "Ingrain",
+      "Liquidation",
+      "Mist",
+      "Nature Power",
+      "Screech",
+      "Water Pulse"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "04"
+      },
+      {
+        "Name": "Recover",
+        "Level": "08"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "10"
+      },
+      {
+        "Name": "Refresh",
+        "Level": "13"
+      },
+      {
+        "Name": "Ancient Power",
+        "Level": "17"
+      },
+      {
+        "Name": "Spike Cannon",
+        "Level": "20"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "23"
+      },
+      {
+        "Name": "Brine",
+        "Level": "27"
+      },
+      {
+        "Name": "Iron Defense",
+        "Level": "29"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "31"
+      },
+      {
+        "Name": "Endure",
+        "Level": "35"
+      },
+      {
+        "Name": "Aqua Ring",
+        "Level": "38"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "41"
+      },
+      {
+        "Name": "Mirror Coat",
+        "Level": "45"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "47"
+      },
+      {
+        "Name": "Flail",
+        "Level": "50"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "04"
+      },
+      {
+        "Name": "Recover",
+        "Level": "08"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "10"
+      },
+      {
+        "Name": "Refresh",
+        "Level": "13"
+      },
+      {
+        "Name": "Ancient Power",
+        "Level": "17"
+      },
+      {
+        "Name": "Spike Cannon",
+        "Level": "20"
+      },
+      {
+        "Name": "Lucky Chant",
+        "Level": "23"
+      },
+      {
+        "Name": "Brine",
+        "Level": "27"
+      },
+      {
+        "Name": "Iron Defense",
+        "Level": "29"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "31"
+      },
+      {
+        "Name": "Endure",
+        "Level": "35"
+      },
+      {
+        "Name": "Aqua Ring",
+        "Level": "38"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "41"
+      },
+      {
+        "Name": "Mirror Coat",
+        "Level": "45"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "47"
+      },
+      {
+        "Name": "Flail",
+        "Level": "50"
+      }
+    ]
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "II": {
+    "egg_moves": [
+      "Mega Punch",
+      "Rock Slide"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "06"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "11"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "16"
+      },
+      {
+        "Name": "Selfdestruct",
+        "Level": "21"
+      },
+      {
+        "Name": "Harden",
+        "Level": "26"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "31"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "36"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "41"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Block",
+      "Mega Punch",
+      "Rock Slide"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Mud Sport",
+        "Level": "06"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "11"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "16"
+      },
+      {
+        "Name": "Selfdestruct",
+        "Level": "21"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "26"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "31"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "36"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "41"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "46"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Block",
+      "CurseHGSS",
+      "Flail",
+      "Hammer Arm",
+      "Mega Punch",
+      "Rock Slide"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Mud Sport",
+        "Level": "04"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "11"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "15"
+      },
+      {
+        "Name": "Selfdestruct",
+        "Level": "18"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "22"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "25"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "29"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "32"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "36"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "39"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Autotomize",
+      "Block",
+      "Curse",
+      "Endure*",
+      "Flail",
+      "Focus Punch",
+      "Hammer Arm",
+      "Mega Punch",
+      "Rock Climb"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Mud Sport",
+        "Level": "04"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "11"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "15"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "18"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "22"
+      },
+      {
+        "Name": "Smack Down",
+        "Level": "25"
+      },
+      {
+        "Name": "Selfdestruct",
+        "Level": "29"
+      },
+      {
+        "Name": "Bulldoze",
+        "Level": "32"
+      },
+      {
+        "Name": "Stealth Rock",
+        "Level": "36"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "39"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "43"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "46"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "50"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Autotomize",
+      "Block",
+      "Curse",
+      "Endure*",
+      "Flail",
+      "Focus Punch",
+      "Hammer Arm",
+      "Mega Punch",
+      "Rock Climb",
+      "Wide Guard"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "TM06",
+      "TM10",
+      "15",
+      "00\u2014}}\u2014%",
+      "0000\u2014",
+      "Physical",
+      "Rock",
+      "Earthquake",
+      "TM27",
+      "TM31",
+      "15",
+      "00\u2014}}\u2014%",
+      "09090",
+      "Status",
+      "Fire",
+      "Rock Tomb",
+      "TM42",
+      "TM44",
+      "10",
+      "100}}100%",
+      "06060",
+      "Physical",
+      "Normal",
+      "Rock Polish",
+      "TM71",
+      "TM74",
+      "5",
+      "100}}100%",
+      "07575",
+      "Status",
+      "Normal",
+      "Substitute",
+      "TM96",
+      "XTM100",
+      "20",
+      "TM06",
+      "TM10",
+      "15",
+      "00\u2014}}\u2014%",
+      "0000\u2014",
+      "Physical",
+      "Rock",
+      "Earthquake",
+      "TM27",
+      "TM31",
+      "15",
+      "00\u2014}}\u2014%",
+      "09090",
+      "Status",
+      "Fire",
+      "Rock Tomb",
+      "TM42",
+      "TM44",
+      "10",
+      "100}}100%",
+      "06060",
+      "Physical",
+      "Normal",
+      "Rock Polish",
+      "TM71",
+      "TM74",
+      "5",
+      "100}}100%",
+      "07575",
+      "Status",
+      "Normal",
+      "Substitute",
+      "TM96",
+      "XTM100",
+      "20"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Mud Sport",
+        "Level": "04"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "06"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "10"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "12"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "16"
+      },
+      {
+        "Name": "Smack Down",
+        "Level": "18"
+      },
+      {
+        "Name": "Bulldoze",
+        "Level": "22"
+      },
+      {
+        "Name": "Self-Destruct",
+        "Level": "24"
+      },
+      {
+        "Name": "Stealth Rock",
+        "Level": "28"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "30"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "34"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "36"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "40"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "42"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      },
+      {
+        "Name": "Mud Sport",
+        "Level": "04"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "06"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "10"
+      },
+      {
+        "Name": "Magnitude",
+        "Level": "12"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "16"
+      },
+      {
+        "Name": "Smack Down",
+        "Level": "18"
+      },
+      {
+        "Name": "Bulldoze",
+        "Level": "22"
+      },
+      {
+        "Name": "Self-Destruct",
+        "Level": "24"
+      },
+      {
+        "Name": "Stealth Rock",
+        "Level": "28"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "30"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "34"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "36"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "40"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "42"
+      }
+    ]
+  }
+}

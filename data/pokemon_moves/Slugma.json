@@ -1,0 +1,408 @@
+{
+  "II": {
+    "egg_moves": [
+      "Acid Armor"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "15"
+      },
+      {
+        "Name": "Harden",
+        "Level": "22"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "29"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "36"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "43"
+      },
+      {
+        "Name": "Body Slam",
+        "Level": "50"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Acid Armor",
+      "Heat Wave"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "15"
+      },
+      {
+        "Name": "Harden",
+        "Level": "22"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "29"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "36"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "43"
+      },
+      {
+        "Name": "Body Slam",
+        "Level": "50"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Heat Wave",
+      "Memento",
+      "SmokeScreen",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "11"
+      },
+      {
+        "Name": "Harden",
+        "Level": "16"
+      },
+      {
+        "Name": "Recover",
+        "Level": "23"
+      },
+      {
+        "Name": "AncientPower",
+        "Level": "26"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "31"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "38"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "41"
+      },
+      {
+        "Name": "Body Slam",
+        "Level": "46"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "53"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "56"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Earth Power",
+      "Heat Wave",
+      "Inferno",
+      "Memento",
+      "Rollout",
+      "SmokeScreen",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Yawn",
+        "Level": "01"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "05"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "10"
+      },
+      {
+        "Name": "Harden",
+        "Level": "14"
+      },
+      {
+        "Name": "Recover",
+        "Level": "19"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "23"
+      },
+      {
+        "Name": "AncientPower",
+        "Level": "28"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "32"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "37"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "41"
+      },
+      {
+        "Name": "Body Slam",
+        "Level": "46"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "50"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "55"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Earth Power",
+      "Guard Swap*",
+      "Heat Wave",
+      "Inferno",
+      "Memento",
+      "Rollout",
+      "Smokescreen",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Yawn",
+        "Level": "01"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Acid Armor",
+      "Curse",
+      "Earth Power",
+      "Guard Swap*",
+      "Heat Wave",
+      "Inferno",
+      "Memento",
+      "Rollout",
+      "Smokescreen",
+      "Spit Up",
+      "Stockpile",
+      "Swallow",
+      "Acid Armor",
+      "Curse",
+      "Earth Power",
+      "Guard Swap*",
+      "Heat Wave",
+      "Inferno",
+      "Memento",
+      "Rollout",
+      "Smokescreen",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Yawn",
+        "Level": "01"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "06"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "08"
+      },
+      {
+        "Name": "Harden",
+        "Level": "13"
+      },
+      {
+        "Name": "Incinerate",
+        "Level": "15"
+      },
+      {
+        "Name": "Clear Smog",
+        "Level": "20"
+      },
+      {
+        "Name": "Ancient Power",
+        "Level": "22"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "27"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "29"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "34"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "36"
+      },
+      {
+        "Name": "Body Slam",
+        "Level": "41"
+      },
+      {
+        "Name": "Recover",
+        "Level": "43"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "48"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "50"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "01"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "06"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "08"
+      },
+      {
+        "Name": "Harden",
+        "Level": "13"
+      },
+      {
+        "Name": "Incinerate",
+        "Level": "15"
+      },
+      {
+        "Name": "Clear Smog",
+        "Level": "20"
+      },
+      {
+        "Name": "Ancient Power",
+        "Level": "22"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "27"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "29"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "34"
+      },
+      {
+        "Name": "Amnesia",
+        "Level": "36"
+      },
+      {
+        "Name": "Body Slam",
+        "Level": "41"
+      },
+      {
+        "Name": "Recover",
+        "Level": "43"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "48"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "50"
+      }
+    ]
+  }
+}
