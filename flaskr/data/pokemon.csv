@@ -1,5 +1,5 @@
 NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,LEGENDARY,MOVES,EGG MOVES
-1,1,11,Bulbasaur,Overgrow,Chrolophyll,1,0,,
+1,1,11,Bulbasaur,Overgrow,Chlorophyll,1,0,,
 4,1,41,Charmander,Blaze,Solar Power,1,0,,
 7,1,71,Squirtle,Torrent,Rain Dish,1,0,,
 10,1,101,Caterpie,Shield Dust,Run Away,1,0,,
@@ -24,7 +24,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,LEGENDARY,MOVES,EGG MO
 52,1,521,Meowth,"Pickup,Technician",Unnerve,1,0,,
 52,2,522,Alolan_Meowth,"Pickup,Technician",Rattled,7,0,,
 54,1,541,Psyduck,"Damp,Cloud Nine",Swift Swim,1,0,,
-56,1,561,Mankey,"Vital Spilit,Anger Point",Defiant,1,0,,
+56,1,561,Mankey,"Vital Spirit,Anger Point",Defiant,1,0,,
 58,1,581,Growlithe,"Intimidate,Flash Fire",Justified,1,0,,
 60,1,601,Poliwag,"Water Absorb,Damp",Swift Swim,1,0,,
 63,1,631,Abra,"Synchronize,Inner Focus",Magic guard,1,0,,
