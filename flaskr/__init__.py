@@ -15,7 +15,7 @@ def create_app():
         SECRET_KEY="Pokemon"
     )
 
-    @app.route("/index", methods=["GET", "POST"])
+    @app.route("/", methods=["GET", "POST"])
     def index():
         generatorForm = GeneratorForm()
         pokemon_data = ""
