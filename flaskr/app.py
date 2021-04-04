@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from wtforms import Form, DecimalField, SelectField, validators
-import pokemon_generator
+from flaskr import pokemon_generator
 
 
 class GeneratorForm(Form):
