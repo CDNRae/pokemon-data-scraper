@@ -8,7 +8,7 @@ generations = ["II", "III", "IV", "V", "VI", "VII", "VII"]
 
 
 def get_move_data():
-    pokemon_list = pandas.read_csv("flaskr/data/pokemon.csv")
+    pokemon_list = pandas.read_csv("data/pokemon.csv")
     egg_move_column_counter = 0
     regular_move_column_counter = 0
     egg_move_column_counter_increment = 0
@@ -45,7 +45,7 @@ def get_move_data():
             }
         }
 
-        with open(f"flaskr/data/pokemon_moves/{pokemon_name}.json", "w+") as output_file:
+        with open(f"data/pokemon_moves/{pokemon_name}.json", "w+") as output_file:
             for generation in generations:
                 try:
                     if generation == "II":
