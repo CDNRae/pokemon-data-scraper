@@ -1,0 +1,26 @@
+{
+  "VII": {
+    "egg_moves": [
+      "Agility",
+      "Charm",
+      "Disable",
+      "Encore",
+      "Extrasensory",
+      "Flail",
+      "Freeze-Dry",
+      "Howl",
+      "Hypnosis",
+      "Moonblast",
+      "Power Swap",
+      "Spite",
+      "Secret Power",
+      "Tail Slap"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Powder Snow",
+        "Level": "01"
+      }
+    ]
+  }
+}

@@ -177,72 +177,24 @@
     ],
     "regular_moves": [
       {
-        "Name": "0011",
-        "Level": "001"
+        "Name": "Night Slash",
+        "Level": "01"
       },
       {
-        "Name": "0011",
-        "Level": "1"
+        "Name": "Tackle",
+        "Level": "01"
       },
       {
-        "Name": "35",
-        "Level": "100}}100"
+        "Name": "Leer",
+        "Level": "01"
       },
       {
-        "Name": "100}}100%",
-        "Level": "0000"
+        "Name": "Horn Attack",
+        "Level": "01"
       },
       {
-        "Name": "06565",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Status",
-        "Level": "Nor"
-      },
-      {
-        "Name": "Normal",
-        "Level": "Fury A"
-      },
-      {
-        "Name": "Aerial Ace",
-        "Level": "010"
-      },
-      {
-        "Name": "01616",
-        "Level": "N/A"
-      },
-      {
-        "Name": "02525",
-        "Level": "2"
-      },
-      {
-        "Name": "20",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "075"
-      },
-      {
-        "Name": "09090",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Physical",
-        "Level": "Figh"
-      },
-      {
-        "Name": "Normal",
-        "Level": "Fei"
-      },
-      {
-        "Name": "Reversal",
-        "Level": "043"
-      },
-      {
-        "Name": "04646",
-        "Level": "055"
+        "Name": "Endure",
+        "Level": "01"
       }
     ]
   },

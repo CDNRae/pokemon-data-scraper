@@ -1,0 +1,29 @@
+{
+  "VII": {
+    "egg_moves": [
+      "Assurance",
+      "Clear Smog",
+      "Curse",
+      "Imprison",
+      "Mean Look",
+      "Power-Up Punch",
+      "Pursuit",
+      "Scary Face",
+      "Shadow Sneak",
+      "Spite",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Pound",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Gas",
+        "Level": "01"
+      }
+    ]
+  }
+}

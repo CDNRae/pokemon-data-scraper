@@ -1,0 +1,27 @@
+{
+  "VII": {
+    "egg_moves": [
+      "Ancient Power",
+      "Beat Up",
+      "Endure",
+      "Feint Attack",
+      "Final Gambit",
+      "Headbutt",
+      "Memento",
+      "Metal Sound",
+      "Pursuit",
+      "Reversal",
+      "Thrash"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Sand Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "01"
+      }
+    ]
+  }
+}

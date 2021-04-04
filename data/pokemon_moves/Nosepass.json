@@ -1,1 +1,312 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": ["Explosion", "Magnitude", "Rollout"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "07"}, {"Name": "Rock Throw", "Level": "13"}, {"Name": "Block", "Level": "16"}, {"Name": "Thunder Wave", "Level": "22"}, {"Name": "Rock Slide", "Level": "28"}, {"Name": "Sandstorm", "Level": "31"}, {"Name": "Rest", "Level": "37"}, {"Name": "Zap Cannon", "Level": "43"}, {"Name": "Lock-On", "Level": "46"}]}, "IV": {"egg_moves": ["Block", "Double-Edge", "Explosion", "Head SmashHGSS", "Magnitude", "Rollout"], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "077", "Level": "3 \u2665"}, {"Name": "2 \u2665\u2665", "Level": "Tou"}, {"Name": "Tough", "Level": "1"}, {"Name": "5", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "07575", "Level": "Phys"}, {"Name": "Status", "Level": "Ro"}, {"Name": "Psychic", "Level": "Re"}, {"Name": "Power Gem", "Level": "49"}, {"Name": "5555", "Level": "49"}, {"Name": "5555", "Level": "2 "}, {"Name": "2 \u2665\u2665", "Level": "Tou"}, {"Name": "Cool", "Level": "5"}, {"Name": "5", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "090"}]}, "V": {"egg_moves": ["Block", "Double-Edge", "Endure*", "Magnitude", "Rollout", "Stealth Rock"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0077", "Level": "3"}, {"Name": "30", "Level": "00\u2014}}\u2014"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "05050", "Level": "Phys"}, {"Name": "Status", "Level": "Elec"}, {"Name": "Rock", "Level": "Rock "}, {"Name": "Rest", "Level": "022"}, {"Name": "02525", "Level": "N/A"}, {"Name": "03131", "Level": "2"}, {"Name": "10", "Level": "090}"}, {"Name": "100}}100%", "Level": "070"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Special", "Level": "Elec"}, {"Name": "Ground", "Level": "Earth "}, {"Name": "Stone Edge", "Level": "046"}, {"Name": "05050", "Level": "073"}, {"Name": "06767", "Level": "5"}, {"Name": "5", "Level": "050}"}]}, "VI": {"egg_moves": ["Block", "Double-Edge", "Endure*", "Magnitude", "Rollout", "Stealth Rock", "Wide Guard"], "regular_moves": [{"Name": "Tackle", "Level": "001"}, {"Name": "Harden", "Level": "004"}, {"Name": "Block", "Level": "007"}, {"Name": "Rock Throw", "Level": "010"}, {"Name": "Thunder Wave", "Level": "013"}, {"Name": "Rest", "Level": "016"}, {"Name": "Spark", "Level": "019"}, {"Name": "Rock Slide", "Level": "022"}, {"Name": "Power Gem", "Level": "025"}, {"Name": "Rock Blast", "Level": "028"}, {"Name": "Discharge", "Level": "031"}, {"Name": "Sandstorm", "Level": "034"}, {"Name": "Earth Power", "Level": "037"}, {"Name": "Stone Edge", "Level": "040"}, {"Name": "Lock-On", "Level": "043"}, {"Name": "Zap Cannon", "Level": "043"}]}, "VII": {"egg_moves": ["Block", "Double-Edge", "Endure*", "Magnitude", "Rollout", "Stealth Rock", "Wide Guard", "Block", "Double-Edge", "Endure*", "Magnitude", "Rollout", "Stealth Rock", "Wide Guard"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "04"}, {"Name": "Block", "Level": "07"}, {"Name": "Rock Throw", "Level": "10"}, {"Name": "Thunder Wave", "Level": "13"}, {"Name": "Rest", "Level": "16"}, {"Name": "Spark", "Level": "19"}, {"Name": "Rock Slide", "Level": "22"}, {"Name": "Power Gem", "Level": "25"}, {"Name": "Rock Blast", "Level": "28"}, {"Name": "Discharge", "Level": "31"}, {"Name": "Sandstorm", "Level": "34"}, {"Name": "Earth Power", "Level": "37"}, {"Name": "Stone Edge", "Level": "40"}, {"Name": "Lock-On", "Level": "43"}, {"Name": "Zap Cannon", "Level": "43"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "04"}, {"Name": "Block", "Level": "07"}, {"Name": "Rock Throw", "Level": "10"}, {"Name": "Thunder Wave", "Level": "13"}, {"Name": "Rest", "Level": "16"}, {"Name": "Spark", "Level": "19"}, {"Name": "Rock Slide", "Level": "22"}, {"Name": "Power Gem", "Level": "25"}, {"Name": "Rock Blast", "Level": "28"}, {"Name": "Discharge", "Level": "31"}, {"Name": "Sandstorm", "Level": "34"}, {"Name": "Earth Power", "Level": "37"}, {"Name": "Stone Edge", "Level": "40"}, {"Name": "Lock-On", "Level": "43"}, {"Name": "Zap Cannon", "Level": "43"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [
+      "Explosion",
+      "Magnitude",
+      "Rollout"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "07"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "13"
+      },
+      {
+        "Name": "Block",
+        "Level": "16"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "22"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "28"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "31"
+      },
+      {
+        "Name": "Rest",
+        "Level": "37"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "43"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "46"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Block",
+      "Double-Edge",
+      "Explosion",
+      "Head SmashHGSS",
+      "Magnitude",
+      "Rollout"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Block",
+      "Double-Edge",
+      "Endure*",
+      "Magnitude",
+      "Rollout",
+      "Stealth Rock"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Block",
+      "Double-Edge",
+      "Endure*",
+      "Magnitude",
+      "Rollout",
+      "Stealth Rock",
+      "Wide Guard"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "004"
+      },
+      {
+        "Name": "Block",
+        "Level": "007"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "010"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "013"
+      },
+      {
+        "Name": "Rest",
+        "Level": "016"
+      },
+      {
+        "Name": "Spark",
+        "Level": "019"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "022"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "025"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "028"
+      },
+      {
+        "Name": "Discharge",
+        "Level": "031"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "034"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "037"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "040"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "043"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "043"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Block",
+      "Double-Edge",
+      "Endure*",
+      "Magnitude",
+      "Rollout",
+      "Stealth Rock",
+      "Wide Guard",
+      "Block",
+      "Double-Edge",
+      "Endure*",
+      "Magnitude",
+      "Rollout",
+      "Stealth Rock",
+      "Wide Guard"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Block",
+        "Level": "07"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "10"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "13"
+      },
+      {
+        "Name": "Rest",
+        "Level": "16"
+      },
+      {
+        "Name": "Spark",
+        "Level": "19"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "22"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "25"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "28"
+      },
+      {
+        "Name": "Discharge",
+        "Level": "31"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "34"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "37"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "40"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "43"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "43"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "04"
+      },
+      {
+        "Name": "Block",
+        "Level": "07"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "10"
+      },
+      {
+        "Name": "Thunder Wave",
+        "Level": "13"
+      },
+      {
+        "Name": "Rest",
+        "Level": "16"
+      },
+      {
+        "Name": "Spark",
+        "Level": "19"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "22"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "25"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "28"
+      },
+      {
+        "Name": "Discharge",
+        "Level": "31"
+      },
+      {
+        "Name": "Sandstorm",
+        "Level": "34"
+      },
+      {
+        "Name": "Earth Power",
+        "Level": "37"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "40"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "43"
+      },
+      {
+        "Name": "Zap Cannon",
+        "Level": "43"
+      }
+    ]
+  }
+}

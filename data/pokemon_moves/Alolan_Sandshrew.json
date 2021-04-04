@@ -1,0 +1,28 @@
+{
+  "VII": {
+    "egg_moves": [
+      "Amnesia",
+      "Chip Away",
+      "Counter",
+      "Crush Claw",
+      "Curse",
+      "Endure",
+      "Flail",
+      "Hone Claws",
+      "Icicle Crash",
+      "Icicle Spear",
+      "Metal Claw",
+      "Night Slash"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Defense Curl",
+        "Level": "01"
+      }
+    ]
+  }
+}

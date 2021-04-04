@@ -1,1 +1,436 @@
-{"II": {"egg_moves": ["Bite", "Counter*", "Foresight*", "Reflect*", "Spite"], "regular_moves": [{"Name": "1", "Level": "1"}, {"Name": "1", "Level": "3"}, {"Name": "30", "Level": "100"}, {"Name": "100%", "Level": "4"}, {"Name": "\u2014", "Level": "Nor"}, {"Name": "Dark", "Level": "Faint "}, {"Name": "Fury Swipes", "Level": "3"}, {"Name": "41", "Level": "4"}, {"Name": "49", "Level": "3"}, {"Name": "20", "Level": "100"}, {"Name": "100%", "Level": "1"}, {"Name": "50", "Level": "Ste"}]}, "III": {"egg_moves": ["Bite", "Counter", "Crush Claw", "Fake Out", "Foresight*", "Reflect*", "Spite"], "regular_moves": [{"Name": "Scratch", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Taunt", "Level": "01"}, {"Name": "Quick Attack", "Level": "08"}, {"Name": "Screech", "Level": "15"}, {"Name": "Faint Attack", "Level": "22"}, {"Name": "Fury Swipes", "Level": "29"}, {"Name": "Agility", "Level": "36"}, {"Name": "Icy Wind", "Level": "43"}, {"Name": "Slash", "Level": "50"}, {"Name": "Beat Up", "Level": "57"}, {"Name": "Metal Claw", "Level": "64"}]}, "IV": {"egg_moves": ["AssistHGSS", "Bite", "Counter", "Crush Claw", "Double Hit", "Fake Out", "Foresight", "Ice Punch*", "Ice Shard", "Punishment", "Pursuit", "Reflect*", "Spite"], "regular_moves": [{"Name": "Scratch", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Taunt", "Level": "01"}, {"Name": "Quick Attack", "Level": "08"}, {"Name": "Screech", "Level": "10"}, {"Name": "Faint Attack", "Level": "14"}, {"Name": "Fury Swipes", "Level": "21"}, {"Name": "Agility", "Level": "24"}, {"Name": "Icy Wind", "Level": "28"}, {"Name": "Slash", "Level": "35"}, {"Name": "Beat Up", "Level": "38"}, {"Name": "Metal Claw", "Level": "42"}, {"Name": "Ice Shard", "Level": "49"}]}, "V": {"egg_moves": ["Assist", "Avalanche\u2021", "Bite", "Counter", "Crush Claw", "Double Hit", "Fake Out", "Feint", "Foresight", "Ice Punch*", "Ice Shard", "Punishment", "Pursuit", "Spite"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "3"}, {"Name": "30", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "04040", "Level": "Phys"}, {"Name": "Physical", "Level": "Da"}, {"Name": "Ice", "Level": "Icy "}, {"Name": "Fury Swipes", "Level": "016"}, {"Name": "02020", "Level": "024"}, {"Name": "04949", "Level": "3"}, {"Name": "35", "Level": "095}"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "0000\u2014", "Level": "Phys"}, {"Name": "Status", "Level": "Nor"}, {"Name": "Normal", "Level": "Sla"}, {"Name": "Snatch", "Level": "040"}, {"Name": "04444", "Level": "N/A"}, {"Name": "05151", "Level": "5"}, {"Name": "30", "Level": "100}}100"}]}, "VI": {"egg_moves": ["Assist", "Avalanche\u2021", "Bite", "Counter", "Crush Claw", "Double Hit", "Fake Out", "Feint", "Foresight", "Ice Punch*", "Ice Shard", "Icicle Crash", "Punishment", "Pursuit", "Spite"], "regular_moves": [{"Name": "Scratch", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Taunt", "Level": "01"}, {"Name": "Quick Attack", "Level": "08"}, {"Name": "Feint Attack", "Level": "10"}, {"Name": "Icy Wind", "Level": "14"}, {"Name": "Fury Swipes", "Level": "16"}, {"Name": "Agility", "Level": "20"}, {"Name": "Metal Claw", "Level": "22"}, {"Name": "Hone Claws", "Level": "25"}, {"Name": "Beat Up", "Level": "28"}, {"Name": "Screech", "Level": "32"}, {"Name": "Slash", "Level": "35"}, {"Name": "Snatch", "Level": "40"}, {"Name": "Punishment", "Level": "44"}, {"Name": "Ice Shard", "Level": "47"}]}, "VII": {"egg_moves": ["Assist", "Avalanche*", "Bite", "Counter", "Crush Claw", "Double Hit", "Fake Out", "Feint", "Foresight", "Ice Punch*", "Ice Shard", "Icicle Crash", "Punishment", "Pursuit", "Spite", "Throat Chop", "Assist", "Avalanche*", "Bite", "Counter", "Crush Claw", "Double Hit", "Fake Out", "Feint", "Foresight", "Ice Punch*", "Ice Shard", "Icicle Crash", "Punishment", "Pursuit", "Spite", "Throat Chop"], "regular_moves": [{"Name": "Scratch", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Taunt", "Level": "01"}, {"Name": "Quick Attack", "Level": "08"}, {"Name": "Feint Attack", "Level": "10"}, {"Name": "Icy Wind", "Level": "14"}, {"Name": "Fury Swipes", "Level": "16"}, {"Name": "Agility", "Level": "20"}, {"Name": "Metal Claw", "Level": "22"}, {"Name": "Hone Claws", "Level": "25"}, {"Name": "Beat Up", "Level": "28"}, {"Name": "Screech", "Level": "32"}, {"Name": "Slash", "Level": "35"}, {"Name": "Snatch", "Level": "40"}, {"Name": "Punishment", "Level": "44"}, {"Name": "Ice Shard", "Level": "47"}, {"Name": "Scratch", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Taunt", "Level": "01"}, {"Name": "Quick Attack", "Level": "08"}, {"Name": "Feint Attack", "Level": "10"}, {"Name": "Icy Wind", "Level": "14"}, {"Name": "Fury Swipes", "Level": "16"}, {"Name": "Agility", "Level": "20"}, {"Name": "Metal Claw", "Level": "22"}, {"Name": "Hone Claws", "Level": "25"}, {"Name": "Beat Up", "Level": "28"}, {"Name": "Screech", "Level": "32"}, {"Name": "Slash", "Level": "35"}, {"Name": "Snatch", "Level": "40"}, {"Name": "Punishment", "Level": "44"}, {"Name": "Ice Shard", "Level": "47"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Bite",
+      "Counter*",
+      "Foresight*",
+      "Reflect*",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "1"
+      },
+      {
+        "Name": "Leer",
+        "Level": "1"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Bite",
+      "Counter",
+      "Crush Claw",
+      "Fake Out",
+      "Foresight*",
+      "Reflect*",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Taunt",
+        "Level": "01"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "08"
+      },
+      {
+        "Name": "Screech",
+        "Level": "15"
+      },
+      {
+        "Name": "Faint Attack",
+        "Level": "22"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "36"
+      },
+      {
+        "Name": "Icy Wind",
+        "Level": "43"
+      },
+      {
+        "Name": "Slash",
+        "Level": "50"
+      },
+      {
+        "Name": "Beat Up",
+        "Level": "57"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "64"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "AssistHGSS",
+      "Bite",
+      "Counter",
+      "Crush Claw",
+      "Double Hit",
+      "Fake Out",
+      "Foresight",
+      "Ice Punch*",
+      "Ice Shard",
+      "Punishment",
+      "Pursuit",
+      "Reflect*",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Taunt",
+        "Level": "01"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "08"
+      },
+      {
+        "Name": "Screech",
+        "Level": "10"
+      },
+      {
+        "Name": "Faint Attack",
+        "Level": "14"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "21"
+      },
+      {
+        "Name": "Agility",
+        "Level": "24"
+      },
+      {
+        "Name": "Icy Wind",
+        "Level": "28"
+      },
+      {
+        "Name": "Slash",
+        "Level": "35"
+      },
+      {
+        "Name": "Beat Up",
+        "Level": "38"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "42"
+      },
+      {
+        "Name": "Ice Shard",
+        "Level": "49"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Assist",
+      "Avalanche\u2021",
+      "Bite",
+      "Counter",
+      "Crush Claw",
+      "Double Hit",
+      "Fake Out",
+      "Feint",
+      "Foresight",
+      "Ice Punch*",
+      "Ice Shard",
+      "Punishment",
+      "Pursuit",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Taunt",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Assist",
+      "Avalanche\u2021",
+      "Bite",
+      "Counter",
+      "Crush Claw",
+      "Double Hit",
+      "Fake Out",
+      "Feint",
+      "Foresight",
+      "Ice Punch*",
+      "Ice Shard",
+      "Icicle Crash",
+      "Punishment",
+      "Pursuit",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Taunt",
+        "Level": "01"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "08"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "10"
+      },
+      {
+        "Name": "Icy Wind",
+        "Level": "14"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "16"
+      },
+      {
+        "Name": "Agility",
+        "Level": "20"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "22"
+      },
+      {
+        "Name": "Hone Claws",
+        "Level": "25"
+      },
+      {
+        "Name": "Beat Up",
+        "Level": "28"
+      },
+      {
+        "Name": "Screech",
+        "Level": "32"
+      },
+      {
+        "Name": "Slash",
+        "Level": "35"
+      },
+      {
+        "Name": "Snatch",
+        "Level": "40"
+      },
+      {
+        "Name": "Punishment",
+        "Level": "44"
+      },
+      {
+        "Name": "Ice Shard",
+        "Level": "47"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Assist",
+      "Avalanche*",
+      "Bite",
+      "Counter",
+      "Crush Claw",
+      "Double Hit",
+      "Fake Out",
+      "Feint",
+      "Foresight",
+      "Ice Punch*",
+      "Ice Shard",
+      "Icicle Crash",
+      "Punishment",
+      "Pursuit",
+      "Spite",
+      "Throat Chop",
+      "Assist",
+      "Avalanche*",
+      "Bite",
+      "Counter",
+      "Crush Claw",
+      "Double Hit",
+      "Fake Out",
+      "Feint",
+      "Foresight",
+      "Ice Punch*",
+      "Ice Shard",
+      "Icicle Crash",
+      "Punishment",
+      "Pursuit",
+      "Spite",
+      "Throat Chop"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Taunt",
+        "Level": "01"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "08"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "10"
+      },
+      {
+        "Name": "Icy Wind",
+        "Level": "14"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "16"
+      },
+      {
+        "Name": "Agility",
+        "Level": "20"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "22"
+      },
+      {
+        "Name": "Hone Claws",
+        "Level": "25"
+      },
+      {
+        "Name": "Beat Up",
+        "Level": "28"
+      },
+      {
+        "Name": "Screech",
+        "Level": "32"
+      },
+      {
+        "Name": "Slash",
+        "Level": "35"
+      },
+      {
+        "Name": "Snatch",
+        "Level": "40"
+      },
+      {
+        "Name": "Punishment",
+        "Level": "44"
+      },
+      {
+        "Name": "Ice Shard",
+        "Level": "47"
+      },
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Taunt",
+        "Level": "01"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "08"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "10"
+      },
+      {
+        "Name": "Icy Wind",
+        "Level": "14"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "16"
+      },
+      {
+        "Name": "Agility",
+        "Level": "20"
+      },
+      {
+        "Name": "Metal Claw",
+        "Level": "22"
+      },
+      {
+        "Name": "Hone Claws",
+        "Level": "25"
+      },
+      {
+        "Name": "Beat Up",
+        "Level": "28"
+      },
+      {
+        "Name": "Screech",
+        "Level": "32"
+      },
+      {
+        "Name": "Slash",
+        "Level": "35"
+      },
+      {
+        "Name": "Snatch",
+        "Level": "40"
+      },
+      {
+        "Name": "Punishment",
+        "Level": "44"
+      },
+      {
+        "Name": "Ice Shard",
+        "Level": "47"
+      }
+    ]
+  }
+}

@@ -1,1 +1,409 @@
-{"II": {"egg_moves": ["Barrier", "Cross ChopC", "Karate Chop", "Mega Punch", "Screech"], "regular_moves": [{"Name": "Ember", "Level": "01"}, {"Name": "Leer", "Level": "07"}, {"Name": "Smog", "Level": "13"}, {"Name": "Fire Punch", "Level": "19"}, {"Name": "SmokeScreen", "Level": "25"}, {"Name": "Sunny Day", "Level": "31"}, {"Name": "Flamethrower", "Level": "37"}, {"Name": "Confuse Ray", "Level": "43"}, {"Name": "Fire Blast", "Level": "49"}]}, "III": {"egg_moves": ["Barrier", "Cross Chop", "Karate Chop", "Mega Punch", "Screech", "ThunderPunch"], "regular_moves": [{"Name": "Ember", "Level": "01"}, {"Name": "Leer", "Level": "07"}, {"Name": "Smog", "Level": "13"}, {"Name": "Fire Punch", "Level": "19"}, {"Name": "SmokeScreen", "Level": "25"}, {"Name": "Sunny Day", "Level": "31"}, {"Name": "Flamethrower", "Level": "37"}, {"Name": "Confuse Ray", "Level": "43"}, {"Name": "Fire Blast", "Level": "49"}]}, "IV": {"egg_moves": ["Barrier", "Belly DrumHGSS", "Cross Chop", "DynamicPunch", "Flare Blitz", "Karate Chop", "Mach Punch", "Mega Punch", "Screech", "ThunderPunch"], "regular_moves": [{"Name": "Leer", "Level": "01"}, {"Name": "Smog", "Level": "01"}, {"Name": "Ember", "Level": "07"}, {"Name": "SmokeScreen", "Level": "10"}, {"Name": "Faint Attack", "Level": "16"}, {"Name": "Fire Spin", "Level": "19"}, {"Name": "Confuse Ray", "Level": "25"}, {"Name": "Fire Punch", "Level": "28"}, {"Name": "Lava Plume", "Level": "34"}, {"Name": "Flamethrower", "Level": "37"}, {"Name": "Sunny Day", "Level": "43"}, {"Name": "Fire Blast", "Level": "46"}]}, "V": {"egg_moves": ["Barrier", "Belly Drum", "Cross Chop", "DynamicPunch", "Flare Blitz", "Focus Energy", "Iron Tail\u2021", "Karate Chop", "Mach Punch", "Mega Punch", "Screech", "ThunderPunch"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "2"}, {"Name": "30", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "040"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Physical", "Level": "Da"}, {"Name": "Fire", "Level": "Fire "}, {"Name": "Clear Smog", "Level": "019"}, {"Name": "02222", "Level": "028"}, {"Name": "02525", "Level": "1"}, {"Name": "10", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "075"}, {"Name": "08080", "Level": "Spec"}, {"Name": "Status", "Level": "Fi"}, {"Name": "Fire", "Level": "Flamet"}, {"Name": "Fire Blast", "Level": "043"}]}, "VI": {"egg_moves": ["Barrier", "Belch", "Belly Drum", "Cross Chop", "Dynamic Punch", "Flare Blitz", "Focus Energy", "Iron Tail\u2021", "Karate Chop", "Mach Punch", "Mega Punch", "Power Swap", "Screech", "Thunder Punch"], "regular_moves": [{"Name": "Smog", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Ember", "Level": "05"}, {"Name": "Smokescreen", "Level": "08"}, {"Name": "Feint Attack", "Level": "12"}, {"Name": "Fire Spin", "Level": "15"}, {"Name": "Clear Smog", "Level": "19"}, {"Name": "Flame Burst", "Level": "22"}, {"Name": "Confuse Ray", "Level": "26"}, {"Name": "Fire Punch", "Level": "29"}, {"Name": "Lava Plume", "Level": "33"}, {"Name": "Sunny Day", "Level": "36"}, {"Name": "Flamethrower", "Level": "40"}, {"Name": "Fire Blast", "Level": "43"}]}, "VII": {"egg_moves": ["Barrier", "Belch", "Belly Drum", "Cross Chop", "Dynamic Punch", "Flare Blitz", "Focus Energy", "Iron Tail\u2021", "Karate Chop", "Mach Punch", "Mega Punch", "Power Swap", "Screech", "Thunder Punch", "Barrier", "Belch", "Belly Drum", "Cross Chop", "Dynamic Punch", "Flare Blitz", "Focus Energy", "Iron Tail\u2021", "Karate Chop", "Mach Punch", "Mega Punch", "Power Swap", "Screech", "Thunder Punch"], "regular_moves": [{"Name": "Smog", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Ember", "Level": "05"}, {"Name": "Smokescreen", "Level": "08"}, {"Name": "Feint Attack", "Level": "12"}, {"Name": "Fire Spin", "Level": "15"}, {"Name": "Clear Smog", "Level": "19"}, {"Name": "Flame Burst", "Level": "22"}, {"Name": "Confuse Ray", "Level": "26"}, {"Name": "Fire Punch", "Level": "29"}, {"Name": "Lava Plume", "Level": "33"}, {"Name": "Sunny Day", "Level": "36"}, {"Name": "Flamethrower", "Level": "40"}, {"Name": "Fire Blast", "Level": "43"}, {"Name": "Smog", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Ember", "Level": "05"}, {"Name": "Smokescreen", "Level": "08"}, {"Name": "Feint Attack", "Level": "12"}, {"Name": "Fire Spin", "Level": "15"}, {"Name": "Clear Smog", "Level": "19"}, {"Name": "Flame Burst", "Level": "22"}, {"Name": "Confuse Ray", "Level": "26"}, {"Name": "Fire Punch", "Level": "29"}, {"Name": "Lava Plume", "Level": "33"}, {"Name": "Sunny Day", "Level": "36"}, {"Name": "Flamethrower", "Level": "40"}, {"Name": "Fire Blast", "Level": "43"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Barrier",
+      "Cross Chop",
+      "Karate Chop",
+      "Mega Punch",
+      "Screech"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "07"
+      },
+      {
+        "Name": "Smog",
+        "Level": "13"
+      },
+      {
+        "Name": "Fire Punch",
+        "Level": "19"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "25"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "31"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "37"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "43"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "49"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Barrier",
+      "Cross Chop",
+      "Karate Chop",
+      "Mega Punch",
+      "Screech",
+      "ThunderPunch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "07"
+      },
+      {
+        "Name": "Smog",
+        "Level": "13"
+      },
+      {
+        "Name": "Fire Punch",
+        "Level": "19"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "25"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "31"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "37"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "43"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "49"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Barrier",
+      "Belly DrumHGSS",
+      "Cross Chop",
+      "DynamicPunch",
+      "Flare Blitz",
+      "Karate Chop",
+      "Mach Punch",
+      "Mega Punch",
+      "Screech",
+      "ThunderPunch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "07"
+      },
+      {
+        "Name": "SmokeScreen",
+        "Level": "10"
+      },
+      {
+        "Name": "Faint Attack",
+        "Level": "16"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "19"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "25"
+      },
+      {
+        "Name": "Fire Punch",
+        "Level": "28"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "34"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "37"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "43"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "46"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Barrier",
+      "Belly Drum",
+      "Cross Chop",
+      "DynamicPunch",
+      "Flare Blitz",
+      "Focus Energy",
+      "Iron Tail\u2021",
+      "Karate Chop",
+      "Mach Punch",
+      "Mega Punch",
+      "Screech",
+      "ThunderPunch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Barrier",
+      "Belch",
+      "Belly Drum",
+      "Cross Chop",
+      "Dynamic Punch",
+      "Flare Blitz",
+      "Focus Energy",
+      "Iron Tail\u2021",
+      "Karate Chop",
+      "Mach Punch",
+      "Mega Punch",
+      "Power Swap",
+      "Screech",
+      "Thunder Punch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "05"
+      },
+      {
+        "Name": "Smokescreen",
+        "Level": "08"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "12"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "15"
+      },
+      {
+        "Name": "Clear Smog",
+        "Level": "19"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "22"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "26"
+      },
+      {
+        "Name": "Fire Punch",
+        "Level": "29"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "33"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "36"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "40"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "43"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Barrier",
+      "Belch",
+      "Belly Drum",
+      "Cross Chop",
+      "Dynamic Punch",
+      "Flare Blitz",
+      "Focus Energy",
+      "Iron Tail\u2021",
+      "Karate Chop",
+      "Mach Punch",
+      "Mega Punch",
+      "Power Swap",
+      "Screech",
+      "Thunder Punch",
+      "Barrier",
+      "Belch",
+      "Belly Drum",
+      "Cross Chop",
+      "Dynamic Punch",
+      "Flare Blitz",
+      "Focus Energy",
+      "Iron Tail\u2021",
+      "Karate Chop",
+      "Mach Punch",
+      "Mega Punch",
+      "Power Swap",
+      "Screech",
+      "Thunder Punch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "05"
+      },
+      {
+        "Name": "Smokescreen",
+        "Level": "08"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "12"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "15"
+      },
+      {
+        "Name": "Clear Smog",
+        "Level": "19"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "22"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "26"
+      },
+      {
+        "Name": "Fire Punch",
+        "Level": "29"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "33"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "36"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "40"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "43"
+      },
+      {
+        "Name": "Smog",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Ember",
+        "Level": "05"
+      },
+      {
+        "Name": "Smokescreen",
+        "Level": "08"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "12"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "15"
+      },
+      {
+        "Name": "Clear Smog",
+        "Level": "19"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "22"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "26"
+      },
+      {
+        "Name": "Fire Punch",
+        "Level": "29"
+      },
+      {
+        "Name": "Lava Plume",
+        "Level": "33"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "36"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "40"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "43"
+      }
+    ]
+  }
+}

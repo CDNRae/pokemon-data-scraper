@@ -24,24 +24,12 @@
     "egg_moves": [],
     "regular_moves": [
       {
-        "Name": "011",
+        "Name": "Tackle",
         "Level": "01"
       },
       {
-        "Name": "011",
-        "Level": "3 \u2665"
-      },
-      {
-        "Name": "2 \u2665\u2665",
-        "Level": "Sma"
-      },
-      {
-        "Name": "Smart",
-        "Level": "3"
-      },
-      {
-        "Name": "20",
-        "Level": "100}}100"
+        "Name": "String Shot",
+        "Level": "01"
       }
     ]
   },

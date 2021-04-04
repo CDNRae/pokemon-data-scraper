@@ -187,84 +187,8 @@
     ],
     "regular_moves": [
       {
-        "Name": "0011",
-        "Level": "001"
-      },
-      {
-        "Name": "0044",
-        "Level": "3"
-      },
-      {
-        "Name": "30",
-        "Level": "00\u2014}}\u2014"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "020"
-      },
-      {
-        "Name": "0000\u2014",
-        "Level": "Sta"
-      },
-      {
-        "Name": "Status",
-        "Level": "Nor"
-      },
-      {
-        "Name": "Water",
-        "Level": "Bubbl"
-      },
-      {
-        "Name": "AncientPower",
-        "Level": "020"
-      },
-      {
-        "Name": "02323",
-        "Level": "028"
-      },
-      {
-        "Name": "04040",
-        "Level": "3"
-      },
-      {
-        "Name": "15",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "00\u2014}}\u2014%",
-        "Level": "0000"
-      },
-      {
-        "Name": "02525",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Status",
-        "Level": "Nor"
-      },
-      {
-        "Name": "Water",
-        "Level": "Aqua "
-      },
-      {
-        "Name": "Power Gem",
-        "Level": "041"
-      },
-      {
-        "Name": "04545",
-        "Level": "048"
-      },
-      {
-        "Name": "05353",
-        "Level": "2"
-      },
-      {
-        "Name": "10",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "0000"
+        "Name": "Tackle",
+        "Level": "01"
       }
     ]
   },

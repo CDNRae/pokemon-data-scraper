@@ -1,1 +1,478 @@
-{"II": {"egg_moves": ["Baton Pass", "Disable", "Psybeam", "Pursuit", "SonicBoom"], "regular_moves": [{"Name": "1", "Level": "1"}, {"Name": "1", "Level": "3"}, {"Name": "40", "Level": "95"}, {"Name": "90%", "Level": "\u2014"}, {"Name": "10", "Level": "Nor"}, {"Name": "Ghost", "Level": "Night "}, {"Name": "Leech Life", "Level": "2"}, {"Name": "30", "Level": "3"}, {"Name": "37", "Level": "1"}, {"Name": "10", "Level": "101"}, {"Name": "85%", "Level": "\u2014"}, {"Name": "\u2014", "Level": "Psyc"}, {"Name": "Psychic", "Level": "Psyc"}]}, "III": {"egg_moves": ["Baton Pass", "Disable", "Pursuit", "Psybeam", "Signal Beam", "SonicBoom"], "regular_moves": [{"Name": "Poison Sting", "Level": "01"}, {"Name": "String Shot", "Level": "01"}, {"Name": "Scary Face", "Level": "06"}, {"Name": "Constrict", "Level": "11"}, {"Name": "Night Shade", "Level": "17"}, {"Name": "Leech Life", "Level": "23"}, {"Name": "Fury Swipes", "Level": "30"}, {"Name": "Spider Web", "Level": "37"}, {"Name": "Agility", "Level": "45"}, {"Name": "Psychic", "Level": "53"}]}, "IV": {"egg_moves": ["Baton Pass", "Disable", "Poison Jab", "Psybeam", "Pursuit", "Signal Beam", "SonicBoom", "Toxic Spikes"], "regular_moves": [{"Name": "Poison Sting", "Level": "01"}, {"Name": "String Shot", "Level": "01"}, {"Name": "Scary Face", "Level": "05"}, {"Name": "Constrict", "Level": "08"}, {"Name": "Leech Life", "Level": "12"}, {"Name": "Night Shade", "Level": "15"}, {"Name": "Shadow Sneak", "Level": "19"}, {"Name": "Fury Swipes", "Level": "22"}, {"Name": "Sucker Punch", "Level": "26"}, {"Name": "Spider Web", "Level": "29"}, {"Name": "Agility", "Level": "33"}, {"Name": "Pin Missile", "Level": "36"}, {"Name": "Psychic", "Level": "40"}, {"Name": "Poison Jab", "Level": "43"}]}, "V": {"egg_moves": ["Baton Pass", "Disable", "Electroweb", "Night Slash", "Psybeam", "Pursuit", "Rage Powder", "Signal Beam", "SonicBoom", "Toxic Spikes", "Twineedle"], "regular_moves": [{"Name": "Poison Sting", "Level": "01"}, {"Name": "String Shot", "Level": "01"}, {"Name": "Scary Face", "Level": "05"}, {"Name": "Constrict", "Level": "08"}, {"Name": "Leech Life", "Level": "12"}, {"Name": "Night Shade", "Level": "15"}, {"Name": "Shadow Sneak", "Level": "19"}, {"Name": "Fury Swipes", "Level": "22"}, {"Name": "Sucker Punch", "Level": "26"}, {"Name": "Spider Web", "Level": "29"}, {"Name": "Agility", "Level": "33"}, {"Name": "Pin Missile", "Level": "36"}, {"Name": "Psychic", "Level": "40"}, {"Name": "Poison Jab", "Level": "43"}, {"Name": "Cross Poison", "Level": "47"}]}, "VI": {"egg_moves": ["Baton Pass", "Disable", "Electroweb", "Megahorn", "Night Slash", "Psybeam", "Pursuit", "Rage Powder", "Signal Beam", "Sonic Boom", "Toxic Spikes", "Twineedle"], "regular_moves": [{"Name": "Poison Sting", "Level": "01"}, {"Name": "String Shot", "Level": "01"}, {"Name": "Scary Face", "Level": "05"}, {"Name": "Constrict", "Level": "08"}, {"Name": "Leech Life", "Level": "12"}, {"Name": "Night Shade", "Level": "15"}, {"Name": "Shadow Sneak", "Level": "19"}, {"Name": "Fury Swipes", "Level": "22"}, {"Name": "Sucker Punch", "Level": "26"}, {"Name": "Spider Web", "Level": "29"}, {"Name": "Agility", "Level": "33"}, {"Name": "Pin Missile", "Level": "36"}, {"Name": "Psychic", "Level": "40"}, {"Name": "Poison Jab", "Level": "43"}, {"Name": "Cross Poison", "Level": "47"}, {"Name": "Sticky Web", "Level": "50"}]}, "VII": {"egg_moves": ["Baton Pass", "Disable", "Electroweb", "LungeUSUM", "Megahorn", "Night Slash", "Psybeam", "Pursuit", "Rage Powder", "Signal Beam", "Sonic Boom", "Toxic Spikes", "Twineedle", "Baton Pass", "Disable", "Electroweb", "LungeUSUM", "Megahorn", "Night Slash", "Psybeam", "Pursuit", "Rage Powder", "Signal Beam", "Sonic Boom", "Toxic Spikes", "Twineedle"], "regular_moves": [{"Name": "Poison Sting", "Level": "01"}, {"Name": "String Shot", "Level": "01"}, {"Name": "Constrict", "Level": "01"}, {"Name": "Absorb", "Level": "05"}, {"Name": "Infestation", "Level": "08"}, {"Name": "Scary Face", "Level": "12"}, {"Name": "Night Shade", "Level": "15"}, {"Name": "Shadow Sneak", "Level": "19"}, {"Name": "Fury Swipes", "Level": "22"}, {"Name": "Sucker Punch", "Level": "26"}, {"Name": "Spider Web", "Level": "29"}, {"Name": "Agility", "Level": "33"}, {"Name": "Pin Missile", "Level": "36"}, {"Name": "Psychic", "Level": "40"}, {"Name": "Poison Jab", "Level": "43"}, {"Name": "Cross Poison", "Level": "47"}, {"Name": "Sticky Web", "Level": "50"}, {"Name": "Toxic Thread", "Level": "54"}, {"Name": "Poison Sting", "Level": "01"}, {"Name": "String Shot", "Level": "01"}, {"Name": "Constrict", "Level": "01"}, {"Name": "Absorb", "Level": "05"}, {"Name": "Infestation", "Level": "08"}, {"Name": "Scary Face", "Level": "12"}, {"Name": "Night Shade", "Level": "15"}, {"Name": "Shadow Sneak", "Level": "19"}, {"Name": "Fury Swipes", "Level": "22"}, {"Name": "Sucker Punch", "Level": "26"}, {"Name": "Spider Web", "Level": "29"}, {"Name": "Agility", "Level": "33"}, {"Name": "Pin Missile", "Level": "36"}, {"Name": "Psychic", "Level": "40"}, {"Name": "Poison Jab", "Level": "43"}, {"Name": "Cross Poison", "Level": "47"}, {"Name": "Sticky Web", "Level": "50"}, {"Name": "Toxic Thread", "Level": "54"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Baton Pass",
+      "Disable",
+      "Psybeam",
+      "Pursuit",
+      "SonicBoom"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Sting",
+        "Level": "1"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "1"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Baton Pass",
+      "Disable",
+      "Pursuit",
+      "Psybeam",
+      "Signal Beam",
+      "SonicBoom"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "01"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "06"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "11"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "17"
+      },
+      {
+        "Name": "Leech Life",
+        "Level": "23"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "30"
+      },
+      {
+        "Name": "Spider Web",
+        "Level": "37"
+      },
+      {
+        "Name": "Agility",
+        "Level": "45"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "53"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Baton Pass",
+      "Disable",
+      "Poison Jab",
+      "Psybeam",
+      "Pursuit",
+      "Signal Beam",
+      "SonicBoom",
+      "Toxic Spikes"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "01"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "05"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "08"
+      },
+      {
+        "Name": "Leech Life",
+        "Level": "12"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "15"
+      },
+      {
+        "Name": "Shadow Sneak",
+        "Level": "19"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "22"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "26"
+      },
+      {
+        "Name": "Spider Web",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "33"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "36"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "40"
+      },
+      {
+        "Name": "Poison Jab",
+        "Level": "43"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Baton Pass",
+      "Disable",
+      "Electroweb",
+      "Night Slash",
+      "Psybeam",
+      "Pursuit",
+      "Rage Powder",
+      "Signal Beam",
+      "SonicBoom",
+      "Toxic Spikes",
+      "Twineedle"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "01"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "05"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "08"
+      },
+      {
+        "Name": "Leech Life",
+        "Level": "12"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "15"
+      },
+      {
+        "Name": "Shadow Sneak",
+        "Level": "19"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "22"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "26"
+      },
+      {
+        "Name": "Spider Web",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "33"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "36"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "40"
+      },
+      {
+        "Name": "Poison Jab",
+        "Level": "43"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "47"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Baton Pass",
+      "Disable",
+      "Electroweb",
+      "Megahorn",
+      "Night Slash",
+      "Psybeam",
+      "Pursuit",
+      "Rage Powder",
+      "Signal Beam",
+      "Sonic Boom",
+      "Toxic Spikes",
+      "Twineedle"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "01"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "05"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "08"
+      },
+      {
+        "Name": "Leech Life",
+        "Level": "12"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "15"
+      },
+      {
+        "Name": "Shadow Sneak",
+        "Level": "19"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "22"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "26"
+      },
+      {
+        "Name": "Spider Web",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "33"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "36"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "40"
+      },
+      {
+        "Name": "Poison Jab",
+        "Level": "43"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "47"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "50"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Baton Pass",
+      "Disable",
+      "Electroweb",
+      "LungeUSUM",
+      "Megahorn",
+      "Night Slash",
+      "Psybeam",
+      "Pursuit",
+      "Rage Powder",
+      "Signal Beam",
+      "Sonic Boom",
+      "Toxic Spikes",
+      "Twineedle",
+      "Baton Pass",
+      "Disable",
+      "Electroweb",
+      "LungeUSUM",
+      "Megahorn",
+      "Night Slash",
+      "Psybeam",
+      "Pursuit",
+      "Rage Powder",
+      "Signal Beam",
+      "Sonic Boom",
+      "Toxic Spikes",
+      "Twineedle"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "01"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Absorb",
+        "Level": "05"
+      },
+      {
+        "Name": "Infestation",
+        "Level": "08"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "12"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "15"
+      },
+      {
+        "Name": "Shadow Sneak",
+        "Level": "19"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "22"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "26"
+      },
+      {
+        "Name": "Spider Web",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "33"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "36"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "40"
+      },
+      {
+        "Name": "Poison Jab",
+        "Level": "43"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "47"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "50"
+      },
+      {
+        "Name": "Toxic Thread",
+        "Level": "54"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "String Shot",
+        "Level": "01"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Absorb",
+        "Level": "05"
+      },
+      {
+        "Name": "Infestation",
+        "Level": "08"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "12"
+      },
+      {
+        "Name": "Night Shade",
+        "Level": "15"
+      },
+      {
+        "Name": "Shadow Sneak",
+        "Level": "19"
+      },
+      {
+        "Name": "Fury Swipes",
+        "Level": "22"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "26"
+      },
+      {
+        "Name": "Spider Web",
+        "Level": "29"
+      },
+      {
+        "Name": "Agility",
+        "Level": "33"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "36"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "40"
+      },
+      {
+        "Name": "Poison Jab",
+        "Level": "43"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "47"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "50"
+      },
+      {
+        "Name": "Toxic Thread",
+        "Level": "54"
+      }
+    ]
+  }
+}

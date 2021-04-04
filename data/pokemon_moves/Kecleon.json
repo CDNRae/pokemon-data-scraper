@@ -76,80 +76,24 @@
     ],
     "regular_moves": [
       {
-        "Name": "011",
+        "Name": "Thief",
         "Level": "01"
       },
       {
-        "Name": "011",
-        "Level": "0 "
+        "Name": "Scratch",
+        "Level": "01"
       },
       {
-        "Name": "2 \u2665\u2665",
-        "Level": "Cu"
+        "Name": "Tail Whip",
+        "Level": "01"
       },
       {
-        "Name": "Smart",
-        "Level": "1"
+        "Name": "Astonish",
+        "Level": "01"
       },
       {
-        "Name": "30",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "040"
-      },
-      {
-        "Name": "01515",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Physical",
-        "Level": "Da"
-      },
-      {
-        "Name": "Normal",
-        "Level": "Fury S"
-      },
-      {
-        "Name": "Feint",
-        "Level": "14"
-      },
-      {
-        "Name": "1818",
-        "Level": "15"
-      },
-      {
-        "Name": "2020",
-        "Level": "2 "
-      },
-      {
-        "Name": "2 \u2665\u2665",
-        "Level": "Sma"
-      },
-      {
-        "Name": "Cool",
-        "Level": "2"
-      },
-      {
-        "Name": "40",
-        "Level": "085}"
-      },
-      {
-        "Name": "00\u2014}}\u2014%",
-        "Level": "0000"
-      },
-      {
-        "Name": "08080",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Physical",
-        "Level": "Gho"
-      },
-      {
-        "Name": "Rock",
-        "Level": "Ancien"
+        "Name": "Lick",
+        "Level": "01"
       }
     ]
   },
@@ -258,23 +202,23 @@
     "regular_moves": [
       {
         "Name": "Thief",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Tail Whip",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Astonish",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Lick",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Scratch",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Bind",

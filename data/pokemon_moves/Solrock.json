@@ -1,1 +1,335 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": [], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "01"}, {"Name": "Confusion", "Level": "07"}, {"Name": "Rock Throw", "Level": "13"}, {"Name": "Fire Spin", "Level": "19"}, {"Name": "Psywave", "Level": "25"}, {"Name": "Cosmic Power", "Level": "31"}, {"Name": "Rock Slide", "Level": "37"}, {"Name": "SolarBeam", "Level": "43"}, {"Name": "Explosion", "Level": "49"}]}, "IV": {"egg_moves": [], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Rock Throw", "Level": "09"}, {"Name": "Fire Spin", "Level": "12"}, {"Name": "Rock Polish", "Level": "20"}, {"Name": "Psywave", "Level": "23"}, {"Name": "Embargo", "Level": "31"}, {"Name": "Cosmic Power", "Level": "34"}, {"Name": "Heal Block", "Level": "42"}, {"Name": "Rock Slide", "Level": "45"}, {"Name": "SolarBeam", "Level": "53"}, {"Name": "Explosion", "Level": "56"}]}, "V": {"egg_moves": [], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "3"}, {"Name": "30", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "050"}, {"Name": "05050", "Level": "Phys"}, {"Name": "Special", "Level": "Fi"}, {"Name": "Rock", "Level": "Rock P"}, {"Name": "Psywave", "Level": "017"}, {"Name": "02121", "Level": "031"}, {"Name": "04545", "Level": "1"}, {"Name": "10", "Level": "090}"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "09090", "Level": "Spec"}, {"Name": "Status", "Level": "Psyc"}, {"Name": "Rock", "Level": "Stone"}, {"Name": "SolarBeam", "Level": "045"}, {"Name": "04949", "Level": "056"}, {"Name": "06464", "Level": "5"}, {"Name": "10", "Level": "00\u2014}}\u2014"}]}, "VI": {"egg_moves": [], "regular_moves": [{"Name": "Wonder Room", "Level": "N/A"}, {"Name": "Rock Throw", "Level": "N/A"}, {"Name": "Tackle", "Level": "001"}, {"Name": "Harden", "Level": "001"}, {"Name": "Confusion", "Level": "001"}, {"Name": "Rock Throw", "Level": "001"}, {"Name": "Fire Spin", "Level": "005"}, {"Name": "Rock Polish", "Level": "009"}, {"Name": "Psywave", "Level": "013"}, {"Name": "Embargo", "Level": "017"}, {"Name": "Rock Slide", "Level": "021"}, {"Name": "Cosmic Power", "Level": "025"}, {"Name": "Psychic", "Level": "029"}, {"Name": "Heal Block", "Level": "033"}, {"Name": "Stone Edge", "Level": "037"}, {"Name": "Solar Beam", "Level": "041"}, {"Name": "Explosion", "Level": "045"}, {"Name": "Wonder Room", "Level": "049"}]}, "VII": {"egg_moves": [], "regular_moves": [{"Name": "Flare Blitz", "Level": "01"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Rock Throw", "Level": "01"}, {"Name": "Fire Spin", "Level": "05"}, {"Name": "Rock Polish", "Level": "09"}, {"Name": "Psywave", "Level": "13"}, {"Name": "Embargo", "Level": "17"}, {"Name": "Rock Slide", "Level": "21"}, {"Name": "Cosmic Power", "Level": "25"}, {"Name": "Psychic", "Level": "29"}, {"Name": "Heal Block", "Level": "33"}, {"Name": "Stone Edge", "Level": "37"}, {"Name": "Solar Beam", "Level": "41"}, {"Name": "Explosion", "Level": "45"}, {"Name": "Wonder Room", "Level": "49"}, {"Name": "Flare Blitz", "Level": "01"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Harden", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Rock Throw", "Level": "01"}, {"Name": "Fire Spin", "Level": "05"}, {"Name": "Rock Polish", "Level": "09"}, {"Name": "Psywave", "Level": "13"}, {"Name": "Embargo", "Level": "17"}, {"Name": "Rock Slide", "Level": "21"}, {"Name": "Cosmic Power", "Level": "25"}, {"Name": "Psychic", "Level": "29"}, {"Name": "Heal Block", "Level": "33"}, {"Name": "Stone Edge", "Level": "37"}, {"Name": "Solar Beam", "Level": "41"}, {"Name": "Explosion", "Level": "45"}, {"Name": "Wonder Room", "Level": "49"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "07"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "13"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "19"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "25"
+      },
+      {
+        "Name": "Cosmic Power",
+        "Level": "31"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "37"
+      },
+      {
+        "Name": "SolarBeam",
+        "Level": "43"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "49"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "09"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "12"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "20"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "23"
+      },
+      {
+        "Name": "Embargo",
+        "Level": "31"
+      },
+      {
+        "Name": "Cosmic Power",
+        "Level": "34"
+      },
+      {
+        "Name": "Heal Block",
+        "Level": "42"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "45"
+      },
+      {
+        "Name": "SolarBeam",
+        "Level": "53"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "56"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "01"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "005"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "009"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "013"
+      },
+      {
+        "Name": "Embargo",
+        "Level": "017"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "021"
+      },
+      {
+        "Name": "Cosmic Power",
+        "Level": "025"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "029"
+      },
+      {
+        "Name": "Heal Block",
+        "Level": "033"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "037"
+      },
+      {
+        "Name": "Solar Beam",
+        "Level": "041"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "045"
+      },
+      {
+        "Name": "Wonder Room",
+        "Level": "049"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Flare Blitz",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "01"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "05"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "09"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "13"
+      },
+      {
+        "Name": "Embargo",
+        "Level": "17"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "21"
+      },
+      {
+        "Name": "Cosmic Power",
+        "Level": "25"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "29"
+      },
+      {
+        "Name": "Heal Block",
+        "Level": "33"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "37"
+      },
+      {
+        "Name": "Solar Beam",
+        "Level": "41"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "45"
+      },
+      {
+        "Name": "Wonder Room",
+        "Level": "49"
+      },
+      {
+        "Name": "Flare Blitz",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Harden",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "01"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "05"
+      },
+      {
+        "Name": "Rock Polish",
+        "Level": "09"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "13"
+      },
+      {
+        "Name": "Embargo",
+        "Level": "17"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "21"
+      },
+      {
+        "Name": "Cosmic Power",
+        "Level": "25"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "29"
+      },
+      {
+        "Name": "Heal Block",
+        "Level": "33"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "37"
+      },
+      {
+        "Name": "Solar Beam",
+        "Level": "41"
+      },
+      {
+        "Name": "Explosion",
+        "Level": "45"
+      },
+      {
+        "Name": "Wonder Room",
+        "Level": "49"
+      }
+    ]
+  }
+}

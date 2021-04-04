@@ -183,80 +183,12 @@
     ],
     "regular_moves": [
       {
-        "Name": "0011",
-        "Level": "001"
+        "Name": "Water Sport",
+        "Level": "01"
       },
       {
-        "Name": "0011",
+        "Name": "Scratch",
         "Level": "1"
-      },
-      {
-        "Name": "35",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "0000"
-      },
-      {
-        "Name": "04040",
-        "Level": "Spec"
-      },
-      {
-        "Name": "Status",
-        "Level": "Nor"
-      },
-      {
-        "Name": "Psychic",
-        "Level": "Confu"
-      },
-      {
-        "Name": "Water Pulse",
-        "Level": "018"
-      },
-      {
-        "Name": "02222",
-        "Level": "027"
-      },
-      {
-        "Name": "03131",
-        "Level": "1"
-      },
-      {
-        "Name": "40",
-        "Level": "085}"
-      },
-      {
-        "Name": "090}}90%",
-        "Level": "080"
-      },
-      {
-        "Name": "09090",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Status",
-        "Level": "Wat"
-      },
-      {
-        "Name": "Normal",
-        "Level": "Psyc"
-      },
-      {
-        "Name": "Amnesia",
-        "Level": "043"
-      },
-      {
-        "Name": "04646",
-        "Level": "053"
-      },
-      {
-        "Name": "05757",
-        "Level": "5"
-      },
-      {
-        "Name": "10",
-        "Level": "00\u2014}}\u2014"
       }
     ]
   },

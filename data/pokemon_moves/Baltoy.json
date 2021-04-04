@@ -117,84 +117,12 @@
     "egg_moves": [],
     "regular_moves": [
       {
-        "Name": "0011",
-        "Level": "004"
+        "Name": "Confusion",
+        "Level": "01"
       },
       {
-        "Name": "0011",
-        "Level": "3"
-      },
-      {
-        "Name": "25",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "020"
-      },
-      {
-        "Name": "02020",
-        "Level": "Spec"
-      },
-      {
-        "Name": "Physical",
-        "Level": "Ro"
-      },
-      {
-        "Name": "Psychic",
-        "Level": "Psyb"
-      },
-      {
-        "Name": "Power Trick",
-        "Level": "017"
-      },
-      {
-        "Name": "02121",
-        "Level": "026"
-      },
-      {
-        "Name": "02121",
-        "Level": "5"
-      },
-      {
-        "Name": "5",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "080"
-      },
-      {
-        "Name": "0000\u2014",
-        "Level": "Sta"
-      },
-      {
-        "Name": "Status",
-        "Level": "Psyc"
-      },
-      {
-        "Name": "Psychic",
-        "Level": "Power "
-      },
-      {
-        "Name": "Earth Power",
-        "Level": "037"
-      },
-      {
-        "Name": "04141",
-        "Level": "034"
-      },
-      {
-        "Name": "05454",
-        "Level": "1"
-      },
-      {
-        "Name": "15",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "250"
+        "Name": "Harden",
+        "Level": "01"
       }
     ]
   },
@@ -203,11 +131,11 @@
     "regular_moves": [
       {
         "Name": "Harden",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Confusion",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Rapid Spin",

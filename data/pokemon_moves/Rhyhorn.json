@@ -1,1 +1,443 @@
-{"II": {"egg_moves": ["Counter*", "Crunch", "Magnitude", "Pursuit", "Reversal", "Rock Slide", "Thrash"], "regular_moves": [{"Name": "Horn Attack", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Stomp", "Level": "13"}, {"Name": "Fury Attack", "Level": "19"}, {"Name": "Scary Face", "Level": "31"}, {"Name": "Horn Drill", "Level": "37"}, {"Name": "Take Down", "Level": "49"}, {"Name": "Earthquake", "Level": "55"}]}, "III": {"egg_moves": ["Counter", "Crunch", "Crush Claw", "Curse", "Magnitude", "Reversal", "Rock Slide", "Swords Dance"], "regular_moves": [{"Name": "Horn Attack", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Stomp", "Level": "10"}, {"Name": "Fury Attack", "Level": "15"}, {"Name": "Scary Face", "Level": "24"}, {"Name": "Rock Blast", "Level": "29"}, {"Name": "Horn Drill", "Level": "38"}, {"Name": "Take Down", "Level": "43"}, {"Name": "Earthquake", "Level": "52"}, {"Name": "Megahorn", "Level": "57"}]}, "IV": {"egg_moves": ["Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Ice Fang", "Magnitude", "Reversal", "Rock Slide", "Skull BashHGSS", "Swords Dance", "Thunder Fang"], "regular_moves": [{"Name": "Horn Attack", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Stomp", "Level": "09"}, {"Name": "Fury Attack", "Level": "13"}, {"Name": "Scary Face", "Level": "21"}, {"Name": "Rock Blast", "Level": "25"}, {"Name": "Take Down", "Level": "33"}, {"Name": "Horn Drill", "Level": "37"}, {"Name": "Stone Edge", "Level": "45"}, {"Name": "Earthquake", "Level": "49"}, {"Name": "Megahorn", "Level": "57"}]}, "V": {"egg_moves": ["Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Ice Fang", "Iron Tail", "Magnitude", "Reversal", "Rock Climb", "Skull Bash", "Thunder Fang"], "regular_moves": [{"Name": "Horn Attack", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Stomp", "Level": "08"}, {"Name": "Fury Attack", "Level": "12"}, {"Name": "Scary Face", "Level": "19"}, {"Name": "Rock Blast", "Level": "23"}, {"Name": "Bulldoze", "Level": "30"}, {"Name": "Chip Away", "Level": "34"}, {"Name": "Take Down", "Level": "41"}, {"Name": "Drill Run", "Level": "45"}, {"Name": "Stone Edge", "Level": "52"}, {"Name": "Earthquake", "Level": "56"}, {"Name": "Horn Drill", "Level": "63"}, {"Name": "Megahorn", "Level": "67"}]}, "VI": {"egg_moves": ["Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split*", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Rototiller", "Reversal", "Rock Climb", "Skull Bash", "Thunder Fang"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "0 "}, {"Name": "0", "Level": "2 "}, {"Name": "1 \u2665", "Level": "Co"}, {"Name": "Tough", "Level": "1"}, {"Name": "15", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "065"}, {"Name": "06060", "Level": "Phys"}, {"Name": "Physical", "Level": "Nor"}, {"Name": "Rock", "Level": "Rock "}, {"Name": "Drill Run", "Level": "033"}, {"Name": "03737", "Level": "041"}, {"Name": "05252", "Level": "0 "}, {"Name": "0", "Level": "3 \u2665"}, {"Name": "2 \u2665\u2665", "Level": "Tou"}, {"Name": "Cool", "Level": "1"}, {"Name": "5", "Level": "030}"}]}, "VII": {"egg_moves": ["Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split*", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Reversal", "Rock Climb", "Rototiller", "Skull Bash", "Thunder Fang", "Counter", "Crunch", "Crush Claw", "Curse", "Dragon Rush", "Fire Fang", "Guard Split*", "Ice Fang", "Iron Tail", "Magnitude", "Metal Burst", "Reversal", "Rock Climb", "Rototiller", "Skull Bash", "Thunder Fang"], "regular_moves": [{"Name": "Horn Attack", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Fury Attack", "Level": "01"}, {"Name": "Scary Face", "Level": "01"}, {"Name": "Fury Attack", "Level": "05"}, {"Name": "Scary Face", "Level": "09"}, {"Name": "Smack Down", "Level": "13"}, {"Name": "Stomp", "Level": "17"}, {"Name": "Bulldoze", "Level": "21"}, {"Name": "Chip Away", "Level": "25"}, {"Name": "Rock Blast", "Level": "29"}, {"Name": "Drill Run", "Level": "33"}, {"Name": "Take Down", "Level": "37"}, {"Name": "Stone Edge", "Level": "41"}, {"Name": "Earthquake", "Level": "45"}, {"Name": "Megahorn", "Level": "49"}, {"Name": "Horn Drill", "Level": "53"}, {"Name": "Horn Attack", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Fury Attack", "Level": "01"}, {"Name": "Scary Face", "Level": "01"}, {"Name": "Fury Attack", "Level": "05"}, {"Name": "Scary Face", "Level": "09"}, {"Name": "Smack Down", "Level": "13"}, {"Name": "Stomp", "Level": "17"}, {"Name": "Bulldoze", "Level": "21"}, {"Name": "Chip Away", "Level": "25"}, {"Name": "Rock Blast", "Level": "29"}, {"Name": "Drill Run", "Level": "33"}, {"Name": "Take Down", "Level": "37"}, {"Name": "Stone Edge", "Level": "41"}, {"Name": "Earthquake", "Level": "45"}, {"Name": "Megahorn", "Level": "49"}, {"Name": "Horn Drill", "Level": "53"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Counter*",
+      "Crunch",
+      "Magnitude",
+      "Pursuit",
+      "Reversal",
+      "Rock Slide",
+      "Thrash"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "13"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "19"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "31"
+      },
+      {
+        "Name": "Horn Drill",
+        "Level": "37"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "49"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "55"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Counter",
+      "Crunch",
+      "Crush Claw",
+      "Curse",
+      "Magnitude",
+      "Reversal",
+      "Rock Slide",
+      "Swords Dance"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "10"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "15"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "24"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "29"
+      },
+      {
+        "Name": "Horn Drill",
+        "Level": "38"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "43"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "52"
+      },
+      {
+        "Name": "Megahorn",
+        "Level": "57"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Counter",
+      "Crunch",
+      "Crush Claw",
+      "Curse",
+      "Dragon Rush",
+      "Fire Fang",
+      "Ice Fang",
+      "Magnitude",
+      "Reversal",
+      "Rock Slide",
+      "Skull BashHGSS",
+      "Swords Dance",
+      "Thunder Fang"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "09"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "13"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "21"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "25"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "33"
+      },
+      {
+        "Name": "Horn Drill",
+        "Level": "37"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "45"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "49"
+      },
+      {
+        "Name": "Megahorn",
+        "Level": "57"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Counter",
+      "Crunch",
+      "Crush Claw",
+      "Curse",
+      "Dragon Rush",
+      "Fire Fang",
+      "Ice Fang",
+      "Iron Tail",
+      "Magnitude",
+      "Reversal",
+      "Rock Climb",
+      "Skull Bash",
+      "Thunder Fang"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "08"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "12"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "19"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "23"
+      },
+      {
+        "Name": "Bulldoze",
+        "Level": "30"
+      },
+      {
+        "Name": "Chip Away",
+        "Level": "34"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "41"
+      },
+      {
+        "Name": "Drill Run",
+        "Level": "45"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "52"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "56"
+      },
+      {
+        "Name": "Horn Drill",
+        "Level": "63"
+      },
+      {
+        "Name": "Megahorn",
+        "Level": "67"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Counter",
+      "Crunch",
+      "Crush Claw",
+      "Curse",
+      "Dragon Rush",
+      "Fire Fang",
+      "Guard Split*",
+      "Ice Fang",
+      "Iron Tail",
+      "Magnitude",
+      "Metal Burst",
+      "Rototiller",
+      "Reversal",
+      "Rock Climb",
+      "Skull Bash",
+      "Thunder Fang"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Counter",
+      "Crunch",
+      "Crush Claw",
+      "Curse",
+      "Dragon Rush",
+      "Fire Fang",
+      "Guard Split*",
+      "Ice Fang",
+      "Iron Tail",
+      "Magnitude",
+      "Metal Burst",
+      "Reversal",
+      "Rock Climb",
+      "Rototiller",
+      "Skull Bash",
+      "Thunder Fang",
+      "Counter",
+      "Crunch",
+      "Crush Claw",
+      "Curse",
+      "Dragon Rush",
+      "Fire Fang",
+      "Guard Split*",
+      "Ice Fang",
+      "Iron Tail",
+      "Magnitude",
+      "Metal Burst",
+      "Reversal",
+      "Rock Climb",
+      "Rototiller",
+      "Skull Bash",
+      "Thunder Fang"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "01"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "05"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "09"
+      },
+      {
+        "Name": "Smack Down",
+        "Level": "13"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "17"
+      },
+      {
+        "Name": "Bulldoze",
+        "Level": "21"
+      },
+      {
+        "Name": "Chip Away",
+        "Level": "25"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "29"
+      },
+      {
+        "Name": "Drill Run",
+        "Level": "33"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "37"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "41"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "45"
+      },
+      {
+        "Name": "Megahorn",
+        "Level": "49"
+      },
+      {
+        "Name": "Horn Drill",
+        "Level": "53"
+      },
+      {
+        "Name": "Horn Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "01"
+      },
+      {
+        "Name": "Fury Attack",
+        "Level": "05"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "09"
+      },
+      {
+        "Name": "Smack Down",
+        "Level": "13"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "17"
+      },
+      {
+        "Name": "Bulldoze",
+        "Level": "21"
+      },
+      {
+        "Name": "Chip Away",
+        "Level": "25"
+      },
+      {
+        "Name": "Rock Blast",
+        "Level": "29"
+      },
+      {
+        "Name": "Drill Run",
+        "Level": "33"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "37"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "41"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "45"
+      },
+      {
+        "Name": "Megahorn",
+        "Level": "49"
+      },
+      {
+        "Name": "Horn Drill",
+        "Level": "53"
+      }
+    ]
+  }
+}

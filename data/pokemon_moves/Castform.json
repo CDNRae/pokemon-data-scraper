@@ -1,1 +1,305 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": ["Future Sight", "Psych Up*"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Water Gun", "Level": "10"}, {"Name": "Ember", "Level": "10"}, {"Name": "Powder Snow", "Level": "10"}, {"Name": "Rain Dance", "Level": "20"}, {"Name": "Sunny Day", "Level": "20"}, {"Name": "Hail", "Level": "20"}, {"Name": "Weather Ball", "Level": "30"}]}, "IV": {"egg_moves": ["Amnesia", "Disable", "Future Sight", "Lucky Chant", "Psych Up*", "Ominous Wind"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Water Gun", "Level": "10"}, {"Name": "Ember", "Level": "10"}, {"Name": "Powder Snow", "Level": "10"}, {"Name": "Rain Dance", "Level": "20"}, {"Name": "Sunny Day", "Level": "20"}, {"Name": "Hail", "Level": "20"}, {"Name": "Weather Ball", "Level": "30"}]}, "V": {"egg_moves": ["Amnesia", "Clear Smog", "Disable", "Hex", "Future Sight", "Lucky Chant", "Ominous Wind"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "01010", "Level": "3"}, {"Name": "25", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "040"}, {"Name": "04040", "Level": "Spec"}, {"Name": "Physical", "Level": "Nor"}, {"Name": "Water", "Level": "Rain "}, {"Name": "Sunny Day", "Level": "020"}, {"Name": "02020", "Level": "030"}, {"Name": "04040", "Level": "1"}, {"Name": "10", "Level": "100}}100"}, {"Name": "080}}80%", "Level": "120"}, {"Name": "120120", "Level": "Spec"}, {"Name": "Special", "Level": "Ic"}]}, "VI": {"egg_moves": ["Amnesia", "Clear Smog", "Cosmic Power", "Disable", "Future Sight", "Guard Swap*", "Hex", "Lucky Chant", "Ominous Wind", "Reflect Type*"], "regular_moves": [{"Name": "Tackle", "Level": "001"}, {"Name": "Water Gun", "Level": "010"}, {"Name": "Ember", "Level": "010"}, {"Name": "Powder Snow", "Level": "010"}, {"Name": "Headbutt", "Level": "015"}, {"Name": "Rain Dance", "Level": "020"}, {"Name": "Sunny Day", "Level": "020"}, {"Name": "Hail", "Level": "020"}, {"Name": "Weather Ball", "Level": "025"}, {"Name": "Hydro Pump", "Level": "035"}, {"Name": "Fire Blast", "Level": "035"}, {"Name": "Blizzard", "Level": "035"}, {"Name": "Hurricane", "Level": "045"}]}, "VII": {"egg_moves": ["Amnesia", "Clear Smog", "Cosmic Power", "Disable", "Future Sight", "Guard Swap*", "Hex", "Lucky Chant", "Ominous Wind", "Reflect Type*", "Amnesia", "Clear Smog", "Cosmic Power", "Disable", "Future Sight", "Guard Swap*", "Hex", "Lucky Chant", "Ominous Wind", "Reflect Type*"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Water Gun", "Level": "10"}, {"Name": "Ember", "Level": "10"}, {"Name": "Powder Snow", "Level": "10"}, {"Name": "Headbutt", "Level": "15"}, {"Name": "Rain Dance", "Level": "20"}, {"Name": "Sunny Day", "Level": "20"}, {"Name": "Hail", "Level": "20"}, {"Name": "Weather Ball", "Level": "25"}, {"Name": "Hydro Pump", "Level": "35"}, {"Name": "Fire Blast", "Level": "35"}, {"Name": "Blizzard", "Level": "35"}, {"Name": "Hurricane", "Level": "45"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Water Gun", "Level": "10"}, {"Name": "Ember", "Level": "10"}, {"Name": "Powder Snow", "Level": "10"}, {"Name": "Headbutt", "Level": "15"}, {"Name": "Rain Dance", "Level": "20"}, {"Name": "Sunny Day", "Level": "20"}, {"Name": "Hail", "Level": "20"}, {"Name": "Weather Ball", "Level": "25"}, {"Name": "Hydro Pump", "Level": "35"}, {"Name": "Fire Blast", "Level": "35"}, {"Name": "Blizzard", "Level": "35"}, {"Name": "Hurricane", "Level": "45"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [
+      "Future Sight",
+      "Psych Up*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "10"
+      },
+      {
+        "Name": "Ember",
+        "Level": "10"
+      },
+      {
+        "Name": "Powder Snow",
+        "Level": "10"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "20"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "20"
+      },
+      {
+        "Name": "Hail",
+        "Level": "20"
+      },
+      {
+        "Name": "Weather Ball",
+        "Level": "30"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Amnesia",
+      "Disable",
+      "Future Sight",
+      "Lucky Chant",
+      "Psych Up*",
+      "Ominous Wind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "10"
+      },
+      {
+        "Name": "Ember",
+        "Level": "10"
+      },
+      {
+        "Name": "Powder Snow",
+        "Level": "10"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "20"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "20"
+      },
+      {
+        "Name": "Hail",
+        "Level": "20"
+      },
+      {
+        "Name": "Weather Ball",
+        "Level": "30"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Amnesia",
+      "Clear Smog",
+      "Disable",
+      "Hex",
+      "Future Sight",
+      "Lucky Chant",
+      "Ominous Wind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Amnesia",
+      "Clear Smog",
+      "Cosmic Power",
+      "Disable",
+      "Future Sight",
+      "Guard Swap*",
+      "Hex",
+      "Lucky Chant",
+      "Ominous Wind",
+      "Reflect Type*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "010"
+      },
+      {
+        "Name": "Ember",
+        "Level": "010"
+      },
+      {
+        "Name": "Powder Snow",
+        "Level": "010"
+      },
+      {
+        "Name": "Headbutt",
+        "Level": "015"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "020"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "020"
+      },
+      {
+        "Name": "Hail",
+        "Level": "020"
+      },
+      {
+        "Name": "Weather Ball",
+        "Level": "025"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "035"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "035"
+      },
+      {
+        "Name": "Blizzard",
+        "Level": "035"
+      },
+      {
+        "Name": "Hurricane",
+        "Level": "045"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Amnesia",
+      "Clear Smog",
+      "Cosmic Power",
+      "Disable",
+      "Future Sight",
+      "Guard Swap*",
+      "Hex",
+      "Lucky Chant",
+      "Ominous Wind",
+      "Reflect Type*",
+      "Amnesia",
+      "Clear Smog",
+      "Cosmic Power",
+      "Disable",
+      "Future Sight",
+      "Guard Swap*",
+      "Hex",
+      "Lucky Chant",
+      "Ominous Wind",
+      "Reflect Type*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "10"
+      },
+      {
+        "Name": "Ember",
+        "Level": "10"
+      },
+      {
+        "Name": "Powder Snow",
+        "Level": "10"
+      },
+      {
+        "Name": "Headbutt",
+        "Level": "15"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "20"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "20"
+      },
+      {
+        "Name": "Hail",
+        "Level": "20"
+      },
+      {
+        "Name": "Weather Ball",
+        "Level": "25"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "35"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "35"
+      },
+      {
+        "Name": "Blizzard",
+        "Level": "35"
+      },
+      {
+        "Name": "Hurricane",
+        "Level": "45"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "10"
+      },
+      {
+        "Name": "Ember",
+        "Level": "10"
+      },
+      {
+        "Name": "Powder Snow",
+        "Level": "10"
+      },
+      {
+        "Name": "Headbutt",
+        "Level": "15"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "20"
+      },
+      {
+        "Name": "Sunny Day",
+        "Level": "20"
+      },
+      {
+        "Name": "Hail",
+        "Level": "20"
+      },
+      {
+        "Name": "Weather Ball",
+        "Level": "25"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "35"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "35"
+      },
+      {
+        "Name": "Blizzard",
+        "Level": "35"
+      },
+      {
+        "Name": "Hurricane",
+        "Level": "45"
+      }
+    ]
+  }
+}

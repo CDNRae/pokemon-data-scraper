@@ -235,6 +235,10 @@
       {
         "Name": "Bubble",
         "Level": "01"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "01"
       }
     ]
   },

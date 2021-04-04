@@ -1,1 +1,196 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": [], "regular_moves": []}, "IV": {"egg_moves": ["Curse", "Disable", "Dream Eater", "Future Sight", "Hypnosis", "Recover", "Wish"], "regular_moves": [{"Name": "Wrap", "Level": "01"}, {"Name": "Growl", "Level": "06"}, {"Name": "Astonish", "Level": "09"}, {"Name": "Confusion", "Level": "14"}, {"Name": "Uproar", "Level": "17"}, {"Name": "Last Resort", "Level": "22"}]}, "V": {"egg_moves": ["Curse", "Disable", "Future Sight", "Hypnosis", "Recover", "Skill Swap", "Stored Power", "Wish"], "regular_moves": [{"Name": "Wrap", "Level": "01"}, {"Name": "Growl", "Level": "06"}, {"Name": "Astonish", "Level": "09"}, {"Name": "Confusion", "Level": "14"}, {"Name": "Uproar", "Level": "17"}, {"Name": "Last Resort", "Level": "22"}, {"Name": "Entrainment", "Level": "25"}]}, "VI": {"egg_moves": ["Cosmic Power*", "Curse", "Disable", "Future Sight", "Hypnosis", "Recover", "Skill Swap", "Stored Power", "Wish"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0066", "Level": "0 "}, {"Name": "0", "Level": "2 "}, {"Name": "2 \u2665\u2665", "Level": "Cu"}, {"Name": "Clever", "Level": "2"}, {"Name": "10", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "140"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Special", "Level": "Nor"}]}, "VII": {"egg_moves": ["Cosmic Power*", "Curse", "Disable", "Future Sight", "Hypnosis", "Recover", "Skill Swap", "Stored Power", "Wish", "Cosmic Power*", "Curse", "Disable", "Future Sight", "Hypnosis", "Recover", "Skill Swap", "Stored Power", "Wish"], "regular_moves": [{"Name": "Wrap", "Level": "01"}, {"Name": "Growl", "Level": "04"}, {"Name": "Astonish", "Level": "07"}, {"Name": "Confusion", "Level": "10"}, {"Name": "Yawn", "Level": "13"}, {"Name": "Last Resort", "Level": "16"}, {"Name": "Entrainment", "Level": "19"}, {"Name": "Uproar", "Level": "32"}, {"Name": "Wrap", "Level": "01"}, {"Name": "Growl", "Level": "04"}, {"Name": "Astonish", "Level": "07"}, {"Name": "Confusion", "Level": "10"}, {"Name": "Yawn", "Level": "13"}, {"Name": "Last Resort", "Level": "16"}, {"Name": "Entrainment", "Level": "19"}, {"Name": "Uproar", "Level": "32"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "IV": {
+    "egg_moves": [
+      "Curse",
+      "Disable",
+      "Dream Eater",
+      "Future Sight",
+      "Hypnosis",
+      "Recover",
+      "Wish"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Wrap",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "06"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "09"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "14"
+      },
+      {
+        "Name": "Uproar",
+        "Level": "17"
+      },
+      {
+        "Name": "Last Resort",
+        "Level": "22"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Curse",
+      "Disable",
+      "Future Sight",
+      "Hypnosis",
+      "Recover",
+      "Skill Swap",
+      "Stored Power",
+      "Wish"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Wrap",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "06"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "09"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "14"
+      },
+      {
+        "Name": "Uproar",
+        "Level": "17"
+      },
+      {
+        "Name": "Last Resort",
+        "Level": "22"
+      },
+      {
+        "Name": "Entrainment",
+        "Level": "25"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Cosmic Power*",
+      "Curse",
+      "Disable",
+      "Future Sight",
+      "Hypnosis",
+      "Recover",
+      "Skill Swap",
+      "Stored Power",
+      "Wish"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Wrap",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Cosmic Power*",
+      "Curse",
+      "Disable",
+      "Future Sight",
+      "Hypnosis",
+      "Recover",
+      "Skill Swap",
+      "Stored Power",
+      "Wish",
+      "Cosmic Power*",
+      "Curse",
+      "Disable",
+      "Future Sight",
+      "Hypnosis",
+      "Recover",
+      "Skill Swap",
+      "Stored Power",
+      "Wish"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Wrap",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "04"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "07"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "10"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "13"
+      },
+      {
+        "Name": "Last Resort",
+        "Level": "16"
+      },
+      {
+        "Name": "Entrainment",
+        "Level": "19"
+      },
+      {
+        "Name": "Uproar",
+        "Level": "32"
+      },
+      {
+        "Name": "Wrap",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "04"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "07"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "10"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "13"
+      },
+      {
+        "Name": "Last Resort",
+        "Level": "16"
+      },
+      {
+        "Name": "Entrainment",
+        "Level": "19"
+      },
+      {
+        "Name": "Uproar",
+        "Level": "32"
+      }
+    ]
+  }
+}

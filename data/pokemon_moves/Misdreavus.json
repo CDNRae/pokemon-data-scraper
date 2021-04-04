@@ -1,1 +1,410 @@
-{"II": {"egg_moves": ["Destiny Bond", "Screech"], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Psywave", "Level": "01"}, {"Name": "Spite", "Level": "06"}, {"Name": "Confuse Ray", "Level": "12"}, {"Name": "Mean Look", "Level": "19"}, {"Name": "Psybeam", "Level": "27"}, {"Name": "Pain Split", "Level": "36"}, {"Name": "Perish Song", "Level": "46"}]}, "III": {"egg_moves": ["Destiny Bond", "Imprison", "Psych Up*", "Screech"], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Psywave", "Level": "01"}, {"Name": "Spite", "Level": "06"}, {"Name": "Astonish", "Level": "11"}, {"Name": "Confuse Ray", "Level": "17"}, {"Name": "Mean Look", "Level": "23"}, {"Name": "Psybeam", "Level": "30"}, {"Name": "Pain Split", "Level": "37"}, {"Name": "Perish Song", "Level": "45"}, {"Name": "Grudge", "Level": "53"}]}, "IV": {"egg_moves": ["Curse", "Destiny Bond", "Imprison", "Memento", "Nasty PlotHGSS", "Ominous Wind", "Psych Up*", "Screech", "Shadow Sneak", "Spite", "Sucker Punch"], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "011", "Level": "2 "}, {"Name": "3 \u2665\u2665\u2665", "Level": "Sma"}, {"Name": "Tough", "Level": "1"}, {"Name": "15", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Special", "Level": "Psyc"}, {"Name": "Normal", "Level": "Pain "}, {"Name": "Payback", "Level": "32"}, {"Name": "3737", "Level": "37"}, {"Name": "4141", "Level": "2 "}, {"Name": "2 \u2665\u2665", "Level": "Bea"}, {"Name": "Tough", "Level": "5"}, {"Name": "20", "Level": "100}}100"}]}, "V": {"egg_moves": ["Curse", "Destiny Bond", "Imprison", "Memento", "Nasty Plot", "Ominous Wind", "Screech", "Shadow Sneak", "Skill Swap", "Spite", "Sucker Punch", "Wonder Room"], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Psywave", "Level": "01"}, {"Name": "Spite", "Level": "05"}, {"Name": "Astonish", "Level": "10"}, {"Name": "Confuse Ray", "Level": "14"}, {"Name": "Mean Look", "Level": "19"}, {"Name": "Hex", "Level": "23"}, {"Name": "Psybeam", "Level": "28"}, {"Name": "Pain Split", "Level": "32"}, {"Name": "Payback", "Level": "37"}, {"Name": "Shadow Ball", "Level": "41"}, {"Name": "Perish Song", "Level": "46"}, {"Name": "Grudge", "Level": "50"}, {"Name": "Power Gem", "Level": "55"}]}, "VI": {"egg_moves": ["Curse", "Destiny Bond", "Imprison", "Me First*", "Memento", "Nasty Plot", "Ominous Wind", "Screech", "Shadow Sneak", "Skill Swap", "Spite", "Sucker Punch", "Wonder Room"], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Psywave", "Level": "01"}, {"Name": "Spite", "Level": "05"}, {"Name": "Astonish", "Level": "10"}, {"Name": "Confuse Ray", "Level": "14"}, {"Name": "Mean Look", "Level": "19"}, {"Name": "Hex", "Level": "23"}, {"Name": "Psybeam", "Level": "28"}, {"Name": "Pain Split", "Level": "32"}, {"Name": "Payback", "Level": "37"}, {"Name": "Shadow Ball", "Level": "41"}, {"Name": "Perish Song", "Level": "46"}, {"Name": "Grudge", "Level": "50"}, {"Name": "Power Gem", "Level": "55"}]}, "VII": {"egg_moves": ["Curse", "Destiny Bond", "Imprison", "Me First*", "Memento", "Nasty Plot", "Ominous Wind", "Screech", "Shadow Sneak", "Skill Swap", "Spite", "Sucker Punch", "Wonder Room", "Curse", "Destiny Bond", "Imprison", "Me First*", "Memento", "Nasty Plot", "Ominous Wind", "Screech", "Shadow Sneak", "Skill Swap", "Spite", "Sucker Punch", "Wonder Room"], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Psywave", "Level": "01"}, {"Name": "Spite", "Level": "05"}, {"Name": "Astonish", "Level": "10"}, {"Name": "Confuse Ray", "Level": "14"}, {"Name": "Mean Look", "Level": "19"}, {"Name": "Hex", "Level": "23"}, {"Name": "Psybeam", "Level": "28"}, {"Name": "Pain Split", "Level": "32"}, {"Name": "Payback", "Level": "37"}, {"Name": "Shadow Ball", "Level": "41"}, {"Name": "Perish Song", "Level": "46"}, {"Name": "Grudge", "Level": "50"}, {"Name": "Power Gem", "Level": "55"}, {"Name": "Growl", "Level": "01"}, {"Name": "Psywave", "Level": "01"}, {"Name": "Spite", "Level": "05"}, {"Name": "Astonish", "Level": "10"}, {"Name": "Confuse Ray", "Level": "14"}, {"Name": "Mean Look", "Level": "19"}, {"Name": "Hex", "Level": "23"}, {"Name": "Psybeam", "Level": "28"}, {"Name": "Pain Split", "Level": "32"}, {"Name": "Payback", "Level": "37"}, {"Name": "Shadow Ball", "Level": "41"}, {"Name": "Perish Song", "Level": "46"}, {"Name": "Grudge", "Level": "50"}, {"Name": "Power Gem", "Level": "55"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Destiny Bond",
+      "Screech"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      },
+      {
+        "Name": "Spite",
+        "Level": "06"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "12"
+      },
+      {
+        "Name": "Mean Look",
+        "Level": "19"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "27"
+      },
+      {
+        "Name": "Pain Split",
+        "Level": "36"
+      },
+      {
+        "Name": "Perish Song",
+        "Level": "46"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Destiny Bond",
+      "Imprison",
+      "Psych Up*",
+      "Screech"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      },
+      {
+        "Name": "Spite",
+        "Level": "06"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "11"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "17"
+      },
+      {
+        "Name": "Mean Look",
+        "Level": "23"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "30"
+      },
+      {
+        "Name": "Pain Split",
+        "Level": "37"
+      },
+      {
+        "Name": "Perish Song",
+        "Level": "45"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "53"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Curse",
+      "Destiny Bond",
+      "Imprison",
+      "Memento",
+      "Nasty PlotHGSS",
+      "Ominous Wind",
+      "Psych Up*",
+      "Screech",
+      "Shadow Sneak",
+      "Spite",
+      "Sucker Punch"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Curse",
+      "Destiny Bond",
+      "Imprison",
+      "Memento",
+      "Nasty Plot",
+      "Ominous Wind",
+      "Screech",
+      "Shadow Sneak",
+      "Skill Swap",
+      "Spite",
+      "Sucker Punch",
+      "Wonder Room"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      },
+      {
+        "Name": "Spite",
+        "Level": "05"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "10"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "14"
+      },
+      {
+        "Name": "Mean Look",
+        "Level": "19"
+      },
+      {
+        "Name": "Hex",
+        "Level": "23"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "28"
+      },
+      {
+        "Name": "Pain Split",
+        "Level": "32"
+      },
+      {
+        "Name": "Payback",
+        "Level": "37"
+      },
+      {
+        "Name": "Shadow Ball",
+        "Level": "41"
+      },
+      {
+        "Name": "Perish Song",
+        "Level": "46"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "50"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "55"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Curse",
+      "Destiny Bond",
+      "Imprison",
+      "Me First*",
+      "Memento",
+      "Nasty Plot",
+      "Ominous Wind",
+      "Screech",
+      "Shadow Sneak",
+      "Skill Swap",
+      "Spite",
+      "Sucker Punch",
+      "Wonder Room"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      },
+      {
+        "Name": "Spite",
+        "Level": "05"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "10"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "14"
+      },
+      {
+        "Name": "Mean Look",
+        "Level": "19"
+      },
+      {
+        "Name": "Hex",
+        "Level": "23"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "28"
+      },
+      {
+        "Name": "Pain Split",
+        "Level": "32"
+      },
+      {
+        "Name": "Payback",
+        "Level": "37"
+      },
+      {
+        "Name": "Shadow Ball",
+        "Level": "41"
+      },
+      {
+        "Name": "Perish Song",
+        "Level": "46"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "50"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "55"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Curse",
+      "Destiny Bond",
+      "Imprison",
+      "Me First*",
+      "Memento",
+      "Nasty Plot",
+      "Ominous Wind",
+      "Screech",
+      "Shadow Sneak",
+      "Skill Swap",
+      "Spite",
+      "Sucker Punch",
+      "Wonder Room",
+      "Curse",
+      "Destiny Bond",
+      "Imprison",
+      "Me First*",
+      "Memento",
+      "Nasty Plot",
+      "Ominous Wind",
+      "Screech",
+      "Shadow Sneak",
+      "Skill Swap",
+      "Spite",
+      "Sucker Punch",
+      "Wonder Room"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      },
+      {
+        "Name": "Spite",
+        "Level": "05"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "10"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "14"
+      },
+      {
+        "Name": "Mean Look",
+        "Level": "19"
+      },
+      {
+        "Name": "Hex",
+        "Level": "23"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "28"
+      },
+      {
+        "Name": "Pain Split",
+        "Level": "32"
+      },
+      {
+        "Name": "Payback",
+        "Level": "37"
+      },
+      {
+        "Name": "Shadow Ball",
+        "Level": "41"
+      },
+      {
+        "Name": "Perish Song",
+        "Level": "46"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "50"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "55"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Psywave",
+        "Level": "01"
+      },
+      {
+        "Name": "Spite",
+        "Level": "05"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "10"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "14"
+      },
+      {
+        "Name": "Mean Look",
+        "Level": "19"
+      },
+      {
+        "Name": "Hex",
+        "Level": "23"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "28"
+      },
+      {
+        "Name": "Pain Split",
+        "Level": "32"
+      },
+      {
+        "Name": "Payback",
+        "Level": "37"
+      },
+      {
+        "Name": "Shadow Ball",
+        "Level": "41"
+      },
+      {
+        "Name": "Perish Song",
+        "Level": "46"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "50"
+      },
+      {
+        "Name": "Power Gem",
+        "Level": "55"
+      }
+    ]
+  }
+}

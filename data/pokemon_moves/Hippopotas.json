@@ -1,1 +1,266 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": [], "regular_moves": []}, "IV": {"egg_moves": ["Body Slam", "Curse", "RevengeHGSS", "Sand Tomb", "Slack Off", "Spit Up", "Stockpile", "Swallow"], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "011", "Level": "3 \u2665"}, {"Name": "2 \u2665\u2665", "Level": "Cu"}, {"Name": "Tough", "Level": "2"}, {"Name": "10", "Level": "00\u2014}}\u2014"}, {"Name": "085}}85%", "Level": "090"}, {"Name": "08080", "Level": "Phys"}, {"Name": "Physical", "Level": "Gro"}, {"Name": "Dark", "Level": "Cru"}, {"Name": "Earthquake", "Level": "37"}, {"Name": "4444", "Level": "44"}, {"Name": "5050", "Level": "0 "}, {"Name": "0", "Level": "Tou"}]}, "V": {"egg_moves": ["Body Slam", "Curse", "Revenge", "Sand Tomb", "Slack Off", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Whirlwind"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Sand-Attack", "Level": "01"}, {"Name": "Bite", "Level": "07"}, {"Name": "Yawn", "Level": "13"}, {"Name": "Take Down", "Level": "19"}, {"Name": "Dig", "Level": "19"}, {"Name": "Sand Tomb", "Level": "25"}, {"Name": "Crunch", "Level": "31"}, {"Name": "Earthquake", "Level": "37"}, {"Name": "Double-Edge", "Level": "44"}, {"Name": "Fissure", "Level": "50"}]}, "VI": {"egg_moves": ["Body Slam", "Curse", "Revenge", "Sand Tomb", "Slack Off", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Whirlwind"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Sand Attack", "Level": "01"}, {"Name": "Bite", "Level": "07"}, {"Name": "Yawn", "Level": "13"}, {"Name": "Take Down", "Level": "19"}, {"Name": "Dig", "Level": "19"}, {"Name": "Sand Tomb", "Level": "25"}, {"Name": "Crunch", "Level": "31"}, {"Name": "Earthquake", "Level": "37"}, {"Name": "Double-Edge", "Level": "44"}, {"Name": "Fissure", "Level": "50"}]}, "VII": {"egg_moves": ["Body Slam", "Curse", "Revenge", "Sand Tomb", "Slack Off", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Whirlwind", "Body Slam", "Curse", "Revenge", "Sand Tomb", "Slack Off", "Sleep Talk", "Spit Up", "Stockpile", "Swallow", "Whirlwind"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Sand Attack", "Level": "01"}, {"Name": "Bite", "Level": "07"}, {"Name": "Yawn", "Level": "13"}, {"Name": "Take Down", "Level": "19"}, {"Name": "Dig", "Level": "19"}, {"Name": "Sand Tomb", "Level": "25"}, {"Name": "Crunch", "Level": "31"}, {"Name": "Earthquake", "Level": "37"}, {"Name": "Double-Edge", "Level": "44"}, {"Name": "Fissure", "Level": "50"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Sand Attack", "Level": "01"}, {"Name": "Bite", "Level": "07"}, {"Name": "Yawn", "Level": "13"}, {"Name": "Take Down", "Level": "19"}, {"Name": "Dig", "Level": "19"}, {"Name": "Sand Tomb", "Level": "25"}, {"Name": "Crunch", "Level": "31"}, {"Name": "Earthquake", "Level": "37"}, {"Name": "Double-Edge", "Level": "44"}, {"Name": "Fissure", "Level": "50"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "IV": {
+    "egg_moves": [
+      "Body Slam",
+      "Curse",
+      "RevengeHGSS",
+      "Sand Tomb",
+      "Slack Off",
+      "Spit Up",
+      "Stockpile",
+      "Swallow"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "1"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Body Slam",
+      "Curse",
+      "Revenge",
+      "Sand Tomb",
+      "Slack Off",
+      "Sleep Talk",
+      "Spit Up",
+      "Stockpile",
+      "Swallow",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand-Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Bite",
+        "Level": "07"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "13"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "19"
+      },
+      {
+        "Name": "Dig",
+        "Level": "19"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "25"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "31"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "37"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "44"
+      },
+      {
+        "Name": "Fissure",
+        "Level": "50"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Body Slam",
+      "Curse",
+      "Revenge",
+      "Sand Tomb",
+      "Slack Off",
+      "Sleep Talk",
+      "Spit Up",
+      "Stockpile",
+      "Swallow",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Bite",
+        "Level": "07"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "13"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "19"
+      },
+      {
+        "Name": "Dig",
+        "Level": "19"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "25"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "31"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "37"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "44"
+      },
+      {
+        "Name": "Fissure",
+        "Level": "50"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Body Slam",
+      "Curse",
+      "Revenge",
+      "Sand Tomb",
+      "Slack Off",
+      "Sleep Talk",
+      "Spit Up",
+      "Stockpile",
+      "Swallow",
+      "Whirlwind",
+      "Body Slam",
+      "Curse",
+      "Revenge",
+      "Sand Tomb",
+      "Slack Off",
+      "Sleep Talk",
+      "Spit Up",
+      "Stockpile",
+      "Swallow",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Bite",
+        "Level": "07"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "13"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "19"
+      },
+      {
+        "Name": "Dig",
+        "Level": "19"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "25"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "31"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "37"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "44"
+      },
+      {
+        "Name": "Fissure",
+        "Level": "50"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Sand Attack",
+        "Level": "01"
+      },
+      {
+        "Name": "Bite",
+        "Level": "07"
+      },
+      {
+        "Name": "Yawn",
+        "Level": "13"
+      },
+      {
+        "Name": "Take Down",
+        "Level": "19"
+      },
+      {
+        "Name": "Dig",
+        "Level": "19"
+      },
+      {
+        "Name": "Sand Tomb",
+        "Level": "25"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "31"
+      },
+      {
+        "Name": "Earthquake",
+        "Level": "37"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "44"
+      },
+      {
+        "Name": "Fissure",
+        "Level": "50"
+      }
+    ]
+  }
+}

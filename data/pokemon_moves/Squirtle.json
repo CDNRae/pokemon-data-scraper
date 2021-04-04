@@ -1,1 +1,443 @@
-{"II": {"egg_moves": ["Confusion", "Flail*", "Foresight*", "Haze", "Mirror Coat", "Mist"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Bubble", "Level": "07"}, {"Name": "Withdraw", "Level": "10"}, {"Name": "Water Gun", "Level": "13"}, {"Name": "Bite", "Level": "18"}, {"Name": "Rapid Spin", "Level": "23"}, {"Name": "Protect", "Level": "28"}, {"Name": "Rain Dance", "Level": "33"}, {"Name": "Skull Bash", "Level": "40"}, {"Name": "Hydro Pump", "Level": "47"}]}, "III": {"egg_moves": ["Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Refresh", "Yawn"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Bubble", "Level": "07"}, {"Name": "Withdraw", "Level": "10"}, {"Name": "Water Gun", "Level": "13"}, {"Name": "Bite", "Level": "18"}, {"Name": "Rapid Spin", "Level": "23"}, {"Name": "Protect", "Level": "28"}, {"Name": "Rain Dance", "Level": "33"}, {"Name": "Skull Bash", "Level": "40"}, {"Name": "Hydro Pump", "Level": "47"}]}, "IV": {"egg_moves": ["Aqua Jet", "Aqua Ring", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout*HGSS", "Yawn"], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "044", "Level": "3 \u2665"}, {"Name": "2 \u2665\u2665", "Level": "Cu"}, {"Name": "Cute", "Level": "3"}, {"Name": "40", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "040"}, {"Name": "06060", "Level": "Phys"}, {"Name": "Physical", "Level": "Nor"}, {"Name": "Normal", "Level": "Prot"}, {"Name": "Water Pulse", "Level": "25"}, {"Name": "2828", "Level": "28"}, {"Name": "3131", "Level": "3 \u2665"}, {"Name": "1 \u2665", "Level": "Tou"}, {"Name": "Tough", "Level": "1"}, {"Name": "5", "Level": "00\u2014}}\u2014"}, {"Name": "080}}80%", "Level": "120"}]}, "V": {"egg_moves": ["Aqua Jet", "Aqua Ring", "Brine", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout*", "Yawn"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Bubble", "Level": "07"}, {"Name": "Withdraw", "Level": "10"}, {"Name": "Water Gun", "Level": "13"}, {"Name": "Bite", "Level": "16"}, {"Name": "Rapid Spin", "Level": "19"}, {"Name": "Protect", "Level": "22"}, {"Name": "Water Pulse", "Level": "25"}, {"Name": "Aqua Tail", "Level": "28"}, {"Name": "Skull Bash", "Level": "31"}, {"Name": "Iron Defense", "Level": "34"}, {"Name": "Rain Dance", "Level": "37"}, {"Name": "Hydro Pump", "Level": "40"}]}, "VI": {"egg_moves": ["Aqua Jet", "Aqua Ring", "Aura Sphere", "Brine", "Dragon Pulse", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout*", "Yawn"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Water Gun", "Level": "07"}, {"Name": "Withdraw", "Level": "10"}, {"Name": "Bubble", "Level": "13"}, {"Name": "Bite", "Level": "16"}, {"Name": "Rapid Spin", "Level": "19"}, {"Name": "Protect", "Level": "22"}, {"Name": "Water Pulse", "Level": "25"}, {"Name": "Aqua Tail", "Level": "28"}, {"Name": "Skull Bash", "Level": "31"}, {"Name": "Iron Defense", "Level": "34"}, {"Name": "Rain Dance", "Level": "37"}, {"Name": "Hydro Pump", "Level": "40"}]}, "VII": {"egg_moves": ["Aqua Jet", "Aqua Ring", "Aura Sphere", "Brine", "Dragon Pulse", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout*", "Yawn", "Aqua Jet", "Aqua Ring", "Aura Sphere", "Brine", "Dragon Pulse", "Fake Out", "Flail", "Foresight", "Haze", "Mirror Coat", "Mist", "Mud Sport", "Muddy Water", "Refresh", "Water Spout*", "Yawn"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Water Gun", "Level": "07"}, {"Name": "Withdraw", "Level": "10"}, {"Name": "Bubble", "Level": "13"}, {"Name": "Bite", "Level": "16"}, {"Name": "Rapid Spin", "Level": "19"}, {"Name": "Protect", "Level": "22"}, {"Name": "Water Pulse", "Level": "25"}, {"Name": "Aqua Tail", "Level": "28"}, {"Name": "Skull Bash", "Level": "31"}, {"Name": "Iron Defense", "Level": "34"}, {"Name": "Rain Dance", "Level": "37"}, {"Name": "Hydro Pump", "Level": "40"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Water Gun", "Level": "07"}, {"Name": "Withdraw", "Level": "10"}, {"Name": "Bubble", "Level": "13"}, {"Name": "Bite", "Level": "16"}, {"Name": "Rapid Spin", "Level": "19"}, {"Name": "Protect", "Level": "22"}, {"Name": "Water Pulse", "Level": "25"}, {"Name": "Aqua Tail", "Level": "28"}, {"Name": "Skull Bash", "Level": "31"}, {"Name": "Iron Defense", "Level": "34"}, {"Name": "Rain Dance", "Level": "37"}, {"Name": "Hydro Pump", "Level": "40"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Confusion",
+      "Flail*",
+      "Foresight*",
+      "Haze",
+      "Mirror Coat",
+      "Mist"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "07"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "10"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "13"
+      },
+      {
+        "Name": "Bite",
+        "Level": "18"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "23"
+      },
+      {
+        "Name": "Protect",
+        "Level": "28"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "33"
+      },
+      {
+        "Name": "Skull Bash",
+        "Level": "40"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "47"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Flail",
+      "Foresight",
+      "Haze",
+      "Mirror Coat",
+      "Mist",
+      "Mud Sport",
+      "Refresh",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "07"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "10"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "13"
+      },
+      {
+        "Name": "Bite",
+        "Level": "18"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "23"
+      },
+      {
+        "Name": "Protect",
+        "Level": "28"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "33"
+      },
+      {
+        "Name": "Skull Bash",
+        "Level": "40"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "47"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Aqua Jet",
+      "Aqua Ring",
+      "Fake Out",
+      "Flail",
+      "Foresight",
+      "Haze",
+      "Mirror Coat",
+      "Mist",
+      "Mud Sport",
+      "Muddy Water",
+      "Refresh",
+      "Water Spout*HGSS",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Aqua Jet",
+      "Aqua Ring",
+      "Brine",
+      "Fake Out",
+      "Flail",
+      "Foresight",
+      "Haze",
+      "Mirror Coat",
+      "Mist",
+      "Mud Sport",
+      "Muddy Water",
+      "Refresh",
+      "Water Spout*",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "07"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "10"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "13"
+      },
+      {
+        "Name": "Bite",
+        "Level": "16"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "19"
+      },
+      {
+        "Name": "Protect",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "25"
+      },
+      {
+        "Name": "Aqua Tail",
+        "Level": "28"
+      },
+      {
+        "Name": "Skull Bash",
+        "Level": "31"
+      },
+      {
+        "Name": "Iron Defense",
+        "Level": "34"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "37"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "40"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Aqua Jet",
+      "Aqua Ring",
+      "Aura Sphere",
+      "Brine",
+      "Dragon Pulse",
+      "Fake Out",
+      "Flail",
+      "Foresight",
+      "Haze",
+      "Mirror Coat",
+      "Mist",
+      "Mud Sport",
+      "Muddy Water",
+      "Refresh",
+      "Water Spout*",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "07"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "10"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "13"
+      },
+      {
+        "Name": "Bite",
+        "Level": "16"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "19"
+      },
+      {
+        "Name": "Protect",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "25"
+      },
+      {
+        "Name": "Aqua Tail",
+        "Level": "28"
+      },
+      {
+        "Name": "Skull Bash",
+        "Level": "31"
+      },
+      {
+        "Name": "Iron Defense",
+        "Level": "34"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "37"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "40"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Aqua Jet",
+      "Aqua Ring",
+      "Aura Sphere",
+      "Brine",
+      "Dragon Pulse",
+      "Fake Out",
+      "Flail",
+      "Foresight",
+      "Haze",
+      "Mirror Coat",
+      "Mist",
+      "Mud Sport",
+      "Muddy Water",
+      "Refresh",
+      "Water Spout*",
+      "Yawn",
+      "Aqua Jet",
+      "Aqua Ring",
+      "Aura Sphere",
+      "Brine",
+      "Dragon Pulse",
+      "Fake Out",
+      "Flail",
+      "Foresight",
+      "Haze",
+      "Mirror Coat",
+      "Mist",
+      "Mud Sport",
+      "Muddy Water",
+      "Refresh",
+      "Water Spout*",
+      "Yawn"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "07"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "10"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "13"
+      },
+      {
+        "Name": "Bite",
+        "Level": "16"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "19"
+      },
+      {
+        "Name": "Protect",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "25"
+      },
+      {
+        "Name": "Aqua Tail",
+        "Level": "28"
+      },
+      {
+        "Name": "Skull Bash",
+        "Level": "31"
+      },
+      {
+        "Name": "Iron Defense",
+        "Level": "34"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "37"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "40"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "07"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "10"
+      },
+      {
+        "Name": "Bubble",
+        "Level": "13"
+      },
+      {
+        "Name": "Bite",
+        "Level": "16"
+      },
+      {
+        "Name": "Rapid Spin",
+        "Level": "19"
+      },
+      {
+        "Name": "Protect",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "25"
+      },
+      {
+        "Name": "Aqua Tail",
+        "Level": "28"
+      },
+      {
+        "Name": "Skull Bash",
+        "Level": "31"
+      },
+      {
+        "Name": "Iron Defense",
+        "Level": "34"
+      },
+      {
+        "Name": "Rain Dance",
+        "Level": "37"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "40"
+      }
+    ]
+  }
+}

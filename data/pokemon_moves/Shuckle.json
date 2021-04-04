@@ -1,1 +1,402 @@
-{"II": {"egg_moves": ["Sweet Scent"], "regular_moves": [{"Name": "Constrict", "Level": "01"}, {"Name": "Withdraw", "Level": "01"}, {"Name": "Wrap", "Level": "09"}, {"Name": "Encore", "Level": "14"}, {"Name": "Safeguard", "Level": "23"}, {"Name": "Bide", "Level": "28"}, {"Name": "Rest", "Level": "37"}]}, "III": {"egg_moves": ["Sweet Scent"], "regular_moves": [{"Name": "Constrict", "Level": "01"}, {"Name": "Withdraw", "Level": "01"}, {"Name": "Wrap", "Level": "09"}, {"Name": "Encore", "Level": "14"}, {"Name": "Safeguard", "Level": "23"}, {"Name": "Bide", "Level": "28"}, {"Name": "Rest", "Level": "37"}]}, "IV": {"egg_moves": ["Acupressure", "Helping Hand", "Knock Off", "Mud-Slap", "Sand Tomb", "Sweet Scent"], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "011", "Level": "0 "}, {"Name": "2 \u2665\u2665", "Level": "Cu"}, {"Name": "Tough", "Level": "1"}, {"Name": "5", "Level": "100}}100"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "01515", "Level": "Phys"}, {"Name": "Status", "Level": "Psyc"}, {"Name": "Poison", "Level": "Gastro"}, {"Name": "Bug Bite", "Level": "40"}, {"Name": "4848", "Level": "48"}]}, "V": {"egg_moves": ["Acid", "Acupressure", "Final Gambit", "Helping Hand", "Knock Off", "Mud-Slap", "Rock Blast", "Sand Tomb", "Sweet Scent"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "4"}, {"Name": "35", "Level": "100}}100"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "03030", "Level": "Phys"}, {"Name": "Status", "Level": "Nor"}, {"Name": "Normal", "Level": "Wr"}, {"Name": "Struggle Bug", "Level": "012"}, {"Name": "01616", "Level": "019"}, {"Name": "02525", "Level": "2"}, {"Name": "10", "Level": "00\u2014}}\u2014"}, {"Name": "090}}90%", "Level": "050"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Status", "Level": "Psyc"}, {"Name": "Normal", "Level": "Shell "}, {"Name": "Rock Slide", "Level": "038"}, {"Name": "04242", "Level": "049"}, {"Name": "05555", "Level": "2"}, {"Name": "10", "Level": "00\u2014}}\u2014"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "100100", "Level": "Phys"}]}, "VI": {"egg_moves": ["Acid", "Acupressure", "Final Gambit", "Helping Hand", "Knock Off", "Mud-Slap", "Rock Blast", "Sand Tomb", "Sweet Scent"], "regular_moves": [{"Name": "Sticky Web", "Level": "01"}, {"Name": "Withdraw", "Level": "01"}, {"Name": "Constrict", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Rollout", "Level": "01"}, {"Name": "Encore", "Level": "05"}, {"Name": "Wrap", "Level": "09"}, {"Name": "Struggle Bug", "Level": "12"}, {"Name": "Safeguard", "Level": "16"}, {"Name": "Rest", "Level": "20"}, {"Name": "Rock Throw", "Level": "23"}, {"Name": "Gastro Acid", "Level": "27"}, {"Name": "Power Trick", "Level": "31"}, {"Name": "Shell Smash", "Level": "34"}, {"Name": "Rock Slide", "Level": "38"}, {"Name": "Bug Bite", "Level": "42"}, {"Name": "Power Split", "Level": "45"}, {"Name": "Guard Split", "Level": "45"}, {"Name": "Stone Edge", "Level": "49"}, {"Name": "Sticky Web", "Level": "53"}]}, "VII": {"egg_moves": ["Acid", "Acupressure", "Final Gambit", "Helping Hand", "Knock Off", "Mud-Slap", "Rock Blast", "Sand Tomb", "Sweet Scent", "Acid", "Acupressure", "Final Gambit", "Helping Hand", "Knock Off", "Mud-Slap", "Rock Blast", "Sand Tomb", "Sweet Scent"], "regular_moves": [{"Name": "Sticky Web", "Level": "01"}, {"Name": "Withdraw", "Level": "01"}, {"Name": "Constrict", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Rollout", "Level": "01"}, {"Name": "Encore", "Level": "05"}, {"Name": "Wrap", "Level": "09"}, {"Name": "Struggle Bug", "Level": "12"}, {"Name": "Safeguard", "Level": "16"}, {"Name": "Rest", "Level": "20"}, {"Name": "Rock Throw", "Level": "23"}, {"Name": "Gastro Acid", "Level": "27"}, {"Name": "Power Trick", "Level": "31"}, {"Name": "Shell Smash", "Level": "34"}, {"Name": "Rock Slide", "Level": "38"}, {"Name": "Bug Bite", "Level": "42"}, {"Name": "Power Split", "Level": "45"}, {"Name": "Guard Split", "Level": "45"}, {"Name": "Stone Edge", "Level": "49"}, {"Name": "Sticky Web", "Level": "53"}, {"Name": "Sticky Web", "Level": "01"}, {"Name": "Withdraw", "Level": "01"}, {"Name": "Constrict", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Rollout", "Level": "01"}, {"Name": "Encore", "Level": "05"}, {"Name": "Wrap", "Level": "09"}, {"Name": "Struggle Bug", "Level": "12"}, {"Name": "Safeguard", "Level": "16"}, {"Name": "Rest", "Level": "20"}, {"Name": "Rock Throw", "Level": "23"}, {"Name": "Gastro Acid", "Level": "27"}, {"Name": "Power Trick", "Level": "31"}, {"Name": "Shell Smash", "Level": "34"}, {"Name": "Rock Slide", "Level": "38"}, {"Name": "Bug Bite", "Level": "42"}, {"Name": "Power Split", "Level": "45"}, {"Name": "Guard Split", "Level": "45"}, {"Name": "Stone Edge", "Level": "49"}, {"Name": "Sticky Web", "Level": "53"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Sweet Scent"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Wrap",
+        "Level": "09"
+      },
+      {
+        "Name": "Encore",
+        "Level": "14"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "23"
+      },
+      {
+        "Name": "Bide",
+        "Level": "28"
+      },
+      {
+        "Name": "Rest",
+        "Level": "37"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Sweet Scent"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Wrap",
+        "Level": "09"
+      },
+      {
+        "Name": "Encore",
+        "Level": "14"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "23"
+      },
+      {
+        "Name": "Bide",
+        "Level": "28"
+      },
+      {
+        "Name": "Rest",
+        "Level": "37"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Acupressure",
+      "Helping Hand",
+      "Knock Off",
+      "Mud-Slap",
+      "Sand Tomb",
+      "Sweet Scent"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Acid",
+      "Acupressure",
+      "Final Gambit",
+      "Helping Hand",
+      "Knock Off",
+      "Mud-Slap",
+      "Rock Blast",
+      "Sand Tomb",
+      "Sweet Scent"
+    ],
+    "regular_moves": [
+     {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Acid",
+      "Acupressure",
+      "Final Gambit",
+      "Helping Hand",
+      "Knock Off",
+      "Mud-Slap",
+      "Rock Blast",
+      "Sand Tomb",
+      "Sweet Scent"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Sticky Web",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "01"
+      },
+      {
+        "Name": "Encore",
+        "Level": "05"
+      },
+      {
+        "Name": "Wrap",
+        "Level": "09"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "12"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "16"
+      },
+      {
+        "Name": "Rest",
+        "Level": "20"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "23"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "27"
+      },
+      {
+        "Name": "Power Trick",
+        "Level": "31"
+      },
+      {
+        "Name": "Shell Smash",
+        "Level": "34"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "38"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "42"
+      },
+      {
+        "Name": "Power Split",
+        "Level": "45"
+      },
+      {
+        "Name": "Guard Split",
+        "Level": "45"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "49"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "53"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Acid",
+      "Acupressure",
+      "Final Gambit",
+      "Helping Hand",
+      "Knock Off",
+      "Mud-Slap",
+      "Rock Blast",
+      "Sand Tomb",
+      "Sweet Scent",
+      "Acid",
+      "Acupressure",
+      "Final Gambit",
+      "Helping Hand",
+      "Knock Off",
+      "Mud-Slap",
+      "Rock Blast",
+      "Sand Tomb",
+      "Sweet Scent"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Sticky Web",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "01"
+      },
+      {
+        "Name": "Encore",
+        "Level": "05"
+      },
+      {
+        "Name": "Wrap",
+        "Level": "09"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "12"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "16"
+      },
+      {
+        "Name": "Rest",
+        "Level": "20"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "23"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "27"
+      },
+      {
+        "Name": "Power Trick",
+        "Level": "31"
+      },
+      {
+        "Name": "Shell Smash",
+        "Level": "34"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "38"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "42"
+      },
+      {
+        "Name": "Power Split",
+        "Level": "45"
+      },
+      {
+        "Name": "Guard Split",
+        "Level": "45"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "49"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "53"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "01"
+      },
+      {
+        "Name": "Withdraw",
+        "Level": "01"
+      },
+      {
+        "Name": "Constrict",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Rollout",
+        "Level": "01"
+      },
+      {
+        "Name": "Encore",
+        "Level": "05"
+      },
+      {
+        "Name": "Wrap",
+        "Level": "09"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "12"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "16"
+      },
+      {
+        "Name": "Rest",
+        "Level": "20"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "23"
+      },
+      {
+        "Name": "Gastro Acid",
+        "Level": "27"
+      },
+      {
+        "Name": "Power Trick",
+        "Level": "31"
+      },
+      {
+        "Name": "Shell Smash",
+        "Level": "34"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "38"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "42"
+      },
+      {
+        "Name": "Power Split",
+        "Level": "45"
+      },
+      {
+        "Name": "Guard Split",
+        "Level": "45"
+      },
+      {
+        "Name": "Stone Edge",
+        "Level": "49"
+      },
+      {
+        "Name": "Sticky Web",
+        "Level": "53"
+      }
+    ]
+  }
+}

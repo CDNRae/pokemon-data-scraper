@@ -1,1 +1,319 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": [], "regular_moves": []}, "IV": {"egg_moves": ["Agility", "Confuse Ray", "Faint Attack", "Night Slash", "Pursuit", "Sand-Attack", "Screech", "Slash", "Whirlwind"], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "011", "Level": "3 \u2665"}, {"Name": "2 \u2665\u2665", "Level": "Sma"}, {"Name": "Cool", "Level": "3"}, {"Name": "20", "Level": "100}}100"}, {"Name": "085}}85%", "Level": "014"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Status", "Level": "Nor"}, {"Name": "Poison", "Level": "Toxic "}, {"Name": "Bug Bite", "Level": "34"}, {"Name": "3939", "Level": "39"}, {"Name": "4545", "Level": "2 "}, {"Name": "2 \u2665\u2665", "Level": "Tou"}, {"Name": "Cool", "Level": "2"}]}, "V": {"egg_moves": ["Agility", "Confuse Ray", "Faint Attack", "Iron Tail\u2021", "Night Slash", "Poison Tail", "Pursuit", "Sand-Attack", "Screech", "Slash", "Twineedle", "Whirlwind"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "2"}, {"Name": "35", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "02020", "Level": "Phys"}, {"Name": "Physical", "Level": "Bu"}, {"Name": "Normal", "Level": "Acupre"}, {"Name": "Pursuit", "Level": "016"}, {"Name": "02020", "Level": "034"}, {"Name": "03939", "Level": "2"}, {"Name": "15", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "065"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Status", "Level": "Poi"}, {"Name": "Dark", "Level": "Night "}, {"Name": "Scary Face", "Level": "041"}, {"Name": "04545", "Level": "056"}, {"Name": "06161", "Level": "1"}, {"Name": "20", "Level": "100}}100"}]}, "VI": {"egg_moves": ["Agility", "Confuse Ray", "Feint Attack", "Iron Tail\u2021", "Night Slash", "Poison Tail", "Pursuit", "Sand Attack", "Screech", "Slash", "Twineedle", "Whirlwind"], "regular_moves": [{"Name": "Bite", "Level": "01"}, {"Name": "Poison Sting", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Knock Off", "Level": "05"}, {"Name": "Pin Missile", "Level": "09"}, {"Name": "Acupressure", "Level": "13"}, {"Name": "Pursuit", "Level": "16"}, {"Name": "Bug Bite", "Level": "20"}, {"Name": "Poison Fang", "Level": "23"}, {"Name": "Venoshock", "Level": "27"}, {"Name": "Hone Claws", "Level": "30"}, {"Name": "Toxic Spikes", "Level": "34"}, {"Name": "Night Slash", "Level": "38"}, {"Name": "Scary Face", "Level": "41"}, {"Name": "Crunch", "Level": "45"}, {"Name": "Fell Stinger", "Level": "47"}, {"Name": "Cross Poison", "Level": "49"}]}, "VII": {"egg_moves": ["Agility", "Confuse Ray", "Feint Attack", "Iron Tail\u2021", "Night Slash", "Poison Tail", "Pursuit", "Sand Attack", "Screech", "Slash", "Twineedle", "Whirlwind", "Agility", "Confuse Ray", "Feint Attack", "Iron Tail\u2021", "Night Slash", "Poison Tail", "Pursuit", "Sand Attack", "Screech", "Slash", "Twineedle", "Whirlwind"], "regular_moves": [{"Name": "Bite", "Level": "01"}, {"Name": "Poison Sting", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Knock Off", "Level": "05"}, {"Name": "Pin Missile", "Level": "09"}, {"Name": "Acupressure", "Level": "13"}, {"Name": "Pursuit", "Level": "16"}, {"Name": "Bug Bite", "Level": "20"}, {"Name": "Poison Fang", "Level": "23"}, {"Name": "Venoshock", "Level": "27"}, {"Name": "Hone Claws", "Level": "30"}, {"Name": "Toxic Spikes", "Level": "34"}, {"Name": "Night Slash", "Level": "38"}, {"Name": "Scary Face", "Level": "41"}, {"Name": "Crunch", "Level": "45"}, {"Name": "Fell Stinger", "Level": "47"}, {"Name": "Cross Poison", "Level": "49"}, {"Name": "Bite", "Level": "01"}, {"Name": "Poison Sting", "Level": "01"}, {"Name": "Leer", "Level": "01"}, {"Name": "Knock Off", "Level": "05"}, {"Name": "Pin Missile", "Level": "09"}, {"Name": "Acupressure", "Level": "13"}, {"Name": "Pursuit", "Level": "16"}, {"Name": "Bug Bite", "Level": "20"}, {"Name": "Poison Fang", "Level": "23"}, {"Name": "Venoshock", "Level": "27"}, {"Name": "Hone Claws", "Level": "30"}, {"Name": "Toxic Spikes", "Level": "34"}, {"Name": "Night Slash", "Level": "38"}, {"Name": "Scary Face", "Level": "41"}, {"Name": "Crunch", "Level": "45"}, {"Name": "Fell Stinger", "Level": "47"}, {"Name": "Cross Poison", "Level": "49"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "IV": {
+    "egg_moves": [
+      "Agility",
+      "Confuse Ray",
+      "Faint Attack",
+      "Night Slash",
+      "Pursuit",
+      "Sand-Attack",
+      "Screech",
+      "Slash",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bite",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "1"
+      },
+      {
+        "Name": "Leer",
+        "Level": "1"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Agility",
+      "Confuse Ray",
+      "Faint Attack",
+      "Iron Tail\u2021",
+      "Night Slash",
+      "Poison Tail",
+      "Pursuit",
+      "Sand-Attack",
+      "Screech",
+      "Slash",
+      "Twineedle",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bite",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "1"
+      },
+      {
+        "Name": "Leer",
+        "Level": "1"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Agility",
+      "Confuse Ray",
+      "Feint Attack",
+      "Iron Tail\u2021",
+      "Night Slash",
+      "Poison Tail",
+      "Pursuit",
+      "Sand Attack",
+      "Screech",
+      "Slash",
+      "Twineedle",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bite",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Knock Off",
+        "Level": "05"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "09"
+      },
+      {
+        "Name": "Acupressure",
+        "Level": "13"
+      },
+      {
+        "Name": "Pursuit",
+        "Level": "16"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "20"
+      },
+      {
+        "Name": "Poison Fang",
+        "Level": "23"
+      },
+      {
+        "Name": "Venoshock",
+        "Level": "27"
+      },
+      {
+        "Name": "Hone Claws",
+        "Level": "30"
+      },
+      {
+        "Name": "Toxic Spikes",
+        "Level": "34"
+      },
+      {
+        "Name": "Night Slash",
+        "Level": "38"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "41"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "45"
+      },
+      {
+        "Name": "Fell Stinger",
+        "Level": "47"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "49"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Agility",
+      "Confuse Ray",
+      "Feint Attack",
+      "Iron Tail\u2021",
+      "Night Slash",
+      "Poison Tail",
+      "Pursuit",
+      "Sand Attack",
+      "Screech",
+      "Slash",
+      "Twineedle",
+      "Whirlwind",
+      "Agility",
+      "Confuse Ray",
+      "Feint Attack",
+      "Iron Tail\u2021",
+      "Night Slash",
+      "Poison Tail",
+      "Pursuit",
+      "Sand Attack",
+      "Screech",
+      "Slash",
+      "Twineedle",
+      "Whirlwind"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Bite",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Knock Off",
+        "Level": "05"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "09"
+      },
+      {
+        "Name": "Acupressure",
+        "Level": "13"
+      },
+      {
+        "Name": "Pursuit",
+        "Level": "16"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "20"
+      },
+      {
+        "Name": "Poison Fang",
+        "Level": "23"
+      },
+      {
+        "Name": "Venoshock",
+        "Level": "27"
+      },
+      {
+        "Name": "Hone Claws",
+        "Level": "30"
+      },
+      {
+        "Name": "Toxic Spikes",
+        "Level": "34"
+      },
+      {
+        "Name": "Night Slash",
+        "Level": "38"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "41"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "45"
+      },
+      {
+        "Name": "Fell Stinger",
+        "Level": "47"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "49"
+      },
+      {
+        "Name": "Bite",
+        "Level": "01"
+      },
+      {
+        "Name": "Poison Sting",
+        "Level": "01"
+      },
+      {
+        "Name": "Leer",
+        "Level": "01"
+      },
+      {
+        "Name": "Knock Off",
+        "Level": "05"
+      },
+      {
+        "Name": "Pin Missile",
+        "Level": "09"
+      },
+      {
+        "Name": "Acupressure",
+        "Level": "13"
+      },
+      {
+        "Name": "Pursuit",
+        "Level": "16"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "20"
+      },
+      {
+        "Name": "Poison Fang",
+        "Level": "23"
+      },
+      {
+        "Name": "Venoshock",
+        "Level": "27"
+      },
+      {
+        "Name": "Hone Claws",
+        "Level": "30"
+      },
+      {
+        "Name": "Toxic Spikes",
+        "Level": "34"
+      },
+      {
+        "Name": "Night Slash",
+        "Level": "38"
+      },
+      {
+        "Name": "Scary Face",
+        "Level": "41"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "45"
+      },
+      {
+        "Name": "Fell Stinger",
+        "Level": "47"
+      },
+      {
+        "Name": "Cross Poison",
+        "Level": "49"
+      }
+    ]
+  }
+}

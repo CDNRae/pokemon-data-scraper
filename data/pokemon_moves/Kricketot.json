@@ -1,1 +1,102 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": [], "regular_moves": []}, "IV": {"egg_moves": [], "regular_moves": [{"Name": "011", "Level": "01"}, {"Name": "011", "Level": "2 "}, {"Name": "2 \u2665\u2665", "Level": "Tou"}, {"Name": "Tough", "Level": "2"}]}, "V": {"egg_moves": [], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Struggle Bug", "Level": "06"}, {"Name": "Bug Bite", "Level": "16"}]}, "VI": {"egg_moves": [], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Struggle Bug", "Level": "06"}, {"Name": "Bug Bite", "Level": "16"}]}, "VII": {"egg_moves": [], "regular_moves": [{"Name": "Growl", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Struggle Bug", "Level": "06"}, {"Name": "Bug Bite", "Level": "16"}, {"Name": "Growl", "Level": "01"}, {"Name": "Bide", "Level": "01"}, {"Name": "Struggle Bug", "Level": "06"}, {"Name": "Bug Bite", "Level": "16"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "IV": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "06"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "16"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "06"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "16"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [],
+    "regular_moves": [
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "06"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "16"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Bide",
+        "Level": "01"
+      },
+      {
+        "Name": "Struggle Bug",
+        "Level": "06"
+      },
+      {
+        "Name": "Bug Bite",
+        "Level": "16"
+      }
+    ]
+  }
+}

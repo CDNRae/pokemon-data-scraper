@@ -1,1 +1,486 @@
-{"II": {"egg_moves": ["Amnesia", "Beat Up", "Foresight*", "Future Sight*", "Take Down"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Growl", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Stomp", "Level": "01"}, {"Name": "Confusion", "Level": "07"}, {"Name": "Stomp", "Level": "13"}, {"Name": "Agility", "Level": "20"}, {"Name": "Baton Pass", "Level": "30"}, {"Name": "Psybeam", "Level": "41"}, {"Name": "Crunch", "Level": "54"}]}, "III": {"egg_moves": ["Amnesia", "Beat Up", "Foresight", "Future Sight", "Magic Coat", "Psych Up", "Take Down", "Wish*"], "regular_moves": [{"Name": "Tackle", "Level": "01"}, {"Name": "Growl", "Level": "01"}, {"Name": "Astonish", "Level": "07"}, {"Name": "Confusion", "Level": "13"}, {"Name": "Stomp", "Level": "19"}, {"Name": "Odor Sleuth", "Level": "25"}, {"Name": "Agility", "Level": "31"}, {"Name": "Baton Pass", "Level": "37"}, {"Name": "Psybeam", "Level": "43"}, {"Name": "Crunch", "Level": "49"}]}, "IV": {"egg_moves": ["Amnesia", "Beat Up", "Double Kick", "Foresight", "Future Sight", "Magic Coat", "Mirror Coat", "Psych Up", "Razor WindHGSS", "Take Down", "Wish*"], "regular_moves": [{"Name": "Power Swap", "Level": "01"}, {"Name": "Guard Swap", "Level": "01"}, {"Name": "Astonish", "Level": "01"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Growl", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Odor Sleuth", "Level": "05"}, {"Name": "Stomp", "Level": "10"}, {"Name": "Agility", "Level": "14"}, {"Name": "Psybeam", "Level": "19"}, {"Name": "Baton Pass", "Level": "23"}, {"Name": "Assurance", "Level": "28"}, {"Name": "Double Hit", "Level": "32"}, {"Name": "Psychic", "Level": "37"}, {"Name": "Zen Headbutt", "Level": "41"}, {"Name": "Crunch", "Level": "46"}]}, "V": {"egg_moves": ["Amnesia", "Beat Up", "Double Kick", "Foresight", "Future Sight", "Magic Coat", "Mean Look", "Mirror Coat", "Razor Wind", "Secret Power\u2021", "Skill Swap\u2021", "Take Down", "Wish*"], "regular_moves": [{"Name": "Power Swap", "Level": "01"}, {"Name": "Guard Swap", "Level": "01"}, {"Name": "Astonish", "Level": "01"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Growl", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Odor Sleuth", "Level": "05"}, {"Name": "Stomp", "Level": "10"}, {"Name": "Agility", "Level": "14"}, {"Name": "Psybeam", "Level": "19"}, {"Name": "Baton Pass", "Level": "23"}, {"Name": "Assurance", "Level": "28"}, {"Name": "Double Hit", "Level": "32"}, {"Name": "Psychic", "Level": "37"}, {"Name": "Zen Headbutt", "Level": "41"}, {"Name": "Crunch", "Level": "46"}]}, "VI": {"egg_moves": ["Amnesia", "Beat Up", "Double Kick", "Foresight", "Future Sight", "Magic Coat", "Mean Look", "Mirror Coat", "Razor Wind", "Secret Power\u2021", "Skill Swap", "Take Down", "Wish*"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "0 "}, {"Name": "0", "Level": "1 "}, {"Name": "2 \u2665\u2665", "Level": "Cu"}, {"Name": "Tough", "Level": "3"}, {"Name": "40", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "050"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Physical", "Level": "Da"}, {"Name": "Normal", "Level": "Sto"}, {"Name": "Psybeam", "Level": "019"}, {"Name": "02323", "Level": "014"}, {"Name": "03232", "Level": "0 "}, {"Name": "1 \u2665", "Level": "2 "}, {"Name": "4 \u2665\u2665\u2665\u2665", "Level": "Cle"}, {"Name": "Tough", "Level": "1"}, {"Name": "40", "Level": "00\u2014}}\u2014"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "09090", "Level": "Spec"}]}, "VII": {"egg_moves": ["Amnesia", "Beat Up", "Double Kick", "Foresight", "Future Sight", "Magic Coat", "Mean Look", "Mirror Coat", "Psychic FangsUSUM", "Psychic TerrainUSUM", "Razor Wind", "Secret Power\u2021", "Skill Swap", "Take Down", "Wish*", "Amnesia", "Beat Up", "Double Kick", "Foresight", "Future Sight", "Magic Coat", "Mean Look", "Mirror Coat", "Psychic FangsUSUM", "Psychic TerrainUSUM", "Razor Wind", "Secret Power\u2021", "Skill Swap", "Take Down", "Wish*"], "regular_moves": [{"Name": "Power Swap", "Level": "01"}, {"Name": "Guard Swap", "Level": "01"}, {"Name": "Astonish", "Level": "01"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Growl", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Odor Sleuth", "Level": "05"}, {"Name": "Assurance", "Level": "10"}, {"Name": "Stomp", "Level": "14"}, {"Name": "Psybeam", "Level": "19"}, {"Name": "Agility", "Level": "23"}, {"Name": "Double Hit", "Level": "28"}, {"Name": "Zen Headbutt", "Level": "32"}, {"Name": "Crunch", "Level": "37"}, {"Name": "Baton Pass", "Level": "41"}, {"Name": "Nasty Plot", "Level": "46"}, {"Name": "Psychic", "Level": "50"}, {"Name": "Power Swap", "Level": "01"}, {"Name": "Guard Swap", "Level": "01"}, {"Name": "Astonish", "Level": "01"}, {"Name": "Tackle", "Level": "01"}, {"Name": "Growl", "Level": "01"}, {"Name": "Confusion", "Level": "01"}, {"Name": "Odor Sleuth", "Level": "05"}, {"Name": "Assurance", "Level": "10"}, {"Name": "Stomp", "Level": "14"}, {"Name": "Psybeam", "Level": "19"}, {"Name": "Agility", "Level": "23"}, {"Name": "Double Hit", "Level": "28"}, {"Name": "Zen Headbutt", "Level": "32"}, {"Name": "Crunch", "Level": "37"}, {"Name": "Baton Pass", "Level": "41"}, {"Name": "Nasty Plot", "Level": "46"}, {"Name": "Psychic", "Level": "50"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Amnesia",
+      "Beat Up",
+      "Foresight*",
+      "Future Sight*",
+      "Take Down"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "07"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "13"
+      },
+      {
+        "Name": "Agility",
+        "Level": "20"
+      },
+      {
+        "Name": "Baton Pass",
+        "Level": "30"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "41"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "54"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Amnesia",
+      "Beat Up",
+      "Foresight",
+      "Future Sight",
+      "Magic Coat",
+      "Psych Up",
+      "Take Down",
+      "Wish*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "07"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "13"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "19"
+      },
+      {
+        "Name": "Odor Sleuth",
+        "Level": "25"
+      },
+      {
+        "Name": "Agility",
+        "Level": "31"
+      },
+      {
+        "Name": "Baton Pass",
+        "Level": "37"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "43"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "49"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Amnesia",
+      "Beat Up",
+      "Double Kick",
+      "Foresight",
+      "Future Sight",
+      "Magic Coat",
+      "Mirror Coat",
+      "Psych Up",
+      "Razor WindHGSS",
+      "Take Down",
+      "Wish*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Power Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Odor Sleuth",
+        "Level": "05"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "10"
+      },
+      {
+        "Name": "Agility",
+        "Level": "14"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "19"
+      },
+      {
+        "Name": "Baton Pass",
+        "Level": "23"
+      },
+      {
+        "Name": "Assurance",
+        "Level": "28"
+      },
+      {
+        "Name": "Double Hit",
+        "Level": "32"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "37"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "41"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "46"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Amnesia",
+      "Beat Up",
+      "Double Kick",
+      "Foresight",
+      "Future Sight",
+      "Magic Coat",
+      "Mean Look",
+      "Mirror Coat",
+      "Razor Wind",
+      "Secret Power\u2021",
+      "Skill Swap\u2021",
+      "Take Down",
+      "Wish*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Power Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Odor Sleuth",
+        "Level": "05"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "10"
+      },
+      {
+        "Name": "Agility",
+        "Level": "14"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "19"
+      },
+      {
+        "Name": "Baton Pass",
+        "Level": "23"
+      },
+      {
+        "Name": "Assurance",
+        "Level": "28"
+      },
+      {
+        "Name": "Double Hit",
+        "Level": "32"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "37"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "41"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "46"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Amnesia",
+      "Beat Up",
+      "Double Kick",
+      "Foresight",
+      "Future Sight",
+      "Magic Coat",
+      "Mean Look",
+      "Mirror Coat",
+      "Razor Wind",
+      "Secret Power\u2021",
+      "Skill Swap",
+      "Take Down",
+      "Wish*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Power Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Amnesia",
+      "Beat Up",
+      "Double Kick",
+      "Foresight",
+      "Future Sight",
+      "Magic Coat",
+      "Mean Look",
+      "Mirror Coat",
+      "Psychic FangsUSUM",
+      "Psychic TerrainUSUM",
+      "Razor Wind",
+      "Secret Power\u2021",
+      "Skill Swap",
+      "Take Down",
+      "Wish*",
+      "Amnesia",
+      "Beat Up",
+      "Double Kick",
+      "Foresight",
+      "Future Sight",
+      "Magic Coat",
+      "Mean Look",
+      "Mirror Coat",
+      "Psychic FangsUSUM",
+      "Psychic TerrainUSUM",
+      "Razor Wind",
+      "Secret Power\u2021",
+      "Skill Swap",
+      "Take Down",
+      "Wish*"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Power Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Odor Sleuth",
+        "Level": "05"
+      },
+      {
+        "Name": "Assurance",
+        "Level": "10"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "14"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "19"
+      },
+      {
+        "Name": "Agility",
+        "Level": "23"
+      },
+      {
+        "Name": "Double Hit",
+        "Level": "28"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "32"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "37"
+      },
+      {
+        "Name": "Baton Pass",
+        "Level": "41"
+      },
+      {
+        "Name": "Nasty Plot",
+        "Level": "46"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "50"
+      },
+      {
+        "Name": "Power Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Guard Swap",
+        "Level": "01"
+      },
+      {
+        "Name": "Astonish",
+        "Level": "01"
+      },
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      },
+      {
+        "Name": "Confusion",
+        "Level": "01"
+      },
+      {
+        "Name": "Odor Sleuth",
+        "Level": "05"
+      },
+      {
+        "Name": "Assurance",
+        "Level": "10"
+      },
+      {
+        "Name": "Stomp",
+        "Level": "14"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "19"
+      },
+      {
+        "Name": "Agility",
+        "Level": "23"
+      },
+      {
+        "Name": "Double Hit",
+        "Level": "28"
+      },
+      {
+        "Name": "Zen Headbutt",
+        "Level": "32"
+      },
+      {
+        "Name": "Crunch",
+        "Level": "37"
+      },
+      {
+        "Name": "Baton Pass",
+        "Level": "41"
+      },
+      {
+        "Name": "Nasty Plot",
+        "Level": "46"
+      },
+      {
+        "Name": "Psychic",
+        "Level": "50"
+      }
+    ]
+  }
+}

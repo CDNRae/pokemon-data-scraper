@@ -1,1 +1,383 @@
-{"II": {"egg_moves": ["Aurora Beam", "Haze", "Octazooka", "Screech", "Supersonic"], "regular_moves": [{"Name": "Water Gun", "Level": "01"}, {"Name": "Lock-On", "Level": "11"}, {"Name": "Psybeam", "Level": "22"}, {"Name": "Aurora Beam", "Level": "22"}, {"Name": "BubbleBeam", "Level": "22"}, {"Name": "Focus Energy", "Level": "33"}, {"Name": "Ice Beam", "Level": "44"}, {"Name": "Hyper Beam", "Level": "55"}]}, "III": {"egg_moves": ["Aurora Beam", "Haze", "Octazooka", "Rock Blast", "Screech", "Supersonic", "Thunder Wave"], "regular_moves": [{"Name": "Water Gun", "Level": "01"}, {"Name": "Lock-On", "Level": "11"}, {"Name": "Psybeam", "Level": "22"}, {"Name": "Aurora Beam", "Level": "22"}, {"Name": "BubbleBeam", "Level": "22"}, {"Name": "Focus Energy", "Level": "33"}, {"Name": "Ice Beam", "Level": "44"}, {"Name": "Hyper Beam", "Level": "55"}]}, "IV": {"egg_moves": ["Aurora Beam", "Flail", "Haze", "Octazooka", "Rock Blast", "Screech", "Snore", "Supersonic", "Thunder Wave", "Water SpoutHGSS"], "regular_moves": [{"Name": "Water Gun", "Level": "01"}, {"Name": "Lock-On", "Level": "06"}, {"Name": "Psybeam", "Level": "10"}, {"Name": "Aurora Beam", "Level": "14"}, {"Name": "BubbleBeam", "Level": "19"}, {"Name": "Focus Energy", "Level": "23"}, {"Name": "Bullet Seed", "Level": "27"}, {"Name": "Water Pulse", "Level": "32"}, {"Name": "Signal Beam", "Level": "36"}, {"Name": "Ice Beam", "Level": "40"}, {"Name": "Hyper Beam", "Level": "45"}]}, "V": {"egg_moves": ["Acid Spray*", "Aurora Beam", "Flail", "Haze", "Mud Shot", "Octazooka", "Rock Blast", "Screech", "Snore", "Supersonic", "Swift", "Water Pulse", "Water Spout"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0066", "Level": "2"}, {"Name": "5", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "065"}, {"Name": "06565", "Level": "Spec"}, {"Name": "Special", "Level": "Wat"}, {"Name": "Normal", "Level": "Focus "}, {"Name": "Water Pulse", "Level": "026"}, {"Name": "03030", "Level": "036"}, {"Name": "04040", "Level": "1"}, {"Name": "10", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "025"}, {"Name": "120120", "Level": "Spec"}, {"Name": "Special", "Level": "Nor"}, {"Name": "Water", "Level": "So"}]}, "VI": {"egg_moves": ["Acid Spray*", "Aurora Beam", "Entrainment*", "Flail", "Haze", "Mud Shot", "Octazooka", "Rock Blast", "Screech", "Snore", "Supersonic", "Swift", "Water Pulse", "Water Spout"], "regular_moves": [{"Name": "Water Gun", "Level": "01"}, {"Name": "Lock-On", "Level": "06"}, {"Name": "Psybeam", "Level": "10"}, {"Name": "Aurora Beam", "Level": "14"}, {"Name": "Bubble Beam", "Level": "18"}, {"Name": "Focus Energy", "Level": "22"}, {"Name": "Water Pulse", "Level": "26"}, {"Name": "Signal Beam", "Level": "30"}, {"Name": "Ice Beam", "Level": "34"}, {"Name": "Bullet Seed", "Level": "38"}, {"Name": "Hydro Pump", "Level": "42"}, {"Name": "Hyper Beam", "Level": "46"}, {"Name": "Soak", "Level": "50"}]}, "VII": {"egg_moves": ["Acid Spray*", "Aurora Beam", "Entrainment", "Flail", "Haze", "Mud Shot", "Octazooka", "Rock Blast", "Screech", "Snore", "Supersonic", "Swift", "Water Pulse", "Water Spout", "Acid Spray*", "Aurora Beam", "Entrainment", "Flail", "Haze", "Mud Shot", "Octazooka", "Rock Blast", "Screech", "Snore", "Supersonic", "Swift", "Water Pulse", "Water Spout"], "regular_moves": [{"Name": "Water Gun", "Level": "01"}, {"Name": "Lock-On", "Level": "06"}, {"Name": "Psybeam", "Level": "10"}, {"Name": "Aurora Beam", "Level": "14"}, {"Name": "Bubble Beam", "Level": "18"}, {"Name": "Focus Energy", "Level": "22"}, {"Name": "Water Pulse", "Level": "26"}, {"Name": "Signal Beam", "Level": "30"}, {"Name": "Ice Beam", "Level": "34"}, {"Name": "Bullet Seed", "Level": "38"}, {"Name": "Hydro Pump", "Level": "42"}, {"Name": "Hyper Beam", "Level": "46"}, {"Name": "Soak", "Level": "50"}, {"Name": "Water Gun", "Level": "01"}, {"Name": "Lock-On", "Level": "06"}, {"Name": "Psybeam", "Level": "10"}, {"Name": "Aurora Beam", "Level": "14"}, {"Name": "Bubble Beam", "Level": "18"}, {"Name": "Focus Energy", "Level": "22"}, {"Name": "Water Pulse", "Level": "26"}, {"Name": "Signal Beam", "Level": "30"}, {"Name": "Ice Beam", "Level": "34"}, {"Name": "Bullet Seed", "Level": "38"}, {"Name": "Hydro Pump", "Level": "42"}, {"Name": "Hyper Beam", "Level": "46"}, {"Name": "Soak", "Level": "50"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Haze",
+      "Octazooka",
+      "Screech",
+      "Supersonic"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "11"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "22"
+      },
+      {
+        "Name": "Aurora Beam",
+        "Level": "22"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "22"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "33"
+      },
+      {
+        "Name": "Ice Beam",
+        "Level": "44"
+      },
+      {
+        "Name": "Hyper Beam",
+        "Level": "55"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Haze",
+      "Octazooka",
+      "Rock Blast",
+      "Screech",
+      "Supersonic",
+      "Thunder Wave"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "11"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "22"
+      },
+      {
+        "Name": "Aurora Beam",
+        "Level": "22"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "22"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "33"
+      },
+      {
+        "Name": "Ice Beam",
+        "Level": "44"
+      },
+      {
+        "Name": "Hyper Beam",
+        "Level": "55"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Aurora Beam",
+      "Flail",
+      "Haze",
+      "Octazooka",
+      "Rock Blast",
+      "Screech",
+      "Snore",
+      "Supersonic",
+      "Thunder Wave",
+      "Water SpoutHGSS"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "06"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "10"
+      },
+      {
+        "Name": "Aurora Beam",
+        "Level": "14"
+      },
+      {
+        "Name": "BubbleBeam",
+        "Level": "19"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "23"
+      },
+      {
+        "Name": "Bullet Seed",
+        "Level": "27"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "32"
+      },
+      {
+        "Name": "Signal Beam",
+        "Level": "36"
+      },
+      {
+        "Name": "Ice Beam",
+        "Level": "40"
+      },
+      {
+        "Name": "Hyper Beam",
+        "Level": "45"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Acid Spray*",
+      "Aurora Beam",
+      "Flail",
+      "Haze",
+      "Mud Shot",
+      "Octazooka",
+      "Rock Blast",
+      "Screech",
+      "Snore",
+      "Supersonic",
+      "Swift",
+      "Water Pulse",
+      "Water Spout"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Acid Spray*",
+      "Aurora Beam",
+      "Entrainment*",
+      "Flail",
+      "Haze",
+      "Mud Shot",
+      "Octazooka",
+      "Rock Blast",
+      "Screech",
+      "Snore",
+      "Supersonic",
+      "Swift",
+      "Water Pulse",
+      "Water Spout"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "06"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "10"
+      },
+      {
+        "Name": "Aurora Beam",
+        "Level": "14"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "18"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "26"
+      },
+      {
+        "Name": "Signal Beam",
+        "Level": "30"
+      },
+      {
+        "Name": "Ice Beam",
+        "Level": "34"
+      },
+      {
+        "Name": "Bullet Seed",
+        "Level": "38"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "42"
+      },
+      {
+        "Name": "Hyper Beam",
+        "Level": "46"
+      },
+      {
+        "Name": "Soak",
+        "Level": "50"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Acid Spray*",
+      "Aurora Beam",
+      "Entrainment",
+      "Flail",
+      "Haze",
+      "Mud Shot",
+      "Octazooka",
+      "Rock Blast",
+      "Screech",
+      "Snore",
+      "Supersonic",
+      "Swift",
+      "Water Pulse",
+      "Water Spout",
+      "Acid Spray*",
+      "Aurora Beam",
+      "Entrainment",
+      "Flail",
+      "Haze",
+      "Mud Shot",
+      "Octazooka",
+      "Rock Blast",
+      "Screech",
+      "Snore",
+      "Supersonic",
+      "Swift",
+      "Water Pulse",
+      "Water Spout"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "06"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "10"
+      },
+      {
+        "Name": "Aurora Beam",
+        "Level": "14"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "18"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "26"
+      },
+      {
+        "Name": "Signal Beam",
+        "Level": "30"
+      },
+      {
+        "Name": "Ice Beam",
+        "Level": "34"
+      },
+      {
+        "Name": "Bullet Seed",
+        "Level": "38"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "42"
+      },
+      {
+        "Name": "Hyper Beam",
+        "Level": "46"
+      },
+      {
+        "Name": "Soak",
+        "Level": "50"
+      },
+      {
+        "Name": "Water Gun",
+        "Level": "01"
+      },
+      {
+        "Name": "Lock-On",
+        "Level": "06"
+      },
+      {
+        "Name": "Psybeam",
+        "Level": "10"
+      },
+      {
+        "Name": "Aurora Beam",
+        "Level": "14"
+      },
+      {
+        "Name": "Bubble Beam",
+        "Level": "18"
+      },
+      {
+        "Name": "Focus Energy",
+        "Level": "22"
+      },
+      {
+        "Name": "Water Pulse",
+        "Level": "26"
+      },
+      {
+        "Name": "Signal Beam",
+        "Level": "30"
+      },
+      {
+        "Name": "Ice Beam",
+        "Level": "34"
+      },
+      {
+        "Name": "Bullet Seed",
+        "Level": "38"
+      },
+      {
+        "Name": "Hydro Pump",
+        "Level": "42"
+      },
+      {
+        "Name": "Hyper Beam",
+        "Level": "46"
+      },
+      {
+        "Name": "Soak",
+        "Level": "50"
+      }
+    ]
+  }
+}

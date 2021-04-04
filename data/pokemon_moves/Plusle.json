@@ -226,7 +226,7 @@
     "regular_moves": [
       {
         "Name": "Nuzzle",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Entrainment",
@@ -234,19 +234,19 @@
       },
       {
         "Name": "Play Nice",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Growl",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Thunder Wave",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Quick Attack",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Helping Hand",

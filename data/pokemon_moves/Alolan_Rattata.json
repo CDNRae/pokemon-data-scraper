@@ -1,0 +1,27 @@
+{
+  "VII": {
+    "egg_moves": [
+      "Counter",
+      "Final Gambit",
+      "Fury Swipes",
+      "Me First",
+      "Revenge",
+      "Reversal",
+      "Snatch",
+      "Stockpile",
+      "Swallow",
+      "Switcheroo",
+      "Uproar"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Tackle",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      }
+    ]
+  }
+}

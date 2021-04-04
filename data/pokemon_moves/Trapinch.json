@@ -119,84 +119,8 @@
     ],
     "regular_moves": [
       {
-        "Name": "0011",
-        "Level": "001"
-      },
-      {
-        "Name": "0099",
-        "Level": "2"
-      },
-      {
-        "Name": "15",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "00\u2014}}\u2014%",
-        "Level": "060"
-      },
-      {
-        "Name": "03535",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Special",
-        "Level": "Gro"
-      },
-      {
-        "Name": "Normal",
-        "Level": "Bi"
-      },
-      {
-        "Name": "Bulldoze",
-        "Level": "021"
-      },
-      {
-        "Name": "02525",
-        "Level": "N/A"
-      },
-      {
-        "Name": "04141",
-        "Level": "1"
-      },
-      {
-        "Name": "10",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "080"
-      },
-      {
-        "Name": "09090",
-        "Level": "Spec"
-      },
-      {
-        "Name": "Status",
-        "Level": "Ro"
-      },
-      {
-        "Name": "Normal",
-        "Level": "Hyper"
-      },
-      {
-        "Name": "Earthquake",
-        "Level": "055"
-      },
-      {
-        "Name": "06161",
-        "Level": "081"
-      },
-      {
-        "Name": "N/AN/A",
-        "Level": "1"
-      },
-      {
-        "Name": "5",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "030}}30%",
-        "Level": "0000"
+        "Name": "Bite",
+        "Level": "01"
       }
     ]
   },
@@ -216,19 +140,19 @@
     "regular_moves": [
       {
         "Name": "Sand Attack",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Bite",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Feint Attack",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Bide",
-        "Level": "001"
+        "Level": "01"
       },
       {
         "Name": "Mud-Slap",

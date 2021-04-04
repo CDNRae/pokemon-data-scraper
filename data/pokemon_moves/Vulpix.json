@@ -1,1 +1,454 @@
-{"II": {"egg_moves": ["Disable", "Faint Attack", "Flail", "Hypnosis", "Spite"], "regular_moves": [{"Name": "Ember", "Level": "01"}, {"Name": "Tail Whip", "Level": "01"}, {"Name": "Quick Attack", "Level": "07"}, {"Name": "Roar", "Level": "13"}, {"Name": "Confuse Ray", "Level": "19"}, {"Name": "Safeguard", "Level": "25"}, {"Name": "Flamethrower", "Level": "31"}, {"Name": "Fire Spin", "Level": "37"}]}, "III": {"egg_moves": ["Disable", "Faint Attack", "Flail", "Heat Wave", "Howl", "Hypnosis", "Psych Up", "Spite"], "regular_moves": [{"Name": "Ember", "Level": "01"}, {"Name": "Tail Whip", "Level": "05"}, {"Name": "Roar", "Level": "09"}, {"Name": "Quick Attack", "Level": "13"}, {"Name": "Will-O-Wisp", "Level": "17"}, {"Name": "Confuse Ray", "Level": "21"}, {"Name": "Imprison", "Level": "25"}, {"Name": "Flamethrower", "Level": "29"}, {"Name": "Safeguard", "Level": "33"}, {"Name": "Grudge", "Level": "37"}, {"Name": "Fire Spin", "Level": "41"}]}, "IV": {"egg_moves": ["Disable", "Energy Ball", "Extrasensory", "Faint Attack", "Flail", "Flare Blitz", "Heat Wave", "Howl", "Hypnosis", "Power SwapHGSS", "Psych Up", "Spite"], "regular_moves": [{"Name": "Ember", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Roar", "Level": "07"}, {"Name": "Quick Attack", "Level": "11"}, {"Name": "Will-O-Wisp", "Level": "14"}, {"Name": "Confuse Ray", "Level": "17"}, {"Name": "Imprison", "Level": "21"}, {"Name": "Flamethrower", "Level": "24"}, {"Name": "Safeguard", "Level": "27"}, {"Name": "Payback", "Level": "31"}, {"Name": "Fire Spin", "Level": "34"}, {"Name": "Captivate", "Level": "37"}, {"Name": "Grudge", "Level": "41"}, {"Name": "Extrasensory", "Level": "44"}, {"Name": "Fire Blast", "Level": "47"}]}, "V": {"egg_moves": ["Disable", "Extrasensory", "Faint Attack", "Flail", "Flare Blitz", "Heat Wave", "Hex", "Howl", "Hypnosis", "Power Swap", "Secret Power\u2021", "Spite", "Tail Slap"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0044", "Level": "2"}, {"Name": "30", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "04040", "Level": "Phys"}, {"Name": "Special", "Level": "Fi"}, {"Name": "Ghost", "Level": "Confus"}, {"Name": "Imprison", "Level": "018"}, {"Name": "02020", "Level": "N/A"}, {"Name": "02424", "Level": "2"}, {"Name": "15", "Level": "100}}100"}, {"Name": "075}}75%", "Level": "0000"}, {"Name": "05050", "Level": "Spec"}, {"Name": "Physical", "Level": "Da"}, {"Name": "Fire", "Level": "Flamet"}, {"Name": "Safeguard", "Level": "036"}, {"Name": "03939", "Level": "051"}, {"Name": "05454", "Level": "3"}, {"Name": "5", "Level": "085}"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Special", "Level": "Fi"}]}, "VI": {"egg_moves": ["Captivate", "Disable", "Extrasensory", "Feint Attack", "Flail", "Flare Blitz", "Heat Wave", "Hex", "Howl", "Hypnosis", "Power Swap", "Secret Power\u2021", "Spite", "Tail Slap"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0044", "Level": "0 "}, {"Name": "0", "Level": "2 "}, {"Name": "3 \u2665\u2665\u2665", "Level": "Co"}, {"Name": "Cute", "Level": "3"}, {"Name": "30", "Level": "100}}100"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "03535", "Level": "Spec"}, {"Name": "Physical", "Level": "Da"}, {"Name": "Fire", "Level": "Will-O"}, {"Name": "Feint Attack", "Level": "023"}, {"Name": "02626", "Level": "028"}, {"Name": "02323", "Level": "1 "}, {"Name": "0", "Level": "3 \u2665"}, {"Name": "2 \u2665\u2665", "Level": "Co"}, {"Name": "Beautiful", "Level": "2"}, {"Name": "15", "Level": "100}}100"}, {"Name": "00\u2014}}\u2014%", "Level": "0000"}, {"Name": "110110", "Level": "Spec"}, {"Name": "Status", "Level": "Gho"}, {"Name": "Normal", "Level": "Capti"}, {"Name": "Inferno", "Level": "050"}]}, "VII": {"egg_moves": ["TM05", "TM06", "10", "100}}100%", "0000\u2014", "Status", "Normal", "Frustration", "TM27", "TM32", "15", "100}}100%", "110110", "Physical", "Fire", "Rest", "TM45", "TM48", "15", "090}}90%", "09090", "Status", "Dark", "Psych Up", "TM87", "TM88", "10", "00\u2014}}\u2014%", "08080", "Status", "TM05", "TM06", "10", "100}}100%", "0000\u2014", "Status", "Normal", "Frustration", "TM27", "TM32", "15", "100}}100%", "110110", "Physical", "Fire", "Rest", "TM45", "TM48", "15", "090}}90%", "09090", "Status", "Dark", "Psych Up", "TM87", "TM88", "10", "00\u2014}}\u2014%", "08080", "Status"], "regular_moves": [{"Name": "Ember", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Roar", "Level": "07"}, {"Name": "Baby-Doll Eyes", "Level": "09"}, {"Name": "Quick Attack", "Level": "10"}, {"Name": "Confuse Ray", "Level": "12"}, {"Name": "Fire Spin", "Level": "15"}, {"Name": "Payback", "Level": "18"}, {"Name": "Will-O-Wisp", "Level": "20"}, {"Name": "Feint Attack", "Level": "23"}, {"Name": "Hex", "Level": "26"}, {"Name": "Flame Burst", "Level": "28"}, {"Name": "Extrasensory", "Level": "31"}, {"Name": "Safeguard", "Level": "34"}, {"Name": "Flamethrower", "Level": "36"}, {"Name": "Imprison", "Level": "39"}, {"Name": "Fire Blast", "Level": "42"}, {"Name": "Grudge", "Level": "44"}, {"Name": "Captivate", "Level": "47"}, {"Name": "Inferno", "Level": "50"}, {"Name": "Ember", "Level": "01"}, {"Name": "Tail Whip", "Level": "04"}, {"Name": "Roar", "Level": "07"}, {"Name": "Baby-Doll Eyes", "Level": "09"}, {"Name": "Quick Attack", "Level": "10"}, {"Name": "Confuse Ray", "Level": "12"}, {"Name": "Fire Spin", "Level": "15"}, {"Name": "Payback", "Level": "18"}, {"Name": "Will-O-Wisp", "Level": "20"}, {"Name": "Feint Attack", "Level": "23"}, {"Name": "Hex", "Level": "26"}, {"Name": "Flame Burst", "Level": "28"}, {"Name": "Extrasensory", "Level": "31"}, {"Name": "Safeguard", "Level": "34"}, {"Name": "Flamethrower", "Level": "36"}, {"Name": "Imprison", "Level": "39"}, {"Name": "Fire Blast", "Level": "42"}, {"Name": "Grudge", "Level": "44"}, {"Name": "Captivate", "Level": "47"}, {"Name": "Inferno", "Level": "50"}]}}
+{
+  "II": {
+    "egg_moves": [
+      "Disable",
+      "Faint Attack",
+      "Flail",
+      "Hypnosis",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "01"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "07"
+      },
+      {
+        "Name": "Roar",
+        "Level": "13"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "19"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "25"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "31"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "37"
+      }
+    ]
+  },
+  "III": {
+    "egg_moves": [
+      "Disable",
+      "Faint Attack",
+      "Flail",
+      "Heat Wave",
+      "Howl",
+      "Hypnosis",
+      "Psych Up",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "05"
+      },
+      {
+        "Name": "Roar",
+        "Level": "09"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "13"
+      },
+      {
+        "Name": "Will-O-Wisp",
+        "Level": "17"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "21"
+      },
+      {
+        "Name": "Imprison",
+        "Level": "25"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "29"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "33"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "37"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "41"
+      }
+    ]
+  },
+  "IV": {
+    "egg_moves": [
+      "Disable",
+      "Energy Ball",
+      "Extrasensory",
+      "Faint Attack",
+      "Flail",
+      "Flare Blitz",
+      "Heat Wave",
+      "Howl",
+      "Hypnosis",
+      "Power SwapHGSS",
+      "Psych Up",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Roar",
+        "Level": "07"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "11"
+      },
+      {
+        "Name": "Will-O-Wisp",
+        "Level": "14"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "17"
+      },
+      {
+        "Name": "Imprison",
+        "Level": "21"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "24"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "27"
+      },
+      {
+        "Name": "Payback",
+        "Level": "31"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "34"
+      },
+      {
+        "Name": "Captivate",
+        "Level": "37"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "41"
+      },
+      {
+        "Name": "Extrasensory",
+        "Level": "44"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "47"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Disable",
+      "Extrasensory",
+      "Faint Attack",
+      "Flail",
+      "Flare Blitz",
+      "Heat Wave",
+      "Hex",
+      "Howl",
+      "Hypnosis",
+      "Power Swap",
+      "Secret Power",
+      "Spite",
+      "Tail Slap"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Captivate",
+      "Disable",
+      "Extrasensory",
+      "Feint Attack",
+      "Flail",
+      "Flare Blitz",
+      "Heat Wave",
+      "Hex",
+      "Howl",
+      "Hypnosis",
+      "Power Swap",
+      "Secret Power",
+      "Spite",
+      "Tail Slap"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "TM05",
+      "TM06",
+      "10",
+      "100}}100%",
+      "0000",
+      "Status",
+      "Normal",
+      "Frustration",
+      "TM27",
+      "TM32",
+      "15",
+      "100}}100%",
+      "110110",
+      "Physical",
+      "Fire",
+      "Rest",
+      "TM45",
+      "TM48",
+      "15",
+      "090}}90%",
+      "09090",
+      "Status",
+      "Dark",
+      "Psych Up",
+      "TM87",
+      "TM88",
+      "10",
+      "00}}%",
+      "08080",
+      "Status",
+      "TM05",
+      "TM06",
+      "10",
+      "100}}100%",
+      "0000",
+      "Status",
+      "Normal",
+      "Frustration",
+      "TM27",
+      "TM32",
+      "15",
+      "100}}100%",
+      "110110",
+      "Physical",
+      "Fire",
+      "Rest",
+      "TM45",
+      "TM48",
+      "15",
+      "090}}90%",
+      "09090",
+      "Status",
+      "Dark",
+      "Psych Up",
+      "TM87",
+      "TM88",
+      "10",
+      "00}}%",
+      "08080",
+      "Status"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Roar",
+        "Level": "07"
+      },
+      {
+        "Name": "Baby-Doll Eyes",
+        "Level": "09"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "10"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "12"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "15"
+      },
+      {
+        "Name": "Payback",
+        "Level": "18"
+      },
+      {
+        "Name": "Will-O-Wisp",
+        "Level": "20"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "23"
+      },
+      {
+        "Name": "Hex",
+        "Level": "26"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "28"
+      },
+      {
+        "Name": "Extrasensory",
+        "Level": "31"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "34"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "36"
+      },
+      {
+        "Name": "Imprison",
+        "Level": "39"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "42"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "44"
+      },
+      {
+        "Name": "Captivate",
+        "Level": "47"
+      },
+      {
+        "Name": "Inferno",
+        "Level": "50"
+      },
+      {
+        "Name": "Ember",
+        "Level": "01"
+      },
+      {
+        "Name": "Tail Whip",
+        "Level": "04"
+      },
+      {
+        "Name": "Roar",
+        "Level": "07"
+      },
+      {
+        "Name": "Baby-Doll Eyes",
+        "Level": "09"
+      },
+      {
+        "Name": "Quick Attack",
+        "Level": "10"
+      },
+      {
+        "Name": "Confuse Ray",
+        "Level": "12"
+      },
+      {
+        "Name": "Fire Spin",
+        "Level": "15"
+      },
+      {
+        "Name": "Payback",
+        "Level": "18"
+      },
+      {
+        "Name": "Will-O-Wisp",
+        "Level": "20"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "23"
+      },
+      {
+        "Name": "Hex",
+        "Level": "26"
+      },
+      {
+        "Name": "Flame Burst",
+        "Level": "28"
+      },
+      {
+        "Name": "Extrasensory",
+        "Level": "31"
+      },
+      {
+        "Name": "Safeguard",
+        "Level": "34"
+      },
+      {
+        "Name": "Flamethrower",
+        "Level": "36"
+      },
+      {
+        "Name": "Imprison",
+        "Level": "39"
+      },
+      {
+        "Name": "Fire Blast",
+        "Level": "42"
+      },
+      {
+        "Name": "Grudge",
+        "Level": "44"
+      },
+      {
+        "Name": "Captivate",
+        "Level": "47"
+      },
+      {
+        "Name": "Inferno",
+        "Level": "50"
+      }
+    ]
+  }
+}

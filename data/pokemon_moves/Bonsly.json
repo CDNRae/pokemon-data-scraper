@@ -1,1 +1,300 @@
-{"II": {"egg_moves": [], "regular_moves": []}, "III": {"egg_moves": [], "regular_moves": []}, "IV": {"egg_moves": ["Defense Curl", "Harden", "Headbutt", "Rollout", "Sand Tomb", "Selfdestruct"], "regular_moves": [{"Name": "Fake Tears", "Level": "01"}, {"Name": "Copycat", "Level": "01"}, {"Name": "Flail", "Level": "06"}, {"Name": "Low Kick", "Level": "09"}, {"Name": "Rock Throw", "Level": "14"}, {"Name": "Mimic", "Level": "17"}, {"Name": "Block", "Level": "22"}, {"Name": "Faint Attack", "Level": "25"}, {"Name": "Rock Tomb", "Level": "30"}, {"Name": "Rock Slide", "Level": "33"}, {"Name": "Slam", "Level": "38"}, {"Name": "Sucker Punch", "Level": "41"}, {"Name": "Double-Edge", "Level": "46"}]}, "V": {"egg_moves": ["Curse", "Defense Curl", "Endure*", "Harden", "Headbutt", "Rollout", "Sand Tomb", "Selfdestruct", "Stealth Rock"], "regular_moves": [{"Name": "0011", "Level": "001"}, {"Name": "0011", "Level": "2"}, {"Name": "20", "Level": "00\u2014}}\u2014"}, {"Name": "100}}100%", "Level": "0000"}, {"Name": "0000\u2014", "Level": "Phys"}, {"Name": "Physical", "Level": "Ro"}, {"Name": "Normal", "Level": "Sl"}, {"Name": "Faint Attack", "Level": "019"}, {"Name": "02222", "Level": "030"}, {"Name": "02222", "Level": "1"}, {"Name": "5", "Level": "00\u2014}}\u2014"}, {"Name": "090}}90%", "Level": "075"}, {"Name": "0000\u2014", "Level": "Sta"}, {"Name": "Physical", "Level": "Da"}, {"Name": "Normal", "Level": "Double"}]}, "VI": {"egg_moves": ["Curse", "Defense Curl", "Endure*", "Harden", "Headbutt", "Rollout", "Sand Tomb", "Self-Destruct", "Stealth Rock"], "regular_moves": [{"Name": "Fake Tears", "Level": "01"}, {"Name": "Copycat", "Level": "01"}, {"Name": "Flail", "Level": "05"}, {"Name": "Low Kick", "Level": "08"}, {"Name": "Rock Throw", "Level": "12"}, {"Name": "Mimic", "Level": "15"}, {"Name": "Feint Attack", "Level": "19"}, {"Name": "Rock Tomb", "Level": "22"}, {"Name": "Block", "Level": "26"}, {"Name": "Rock Slide", "Level": "29"}, {"Name": "Counter", "Level": "33"}, {"Name": "Sucker Punch", "Level": "36"}, {"Name": "Double-Edge", "Level": "40"}]}, "VII": {"egg_moves": ["Curse", "Defense Curl", "Endure*", "Harden", "Headbutt", "Rollout", "Sand Tomb", "Self-Destruct", "Stealth Rock", "Curse", "Defense Curl", "Endure*", "Harden", "Headbutt", "Rollout", "Sand Tomb", "Self-Destruct", "Stealth Rock"], "regular_moves": [{"Name": "Fake Tears", "Level": "01"}, {"Name": "Copycat", "Level": "01"}, {"Name": "Flail", "Level": "05"}, {"Name": "Low Kick", "Level": "08"}, {"Name": "Rock Throw", "Level": "12"}, {"Name": "Mimic", "Level": "15"}, {"Name": "Feint Attack", "Level": "19"}, {"Name": "Tearful Look", "Level": "22"}, {"Name": "Rock Tomb", "Level": "26"}, {"Name": "Block", "Level": "29"}, {"Name": "Rock Slide", "Level": "33"}, {"Name": "Counter", "Level": "36"}, {"Name": "Sucker Punch", "Level": "40"}, {"Name": "Double-Edge", "Level": "43"}, {"Name": "Fake Tears", "Level": "01"}, {"Name": "Copycat", "Level": "01"}, {"Name": "Flail", "Level": "05"}, {"Name": "Low Kick", "Level": "08"}, {"Name": "Rock Throw", "Level": "12"}, {"Name": "Mimic", "Level": "15"}, {"Name": "Feint Attack", "Level": "19"}, {"Name": "Tearful Look", "Level": "22"}, {"Name": "Rock Tomb", "Level": "26"}, {"Name": "Block", "Level": "29"}, {"Name": "Rock Slide", "Level": "33"}, {"Name": "Counter", "Level": "36"}, {"Name": "Sucker Punch", "Level": "40"}, {"Name": "Double-Edge", "Level": "43"}]}}
+{
+  "II": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "III": {
+    "egg_moves": [],
+    "regular_moves": []
+  },
+  "IV": {
+    "egg_moves": [
+      "Defense Curl",
+      "Harden",
+      "Headbutt",
+      "Rollout",
+      "Sand Tomb",
+      "Selfdestruct"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Fake Tears",
+        "Level": "01"
+      },
+      {
+        "Name": "Copycat",
+        "Level": "01"
+      },
+      {
+        "Name": "Flail",
+        "Level": "06"
+      },
+      {
+        "Name": "Low Kick",
+        "Level": "09"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "14"
+      },
+      {
+        "Name": "Mimic",
+        "Level": "17"
+      },
+      {
+        "Name": "Block",
+        "Level": "22"
+      },
+      {
+        "Name": "Faint Attack",
+        "Level": "25"
+      },
+      {
+        "Name": "Rock Tomb",
+        "Level": "30"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "33"
+      },
+      {
+        "Name": "Slam",
+        "Level": "38"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "41"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "46"
+      }
+    ]
+  },
+  "V": {
+    "egg_moves": [
+      "Curse",
+      "Defense Curl",
+      "Endure*",
+      "Harden",
+      "Headbutt",
+      "Rollout",
+      "Sand Tomb",
+      "Selfdestruct",
+      "Stealth Rock"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Fake Tears",
+        "Level": "01"
+      },
+      {
+        "Name": "Copycat",
+        "Level": "01"
+      }
+    ]
+  },
+  "VI": {
+    "egg_moves": [
+      "Curse",
+      "Defense Curl",
+      "Endure*",
+      "Harden",
+      "Headbutt",
+      "Rollout",
+      "Sand Tomb",
+      "Self-Destruct",
+      "Stealth Rock"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Fake Tears",
+        "Level": "01"
+      },
+      {
+        "Name": "Copycat",
+        "Level": "01"
+      },
+      {
+        "Name": "Flail",
+        "Level": "05"
+      },
+      {
+        "Name": "Low Kick",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "12"
+      },
+      {
+        "Name": "Mimic",
+        "Level": "15"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "19"
+      },
+      {
+        "Name": "Rock Tomb",
+        "Level": "22"
+      },
+      {
+        "Name": "Block",
+        "Level": "26"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "29"
+      },
+      {
+        "Name": "Counter",
+        "Level": "33"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "36"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "40"
+      }
+    ]
+  },
+  "VII": {
+    "egg_moves": [
+      "Curse",
+      "Defense Curl",
+      "Endure*",
+      "Harden",
+      "Headbutt",
+      "Rollout",
+      "Sand Tomb",
+      "Self-Destruct",
+      "Stealth Rock",
+      "Curse",
+      "Defense Curl",
+      "Endure*",
+      "Harden",
+      "Headbutt",
+      "Rollout",
+      "Sand Tomb",
+      "Self-Destruct",
+      "Stealth Rock"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Fake Tears",
+        "Level": "01"
+      },
+      {
+        "Name": "Copycat",
+        "Level": "01"
+      },
+      {
+        "Name": "Flail",
+        "Level": "05"
+      },
+      {
+        "Name": "Low Kick",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "12"
+      },
+      {
+        "Name": "Mimic",
+        "Level": "15"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "19"
+      },
+      {
+        "Name": "Tearful Look",
+        "Level": "22"
+      },
+      {
+        "Name": "Rock Tomb",
+        "Level": "26"
+      },
+      {
+        "Name": "Block",
+        "Level": "29"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "33"
+      },
+      {
+        "Name": "Counter",
+        "Level": "36"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "40"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "43"
+      },
+      {
+        "Name": "Fake Tears",
+        "Level": "01"
+      },
+      {
+        "Name": "Copycat",
+        "Level": "01"
+      },
+      {
+        "Name": "Flail",
+        "Level": "05"
+      },
+      {
+        "Name": "Low Kick",
+        "Level": "08"
+      },
+      {
+        "Name": "Rock Throw",
+        "Level": "12"
+      },
+      {
+        "Name": "Mimic",
+        "Level": "15"
+      },
+      {
+        "Name": "Feint Attack",
+        "Level": "19"
+      },
+      {
+        "Name": "Tearful Look",
+        "Level": "22"
+      },
+      {
+        "Name": "Rock Tomb",
+        "Level": "26"
+      },
+      {
+        "Name": "Block",
+        "Level": "29"
+      },
+      {
+        "Name": "Rock Slide",
+        "Level": "33"
+      },
+      {
+        "Name": "Counter",
+        "Level": "36"
+      },
+      {
+        "Name": "Sucker Punch",
+        "Level": "40"
+      },
+      {
+        "Name": "Double-Edge",
+        "Level": "43"
+      }
+    ]
+  }
+}

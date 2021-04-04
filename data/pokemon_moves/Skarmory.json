@@ -101,68 +101,12 @@
     ],
     "regular_moves": [
       {
-        "Name": "011",
+        "Name": "Leer",
         "Level": "01"
       },
       {
-        "Name": "011",
-        "Level": "2 "
-      },
-      {
-        "Name": "3 \u2665\u2665\u2665",
-        "Level": "Co"
-      },
-      {
-        "Name": "Cute",
-        "Level": "1"
-      },
-      {
-        "Name": "20",
-        "Level": "00\u2014}}\u2014"
-      },
-      {
-        "Name": "00\u2014}}\u2014%",
-        "Level": "0000"
-      },
-      {
-        "Name": "01515",
-        "Level": "Phys"
-      },
-      {
-        "Name": "Physical",
-        "Level": "Nor"
-      },
-      {
-        "Name": "Flying",
-        "Level": "Air C"
-      },
-      {
-        "Name": "Spikes",
-        "Level": "28"
-      },
-      {
-        "Name": "3131",
-        "Level": "33"
-      },
-      {
-        "Name": "3838",
-        "Level": "2 "
-      },
-      {
-        "Name": "3 \u2665\u2665\u2665",
-        "Level": "Co"
-      },
-      {
-        "Name": "Cool",
-        "Level": "2"
-      },
-      {
-        "Name": "20",
-        "Level": "100}}100"
-      },
-      {
-        "Name": "100}}100%",
-        "Level": "070"
+        "Name": "Peck",
+        "Level": "01"
       }
     ]
   },

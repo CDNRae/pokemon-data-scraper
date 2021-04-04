@@ -128,14 +128,14 @@ def get_moves(pokemon, generation, egg_move_chance):
     
     if total_moves <= 4:
         if egg_move_length > 0:
-            while len(moves_for_pokemon) < 4 and counter < egg_move_length - 1:
+            while len(moves_for_pokemon) < 4 and counter < egg_move_length:
                 move = clean_move(egg_moves[counter])
                 moves_for_pokemon.append(move)
                 counter += 1
 
         counter = 0
 
-        while len(moves_for_pokemon) < 4 and counter < regular_move_length - 1:
+        while len(moves_for_pokemon) < 4 and counter < regular_move_length:
             move = regular_moves[counter]
 
             if int(move["Level"]) > 1:
@@ -147,7 +147,7 @@ def get_moves(pokemon, generation, egg_move_chance):
     else:
         counter = 0
 
-        while len(moves_for_pokemon) < 4 and counter < regular_move_length - 1:
+        while len(moves_for_pokemon) < 4 and counter < 50:
             will_have_egg_move = random.randint(1, 100)
 
             if egg_move_length > 0 and will_have_egg_move <= egg_move_chance:
@@ -157,41 +157,25 @@ def get_moves(pokemon, generation, egg_move_chance):
                 if move not in moves_for_pokemon:
                     moves_for_pokemon.append(move)
             else:
-                move = regular_moves[counter]
+                move_index = random.randint(0, regular_move_length - 1)
+                move = regular_moves[move_index]
                 moveName = clean_move(move["Name"])
 
-                if move["Level"] == "N/A" or int(move["Level"]) != 1:
-                    break
-                else:
-                    if moveName not in moves_for_pokemon:
-                        moves_for_pokemon.append(moveName)
+                if move["Level"] != "N/A" and move["Level"] != "Evo." and int(move["Level"]) == 1 and moveName not in moves_for_pokemon:
+                    moves_for_pokemon.append(moveName)
 
                 counter += 1
 
-    print(moves_for_pokemon)
+    pokemon.MoveOne = moves_for_pokemon[0]
 
-    """move_to_return = ""
+    if len(moves_for_pokemon) > 1:
+        pokemon.MoveTwo = moves_for_pokemon[1]
 
-    # If the method a move is learned == 1, then it's a regular move and we don't need any extra checks
-    if move["pokemon_move_method_id"] == 1:
-        move_details = move_details_dataframe[move_details_dataframe["id"] == move["move_id"]]
-        move_to_return = move_details["identifier"].item()
+    if len(moves_for_pokemon) > 2:
+        pokemon.MoveThree = moves_for_pokemon[2]
 
-    # If it's an egg move, we may or may not add it, depending on the chance for the Pokemon to have egg move
-    else:
-        random_number = random.randint(1, 100)
-
-        if egg_move_chance >= random_number:
-            move_details = move_details_dataframe[move_details_dataframe["id"] == move["move_id"]]
-            move_to_return = move_details["identifier"].item()
-
-    # Cleaning up the moves so they can be imported properly
-    if move_to_return != "mud-slap":
-        move_to_return = move_to_return.replace("-", " ")
-
-    move_to_return = move_to_return.title()
-
-    return move_to_return"""
+    if len(moves_for_pokemon) > 3:
+        pokemon.MoveFour = moves_for_pokemon[3]
 
 
 def clean_move(move_name):
@@ -200,8 +184,9 @@ def clean_move(move_name):
     move_to_return = move_to_return.replace("*", "")
     move_to_return = move_to_return.replace("‡", "")
     move_to_return = move_to_return.replace("†", "")
-    move_to_return = move_to_return.replace("GS", "")
     move_to_return = move_to_return.replace("HGSS", "")
+    move_to_return = move_to_return.replace("GS", "")
+    move_to_return = move_to_return.replace("ORAS", "")
     move_to_return = move_to_return.replace("USUM", "")
     move_to_return = move_to_return.replace("SM", "")
     move_to_return = move_to_return.strip()
@@ -282,6 +267,8 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
         get_moves(pokemon_object, generation, egg_move_chance)
 
+        print(pokemon_object.MoveOne)
+
         # Set up the Pokemon's moves -- drop all moves that the Pokemon can't know by level 1, or moves
         # that are taught through anything other than level up, and optionally, egg moves
         """move_loop_counter = 0
@@ -332,4 +319,4 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
 if __name__ == '__main__':
     # Number of pokemon to generate, generation, % chance of egg moves, % chance of hidden abilities, % chance of shiny
-    generate_pokemon(60, 6, 50, 50, 100)
+    generate_pokemon(10, 7, 50, 50, 100)
