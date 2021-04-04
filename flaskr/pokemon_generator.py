@@ -299,7 +299,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         if pokemon_object.Species is "Farfetch'd":
             pokemon_object.Species = "Farfetchd"
 
-        if pokemon_object.Species is "Mime_jr.":
+        if pokemon_object.Species.lower() is "mime_jr.":
             pokemon_object.Species = "MimeJr"
 
         if "-" in pokemon_object.Species:
