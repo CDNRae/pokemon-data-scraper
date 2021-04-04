@@ -4,8 +4,8 @@ class Pokemon:
         self.Ability = ""
         self.Gender = ""
         self.Level = ""
-        self.isEgg = True
-        self.isShiny = False
+        self.isEgg = "true"
+        self.isShiny = "false"
         self.Nature = ""
         self.HP = 0
         self.Atk = 0
