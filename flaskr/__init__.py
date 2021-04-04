@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from wtforms import Form, DecimalField, SelectField, validators
 from flaskr import pokemon_generator
 
@@ -15,7 +15,11 @@ def create_app():
         SECRET_KEY="Pokemon"
     )
 
-    @app.route("/", methods=["GET", "POST"])
+    @app.route('/', defaults={'path': ''})
+    def returnToIndex(path):
+        return redirect("/index")
+
+    @app.route('/index', methods=["GET", "POST"])
     def index():
         generatorForm = GeneratorForm()
         pokemon_data = ""
@@ -45,7 +49,8 @@ def create_app():
             if data["shiny_chance"] != "" and data["shiny_chance"] != "0":
                 shiny_chance = int(data["shiny_chance"])
 
-            pokemon_data = pokemon_generator.generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance)
+            pokemon_data = pokemon_generator.generate_pokemon(number_to_generate, generation, egg_move_chance,
+                                                              hidden_ability_chance, shiny_chance)
             return render_template("index.html", generatorForm=generatorForm, pokemon_data=pokemon_data)
 
     return app
