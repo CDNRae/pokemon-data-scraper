@@ -245,6 +245,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         # Get the Pokemon's species, set it on the object, along with its level
         pokemon = pokemon_list.iloc[random_number]
         pokemon_object.Species = pokemon["NAME"]
+
         pokemon_object.Level = 1
 
         # Get gender
@@ -287,6 +288,13 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
         # Get moves
         get_moves(pokemon_object, generation, egg_move_chance)
+
+        # A few Pokemon have names that PKHeX doesn't like -- this fixes that
+        if pokemon_object.Species is "Nidoran♀":
+            pokemon_object.Species = "NidoranF"
+
+        if pokemon_object.Species is "Nidoran♀":
+            pokemon_object.Species = "Nidoran♂"
 
         # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
         output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
