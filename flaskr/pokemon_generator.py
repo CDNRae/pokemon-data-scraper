@@ -299,6 +299,9 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         if pokemon_object.Species is "Farfetch'd":
             pokemon_object.Species = "Farfetchd"
 
+        if pokemon_object.Species is "Mime_jr.":
+            pokemon_object.Species = "MimeJr"
+
         # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
         output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
         output_string = output_string + ","
