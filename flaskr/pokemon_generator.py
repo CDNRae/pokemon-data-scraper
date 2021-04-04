@@ -1,7 +1,7 @@
 import pandas
 import random
 import json
-import pokemon
+from flaskr import pokemon
 
 PokemonClass = pokemon.Pokemon
 
