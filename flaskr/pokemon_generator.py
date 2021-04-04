@@ -251,13 +251,13 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         pokemon_object.Gender = get_gender(pokemon)
 
         # If the Pokemon can be shiny, make a check to see whether the one being generated will be shiny
-        pokemon_object.isShiny = False
+        pokemon_object.isShiny = "false"
 
         if shiny_chance > 0:
             random_number = random.randint(1, 100)
 
             if shiny_chance >= random_number:
-                pokemon_object.isShiny = True
+                pokemon_object.isShiny = "true"
 
         # Simple step to determine the Pokemon's nature.
         random_number = random.randint(0, 24)
