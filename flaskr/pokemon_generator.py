@@ -293,7 +293,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         if pokemon_object.Species is "Nidoran♀":
             pokemon_object.Species = "NidoranF"
 
-        if pokemon_object.Species is "Nidoran♀":
+        if pokemon_object.Species is "'Nidoran♂":
             pokemon_object.Species = "Nidoran♂"
 
         if pokemon_object.Species is "Farfetch'd":
@@ -301,6 +301,9 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
         if pokemon_object.Species is "Mime_jr.":
             pokemon_object.Species = "MimeJr"
+
+        if "-" in pokemon_object.Species:
+            pokemon_object.Species = pokemon_object.Species.replace("-", "")
 
         # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
         output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
