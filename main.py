@@ -12,7 +12,7 @@ genderless_pokemon = [
 ]
 
 female_only_pokemon = [
-    "Nidoran F", "Illumise", "Happiny", "Kangaskhan", "Smoochum", "Miltank", "Petilil", "Vullaby", "Flabebe",
+    "Nidoran F", "Illumise", "Happiny", "Kangaskhan", "Smoochum", "Miltank", "Petilil", "Vullaby", "Flabébé",
     "Bounsweet", "Hatenna", "Milcrey"
 ]
 
@@ -28,14 +28,12 @@ natures = [
 ]
 
 generations = {
-    1: "I",
     2: "II",
     3: "III",
     4: "IV",
     5: "V",
     6: "VI",
     7: "VII",
-    8: "VIII"
 }
 
 
@@ -48,7 +46,7 @@ def get_gender(pokemon):
     """
 
     pokemon_gender = "N"
-    
+
     if pokemon["NAME"] not in genderless_pokemon:
         if pokemon["NAME"] in male_only_pokemon:
             pokemon_gender = "M"
@@ -61,7 +59,7 @@ def get_gender(pokemon):
                 pokemon_gender = "F"
             else:
                 pokemon_gender = "M"
-                
+
     return pokemon_gender
 
 
@@ -98,13 +96,10 @@ def get_moves(pokemon, generation, egg_move_chance):
     Cleans up a given move by capitalizing it and removing dahses, and in the case of egg moves, determines if the
     Pokemon should get the move.
 
-    :param move: The move to be assessed
-    :param move_details_dataframe: A dataframe containing info on Pokemon moves.  See pokemon_moves_details.csv.
+    :param pokemon: The object containing info for the Pokemon being created
+    :param generation: The generation the Pokemon is being created for.
     :param egg_move_chance: The chance, determined by a user, for a Pokemon to have an egg move.
-    :return: A string containing the name of the move, or nothing
     """
-    species = pokemon.Species.capitalize()
-    generation_numeral = generations[generation]
     all_moves = {}
     moves_for_pokemon = []
     egg_moves = []
@@ -113,19 +108,23 @@ def get_moves(pokemon, generation, egg_move_chance):
     regular_move_length = 0
     counter = 0
 
-    print(species)
+    species = pokemon.Species.capitalize()
+    generation_numeral = generations[generation]
+
+    # Get the Pokemon's moveset data
     with open(f"./data/pokemon_moves/{species}.json", "r") as moves_file:
         all_moves = json.load(moves_file)
 
-    valid_moves = all_moves[generation_numeral]
-    egg_moves = valid_moves["egg_moves"]
-    regular_moves = valid_moves["regular_moves"]
+    # Split up the moveset into egg moves and regular moves, targeting the generation the Pokemon is being created for
+    egg_moves = all_moves[generation_numeral]["egg_moves"]
+    regular_moves = all_moves[generation_numeral]["regular_moves"]
 
+    # Get the number of egg moves and regular moves, and the total
     egg_move_length = len(egg_moves)
     regular_move_length = len(regular_moves)
-
     total_moves = egg_move_length + regular_move_length
-    
+
+    # If the Pokemon can know less than four moves, there's no point in randomizing
     if total_moves <= 4:
         if egg_move_length > 0:
             while len(moves_for_pokemon) < 4 and counter < egg_move_length:
@@ -138,6 +137,8 @@ def get_moves(pokemon, generation, egg_move_chance):
         while len(moves_for_pokemon) < 4 and counter < regular_move_length:
             move = regular_moves[counter]
 
+            # Since moves are ordered by when a Pokemon learns them, the loop is broken purposefully once the level of
+            # of the incoming moves exceeds 1
             if int(move["Level"]) > 1:
                 break
             else:
@@ -150,22 +151,28 @@ def get_moves(pokemon, generation, egg_move_chance):
         while len(moves_for_pokemon) < 4 and counter < 50:
             will_have_egg_move = random.randint(1, 100)
 
+            # See if the Pokemon will have an egg move.  If it will, grab a random one from the list and add it to the
+            # moveset
             if egg_move_length > 0 and will_have_egg_move <= egg_move_chance:
                 move_index = random.randint(0, egg_move_length - 1)
                 move = clean_move(egg_moves[move_index])
 
                 if move not in moves_for_pokemon:
                     moves_for_pokemon.append(move)
+            # Randomly select a regular move that the Pokemon learns at level 1.  Some checks are in place to handle odd
+            # case where level is assigned as N/A, Evo., etc.
             else:
                 move_index = random.randint(0, regular_move_length - 1)
                 move = regular_moves[move_index]
                 moveName = clean_move(move["Name"])
 
-                if move["Level"] != "N/A" and move["Level"] != "Evo." and int(move["Level"]) == 1 and moveName not in moves_for_pokemon:
+                if move["Level"] != "N/A" and move["Level"] != "Evo." and int(
+                        move["Level"]) == 1 and moveName not in moves_for_pokemon:
                     moves_for_pokemon.append(moveName)
 
                 counter += 1
 
+    # Add the moves to the pokemon object
     pokemon.MoveOne = moves_for_pokemon[0]
 
     if len(moves_for_pokemon) > 1:
@@ -179,6 +186,12 @@ def get_moves(pokemon, generation, egg_move_chance):
 
 
 def clean_move(move_name):
+    """
+    Remove special characters, trailing whitespace, and certain strings from the moves
+
+    :param move_name: The cleaned move name
+    :return:
+    """
     move_to_return = move_name
 
     move_to_return = move_to_return.replace("*", "")
@@ -195,16 +208,24 @@ def clean_move(move_name):
 
 
 def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance):
+    """
+    Generates a series of Pokemon in JSON format, which are written to the output_file
+
+    :param number_to_generate: Number of Pokemon to generate
+    :param generation:  The generation of games the Pokemon are from
+    :param egg_move_chance: The chance of a Pokemon having an egg move
+    :param hidden_ability_chance: The chance of a Pokemon having its hidden ability
+    :param shiny_chance: The chance of a Pokemon being shiny
+    :return:
+    """
     # Setting up the output file, data, randomizer, etc.
     output_file = open("./output/output_file.json", "w+")
     output_file.write("[")
-    generated_pokemon = []
     loop_counter = 0
     random.seed()
 
+    # Get Pokemon from the specified generation
     pokemon_list = pandas.read_csv("./data/pokemon.csv")
-
-    # Dropping Pokemon outside of the generation specified
     pokemon_list = pokemon_list[pokemon_list.GENERATION <= generation]
 
     # Hidden abilities can only be had from Gen V onward; if it's earlier, we set hidden_ability_chance to 0 regardless
@@ -217,15 +238,11 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         # Re-seeding it every time.
         random_number = random.randint(0, len(pokemon_list.index) - 1)
 
+        # Instantiate the Pokemon object that will hold all the data about the Pokemon
         pokemon_object = pokemonClass()
-        pokemon = pokemon_list.iloc[random_number]
-        pokemon_gender = ""
-        pokemon_ability = ""
-        pokemon_is_shiny = ""
-        pokemon_nature = ""
-        pokemon_ivs = []
-        pokemon_moves = []
 
+        # Get the Pokemon's species, set it on the object, along with its level
+        pokemon = pokemon_list.iloc[random_number]
         pokemon_object.Species = pokemon["NAME"]
         pokemon_object.Level = 1
 
@@ -270,6 +287,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         # Get moves
         get_moves(pokemon_object, generation, egg_move_chance)
 
+        # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
         json.dump(pokemon_object.pokemon_as_dict(), output_file)
         output_file.write(",\n")
 
