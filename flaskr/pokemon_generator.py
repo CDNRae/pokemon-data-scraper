@@ -1,8 +1,9 @@
 import pandas
 import random
 import json
-from enum import Enum
-from pokemon import Pokemon as pokemonClass
+from . import pokemon
+
+PokemonClass = pokemon.Pokemon
 
 # The following arrays hold various information that impose further restrictions on Pokemon genders
 genderless_pokemon = [
@@ -37,20 +38,20 @@ generations = {
 }
 
 
-def get_gender(pokemon):
+def get_gender(pokemon_object):
     """
     Determines the gender of a Pokemon.  Has a few checks for genderless, male-only, and female-only species.
 
-    :param pokemon: The Pokemon to determine the gender of.
+    :param pokemon_object: The Pokemon to determine the gender of.
     :return: The Pokemon's gender.
     """
 
     pokemon_gender = "N"
 
-    if pokemon["NAME"] not in genderless_pokemon:
-        if pokemon["NAME"] in male_only_pokemon:
+    if pokemon_object["NAME"] not in genderless_pokemon:
+        if pokemon_object["NAME"] in male_only_pokemon:
             pokemon_gender = "M"
-        elif pokemon["NAME"] in female_only_pokemon:
+        elif pokemon_object["NAME"] in female_only_pokemon:
             pokemon_gender = "F"
         else:
             random_number = random.randint(1, 2)
@@ -63,24 +64,24 @@ def get_gender(pokemon):
     return pokemon_gender
 
 
-def get_ability(pokemon, hidden_ability_chance):
+def get_ability(pokemon_object, hidden_ability_chance):
     """
     Determines the Pokemon's ability.
 
-    :param pokemon: The Pokemon to generate an ability for.
+    :param pokemon_object: The Pokemon to generate an ability for.
     :param hidden_ability_chance: The chance for the Pokemon to have its hidden ability
     :return: A string with the Pokemon's chosen ability
     """
-    abilities = pokemon["ABILITY"]
+    abilities = pokemon_object["ABILITY"]
 
     # If hidden abilities are enabled and the Pokemon has hidden abilities, check to see if this one in particular gets
     # said hidden ability.  Existence of hidden ability is checked by comparing the Pokemon's hidden ability to itself;
     # if both values are identical, then a hidden ability exists.  If not, then it's NaN in the dataframe.
-    if hidden_ability_chance > 0 and pokemon["ABILITY HIDDEN"] == pokemon["ABILITY HIDDEN"]:
+    if hidden_ability_chance > 0 and pokemon_object["ABILITY HIDDEN"] == pokemon_object["ABILITY HIDDEN"]:
         random_number = random.randint(1, 100)  # random_number determines whether the Pokemon will have an HA
 
         if hidden_ability_chance >= random_number:
-            abilities = pokemon["ABILITY HIDDEN"]
+            abilities = pokemon_object["ABILITY HIDDEN"]
 
     # Abilities are represented by a string in the data; this splits them, grabs a random one, and then returns it
     abilities = abilities.split(",")
@@ -91,12 +92,12 @@ def get_ability(pokemon, hidden_ability_chance):
     return pokemon_ability
 
 
-def get_moves(pokemon, generation, egg_move_chance):
+def get_moves(pokemon_object, generation, egg_move_chance):
     """
     Cleans up a given move by capitalizing it and removing dahses, and in the case of egg moves, determines if the
     Pokemon should get the move.
 
-    :param pokemon: The object containing info for the Pokemon being created
+    :param pokemon_object: The object containing info for the Pokemon being created
     :param generation: The generation the Pokemon is being created for.
     :param egg_move_chance: The chance, determined by a user, for a Pokemon to have an egg move.
     """
@@ -108,11 +109,11 @@ def get_moves(pokemon, generation, egg_move_chance):
     regular_move_length = 0
     counter = 0
 
-    species = pokemon.Species.capitalize()
+    species = pokemon_object.Species.capitalize()
     generation_numeral = generations[generation]
 
     # Get the Pokemon's moveset data
-    with open(f"./data/pokemon_moves/{species}.json", "r") as moves_file:
+    with open(f"flaskr/data/pokemon_moves/{species}.json", "r") as moves_file:
         all_moves = json.load(moves_file)
 
     # Split up the moveset into egg moves and regular moves, targeting the generation the Pokemon is being created for
@@ -173,16 +174,17 @@ def get_moves(pokemon, generation, egg_move_chance):
                 counter += 1
 
     # Add the moves to the pokemon object
-    pokemon.MoveOne = moves_for_pokemon[0]
+    if len(moves_for_pokemon) > 0:
+        pokemon_object.MoveOne = moves_for_pokemon[0]
 
     if len(moves_for_pokemon) > 1:
-        pokemon.MoveTwo = moves_for_pokemon[1]
+        pokemon_object.MoveTwo = moves_for_pokemon[1]
 
     if len(moves_for_pokemon) > 2:
-        pokemon.MoveThree = moves_for_pokemon[2]
+        pokemon_object.MoveThree = moves_for_pokemon[2]
 
     if len(moves_for_pokemon) > 3:
-        pokemon.MoveFour = moves_for_pokemon[3]
+        pokemon_object.MoveFour = moves_for_pokemon[3]
 
 
 def clean_move(move_name):
@@ -219,13 +221,12 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
     :return:
     """
     # Setting up the output file, data, randomizer, etc.
-    output_file = open("./output/output_file.json", "w+")
-    output_file.write("[")
+    output_string = "["
     loop_counter = 0
     random.seed()
 
     # Get Pokemon from the specified generation
-    pokemon_list = pandas.read_csv("./data/pokemon.csv")
+    pokemon_list = pandas.read_csv("flaskr/data/pokemon.csv")
     pokemon_list = pokemon_list[pokemon_list.GENERATION <= generation]
 
     # Hidden abilities can only be had from Gen V onward; if it's earlier, we set hidden_ability_chance to 0 regardless
@@ -239,7 +240,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         random_number = random.randint(0, len(pokemon_list.index) - 1)
 
         # Instantiate the Pokemon object that will hold all the data about the Pokemon
-        pokemon_object = pokemonClass()
+        pokemon_object = PokemonClass()
 
         # Get the Pokemon's species, set it on the object, along with its level
         pokemon = pokemon_list.iloc[random_number]
@@ -288,15 +289,15 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         get_moves(pokemon_object, generation, egg_move_chance)
 
         # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
-        json.dump(pokemon_object.pokemon_as_dict(), output_file)
-        output_file.write(",\n")
+        output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
+        output_string = output_string + ","
 
         loop_counter += 1
 
-    output_file.write("]")
-    output_file.close()
+    output_string = output_string + "]"
+    return output_string
 
 
 if __name__ == '__main__':
     # Number of pokemon to generate, generation, % chance of egg moves, % chance of hidden abilities, % chance of shiny
-    generate_pokemon(10, 7, 50, 50, 100)
+    print(generate_pokemon(10, 7, 50, 50, 100))

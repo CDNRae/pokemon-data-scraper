@@ -15,6 +15,18 @@
 </head>
 
 <body>
+<script>
+    function copyToClipboard() {
+        textToCopy = document.getElementById("output");
+
+        textToCopy.select();
+        textToCopy.setSelectionRange(0, 99999);
+
+        document.execCommand("copy");
+    }
+
+</script>
+
 <div class="content-container">
     <h1>Pokemon Egg Generator</h1>
     <div class="content-container-inner">
@@ -76,6 +88,16 @@
                 <button action="submit">Generate</button>
             </div>
         </form>
+    </div>
+    <br>
+    <div class="content-container-inner">
+        <h2>Output</h2>
+        <textarea id="output" readonly>{{ pokemon_data }}</textarea>
+
+        <div class="generate-button">
+            <button onclick="copyToClipboard()">Copy Output to Clipboard</button>
+        </div>
+
     </div>
 </div>
 </div>
