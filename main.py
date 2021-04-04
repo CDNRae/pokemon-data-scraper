@@ -196,7 +196,8 @@ def clean_move(move_name):
 
 def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance):
     # Setting up the output file, data, randomizer, etc.
-    output_file = open("./output/output_file.txt", "w+")
+    output_file = open("./output/output_file.json", "w+")
+    output_file.write("[")
     generated_pokemon = []
     loop_counter = 0
     random.seed()
@@ -216,7 +217,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         # Re-seeding it every time.
         random_number = random.randint(0, len(pokemon_list.index) - 1)
 
-        pokemon_object = pokemonClass
+        pokemon_object = pokemonClass()
         pokemon = pokemon_list.iloc[random_number]
         pokemon_gender = ""
         pokemon_ability = ""
@@ -226,6 +227,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         pokemon_moves = []
 
         pokemon_object.Species = pokemon["NAME"]
+        pokemon_object.Level = 1
 
         # Get gender
         pokemon_object.Gender = get_gender(pokemon)
@@ -244,7 +246,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         pokemon_object.Nature = natures[random_number]
 
         # Get ability
-        pokemon_ability = get_ability(pokemon, hidden_ability_chance)
+        pokemon_object.Ability = get_ability(pokemon, hidden_ability_chance)
 
         # Next, IVs are determined by randomly generating numbers between 1 and 31.
         random_number = random.randint(1, 31)
@@ -265,55 +267,15 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         random_number = random.randint(1, 31)
         pokemon_object.Spe = random_number
 
+        # Get moves
         get_moves(pokemon_object, generation, egg_move_chance)
 
-        print(pokemon_object.MoveOne)
-
-        # Set up the Pokemon's moves -- drop all moves that the Pokemon can't know by level 1, or moves
-        # that are taught through anything other than level up, and optionally, egg moves
-        """move_loop_counter = 0
-        moves_for_pokemon = pokemon_known_moves[pokemon_known_moves["pokemon_id"] == pokemon["NUMBER"]]
-        moves_for_pokemon = moves_for_pokemon[moves_for_pokemon["level"] < 2]
-
-        if egg_move_chance == 0:
-            moves_for_pokemon = moves_for_pokemon[moves_for_pokemon["pokemon_move_method_id"] == 1]
-
-        # If the Pokemon can only know 4 or fewer moves, there's no need to run it through a loop to randomly choose
-        if len(moves_for_pokemon) < 4:
-            for move in moves_for_pokemon:
-                move_to_add = get_move(move, pokemon_move_details, egg_move_chance)
-
-                if move_to_add not in pokemon_moves:
-                    pokemon_moves.append(move_to_add)
-        else:
-            while move_loop_counter < len(moves_for_pokemon.index) - 1 and len(pokemon_moves) < 4:
-                random_number = random.randint(0, len(moves_for_pokemon.index) - 1)
-                move = moves_for_pokemon.iloc[random_number]
-
-                move_to_add = get_move(move, pokemon_move_details, egg_move_chance)
-
-                if move_to_add not in pokemon_moves:
-                    pokemon_moves.append(move_to_add)
-
-                move_loop_counter += 1"""
+        json.dump(pokemon_object.pokemon_as_dict(), output_file)
+        output_file.write(",\n")
 
         loop_counter += 1
 
-        # pokemon_moves_as_string = ""
-
-        # for move in pokemon_moves:
-        #    if move != "":
-        #        pokemon_moves_as_string = pokemon_moves_as_string + f"- {move}\n"
-
-        """output_file.write(f"{pokemon['NAME']} {pokemon_gender}\n"
-                          f"Ability: {pokemon_ability}\n"
-                          f"Level: 1\n"
-                          f"{pokemon_is_shiny}"
-                          f"{pokemon_nature} Nature\n"
-                          f"IVs: {pokemon_ivs[0]} HP / {pokemon_ivs[1]} Atk / {pokemon_ivs[2]} Def / {pokemon_ivs[3]} SpA / {pokemon_ivs[4]} SpD / {pokemon_ivs[5]} Spe\n"
-                          f"{pokemon_moves_as_string}-------"
-                          )"""
-
+    output_file.write("]")
     output_file.close()
 
 

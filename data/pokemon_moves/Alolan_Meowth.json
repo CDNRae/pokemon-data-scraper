@@ -1,0 +1,28 @@
+{
+  "VII": {
+    "egg_moves": [
+      "Amnesia",
+      "Assist",
+      "Charm",
+      "Covet",
+      "Flail",
+      "Flatter",
+      "Foul Play",
+      "Hypnosis",
+      "Parting Shot",
+      "Punishment",
+      "Snatch",
+      "Spite"
+    ],
+    "regular_moves": [
+      {
+        "Name": "Scratch",
+        "Level": "01"
+      },
+      {
+        "Name": "Growl",
+        "Level": "01"
+      }
+    ]
+  }
+}

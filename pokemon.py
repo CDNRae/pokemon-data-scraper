@@ -1,19 +1,41 @@
 class Pokemon:
-    def __init__(self, species, ability, gender, level, isegg, isshiny, nature, hp, atk, defense, spa, spd, spe, moveone, movetwo, movethree, movefour):
-        self.Species = species
-        self.Ability = ability
-        self.Gender = gender
-        self.Level = level
-        self.isEgg = isegg
-        self.isShiny = isshiny
-        self.Nature = nature
-        self.HP = hp
-        self.Atk = atk
-        self.Def = defense
-        self.SpA = spa
-        self.SpD = spd
-        self.Spe = spe
-        self.MoveOne = moveone
-        self.MoveTwo = movetwo
-        self.MoveThree = movethree
-        self.MoveFour = movefour
+    def __init__(self):
+        self.Species = ""
+        self.Ability = ""
+        self.Gender = ""
+        self.Level = ""
+        self.isEgg = True
+        self.isShiny = False
+        self.Nature = ""
+        self.HP = 0
+        self.Atk = 0
+        self.Def = 0
+        self.SpA = 0
+        self.SpD = 0
+        self.Spe = 0
+        self.MoveOne = ""
+        self.MoveTwo = ""
+        self.MoveThree = ""
+        self.MoveFour = ""
+
+    def pokemon_as_dict(self):
+        return {
+            "Species": self.Species,
+            "Ability": self.Ability,
+            "Gender": self.Gender,
+            "Level": self.Level,
+            "isEgg": self.isEgg,
+            "isShiny": self.isShiny,
+            "Nature": self.Nature,
+            "HP": self.HP,
+            "Atk": self.Atk,
+            "Def": self.Def,
+            "SpA": self.SpA,
+            "SpD": self.SpD,
+            "Spe": self.Spe,
+            "MoveOne": self.MoveOne,
+            "MoveTwo": self.MoveTwo,
+            "MoveThree": self.MoveThree,
+            "MoveFour": self.MoveFour
+        }
+
