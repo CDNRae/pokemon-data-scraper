@@ -296,10 +296,10 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
             else:
                 pokemon_object.Species = "NidoranM"
 
-        if pokemon_object.Species is "Farfetch'd":
+        if pokemon_object.Species == "Farfetch'd":
             pokemon_object.Species = "Farfetchd"
 
-        if pokemon_object.Species.lower() is "mime_jr.":
+        if pokemon_object.Species.lower() == "mime_jr.":
             pokemon_object.Species = "MimeJr"
 
         if "-" in pokemon_object.Species:
