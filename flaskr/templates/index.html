@@ -55,7 +55,7 @@
 
             <div class="col-md-6">
                 <label for="number_to_generate">Number of Pokemon to Generate:</label>
-                <input type="number" class="form-control" id="number_to_generate" name="number_to_generate">
+                <input type="number" class="form-control" id="number_to_generate" name="number_to_generate" min="1" max="100" value="{{ generatorForm.number_to_generate }}">
             </div>
 
             <div class="col-md-6">
@@ -71,18 +71,40 @@
             </div>
             <div class="col-md-4">
                 <label for="shiny_chance">Shiny Chance (%):</label>
-                <input type="number" class="form-control" id="shiny_chance" name="shiny_chance">
+                <input type="number" class="form-control" id="shiny_chance" name="shiny_chance" value="{{ generatorForm.shiny_chance }}">
             </div>
 
             <div class="col-md-4">
                 <label for="egg_move_chance">Egg Move Chance (%):</label>
-                <input type="number" class="form-control" id="egg_move_chance" name="egg_move_chance">
+                <input type="number" class="form-control" id="egg_move_chance" name="egg_move_chance" value="{{ generatorForm.egg_move_chance }}">
             </div>
 
             <div class="col-md-4">
                 <label for="hidden_ability_chance">Hidden Ability Chance (%):</label>
-                <input type="number" class="form-control" id="hidden_ability_chance" name="hidden_ability_chance">
+                <input type="number" class="form-control" id="hidden_ability_chance" name="hidden_ability_chance" value="{{ generatorForm.hidden_ability_chance }}">
             </div>
+
+            <fieldset>
+                Types to Include:<br>
+                <input type="checkbox" name="type" value="Normal" checked> Normal<br>
+                <input type="checkbox" name="type" value="Fire" checked> Fire<br>
+                <input type="checkbox" name="type" value="Fighting" checked> Fighting<br>
+                <input type="checkbox" name="type" value="Water" checked> Water<br>
+                <input type="checkbox" name="type" value="Flying" checked> Flying<br>
+                <input type="checkbox" name="type" value="Grass" checked> Grass<br>
+                <input type="checkbox" name="type" value="Poison" checked> Poison<br>
+                <input type="checkbox" name="type" value="Electric" checked> Electric<br>
+                <input type="checkbox" name="type" value="Ground" checked> Ground<br>
+                <input type="checkbox" name="type" value="Psychic" checked> Psychic<br>
+                <input type="checkbox" name="type" value="Rock" checked> Rock<br>
+                <input type="checkbox" name="type" value="Ice" checked> Ice<br>
+                <input type="checkbox" name="type" value="Bug" checked> Bug<br>
+                <input type="checkbox" name="type" value="Dragon" checked> Dragon<br>
+                <input type="checkbox" name="type" value="Ghost" checked> Ghost<br>
+                <input type="checkbox" name="type" value="Dark" checked> Dark<br>
+                <input type="checkbox" name="type" value="Steel" checked> Steel<br>
+                <input type="checkbox" name="type" value="Fairy" checked> Fairy<br>
+            </fieldset>
 
             <div class="generate-button">
                 <button action="submit">Generate</button>

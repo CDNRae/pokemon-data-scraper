@@ -209,7 +209,7 @@ def clean_move(move_name):
     return move_to_return
 
 
-def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance):
+def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance, types, consider_final_evo_type_only, consider_first_and_final_evo_type):
     """
     Generates a series of Pokemon in JSON format, which are written to the output_file
 

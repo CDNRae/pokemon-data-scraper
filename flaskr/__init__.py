@@ -6,6 +6,7 @@ from flaskr import pokemon_generator
 class GeneratorForm(Form):
     number_of_pokemon = DecimalField(label="number_to_generate",
                                      validators=[validators.NumberRange(min=1, max=100)])
+
     generation = SelectField(label="Generation", choices=["I", "II", "III", "IV", "V", "VI", "VII", "VIII"])
 
 
@@ -21,16 +22,19 @@ def create_app():
 
     @app.route('/index', methods=["GET", "POST"])
     def index():
-        generatorForm = GeneratorForm()
+        generator_form = GeneratorForm()
         pokemon_data = ""
         number_to_generate = 1
         generation = 2
         egg_move_chance = 0
         hidden_ability_chance = 0
         shiny_chance = 0
+        type_restrictions = []
+        type_restrictions_final_evo_only = True
+        type_restrictions_first_and_final_evo = True
 
         if request.method == "GET":
-            return render_template("index.html", generatorForm=generatorForm, pokemon_data=pokemon_data)
+            return render_template("index.html", generatorForm=generator_form, pokemon_data=pokemon_data)
         else:
             data = request.form
 
@@ -50,8 +54,14 @@ def create_app():
                 shiny_chance = int(data["shiny_chance"])
 
             pokemon_data = pokemon_generator.generate_pokemon(number_to_generate, generation, egg_move_chance,
-                                                              hidden_ability_chance, shiny_chance)
-            return render_template("index.html", generatorForm=generatorForm, pokemon_data=pokemon_data)
+                                                              hidden_ability_chance, shiny_chance, types=[], consider_final_evo_type_only=True, consider_first_and_final_evo_type=True)
+            generator_form.number_to_generate = number_to_generate
+            generator_form.generation = generation
+            generator_form.egg_move_chance = egg_move_chance
+            generator_form.hidden_ability_chance = hidden_ability_chance
+            generator_form.shiny_chance = shiny_chance
+
+            return render_template("index.html", generatorForm=generator_form, pokemon_data=pokemon_data)
 
     return app
 
