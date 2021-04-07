@@ -37,6 +37,8 @@ generations = {
     7: "VII",
 }
 
+valid_types = ["Dragon", "Dark", "Ghost", "Poison"]
+
 
 def get_gender(pokemon_object):
     """
@@ -113,7 +115,7 @@ def get_moves(pokemon_object, generation, egg_move_chance):
     generation_numeral = generations[generation]
 
     # Get the Pokemon's moveset data
-    with open(f"flaskr/data/pokemon_moves/{species}.json", "r") as moves_file:
+    with open(f"./data/pokemon_moves/{species}.json", "r") as moves_file:
         all_moves = json.load(moves_file)
 
     # Split up the moveset into egg moves and regular moves, targeting the generation the Pokemon is being created for
@@ -209,7 +211,7 @@ def clean_move(move_name):
     return move_to_return
 
 
-def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance, types, consider_final_evo_type_only, consider_first_and_final_evo_type):
+def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance):
     """
     Generates a series of Pokemon in JSON format, which are written to the output_file
 
@@ -226,7 +228,7 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
     random.seed()
 
     # Get Pokemon from the specified generation
-    pokemon_list = pandas.read_csv("flaskr/data/pokemon.csv")
+    pokemon_list = pandas.read_csv("./data/pokemon.csv")
     pokemon_list = pokemon_list[pokemon_list.GENERATION <= generation]
 
     # Hidden abilities can only be had from Gen V onward; if it's earlier, we set hidden_ability_chance to 0 regardless
@@ -244,70 +246,72 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
         # Get the Pokemon's species, set it on the object, along with its level
         pokemon = pokemon_list.iloc[random_number]
-        pokemon_object.Species = pokemon["NAME"]
 
-        pokemon_object.Level = 1
+        if pokemon["TYPE1"] in valid_types or pokemon["TYPE2"] in valid_types or pokemon["TYPES ON EVO"] in valid_types:
+            pokemon_object.Species = pokemon["NAME"]
 
-        # Get gender
-        pokemon_object.Gender = get_gender(pokemon)
+            pokemon_object.Level = 1
 
-        # If the Pokemon can be shiny, make a check to see whether the one being generated will be shiny
-        pokemon_object.isShiny = "false"
+            # Get gender
+            pokemon_object.Gender = get_gender(pokemon)
 
-        if shiny_chance > 0:
-            random_number = random.randint(1, 100)
+            # If the Pokemon can be shiny, make a check to see whether the one being generated will be shiny
+            pokemon_object.isShiny = "false"
 
-            if shiny_chance >= random_number:
-                pokemon_object.isShiny = "true"
+            if shiny_chance > 0:
+                random_number = random.randint(1, 100)
 
-        # Simple step to determine the Pokemon's nature.
-        random_number = random.randint(0, 24)
-        pokemon_object.Nature = natures[random_number]
+                if shiny_chance >= random_number:
+                    pokemon_object.isShiny = "true"
 
-        # Get ability
-        pokemon_object.Ability = get_ability(pokemon, hidden_ability_chance)
+            # Simple step to determine the Pokemon's nature.
+            random_number = random.randint(0, 24)
+            pokemon_object.Nature = natures[random_number]
 
-        # Next, IVs are determined by randomly generating numbers between 1 and 31.
-        random_number = random.randint(1, 31)
-        pokemon_object.HP = random_number
+            # Get ability
+            pokemon_object.Ability = get_ability(pokemon, hidden_ability_chance)
 
-        random_number = random.randint(1, 31)
-        pokemon_object.Atk = random_number
+            # Next, IVs are determined by randomly generating numbers between 1 and 31.
+            random_number = random.randint(1, 31)
+            pokemon_object.HP = random_number
 
-        random_number = random.randint(1, 31)
-        pokemon_object.Def = random_number
+            random_number = random.randint(1, 31)
+            pokemon_object.Atk = random_number
 
-        random_number = random.randint(1, 31)
-        pokemon_object.SpA = random_number
+            random_number = random.randint(1, 31)
+            pokemon_object.Def = random_number
 
-        random_number = random.randint(1, 31)
-        pokemon_object.SpD = random_number
+            random_number = random.randint(1, 31)
+            pokemon_object.SpA = random_number
 
-        random_number = random.randint(1, 31)
-        pokemon_object.Spe = random_number
+            random_number = random.randint(1, 31)
+            pokemon_object.SpD = random_number
 
-        # Get moves
-        get_moves(pokemon_object, generation, egg_move_chance)
+            random_number = random.randint(1, 31)
+            pokemon_object.Spe = random_number
 
-        # A few Pokemon have names that PKHeX doesn't like -- this fixes that
-        if "Nidoran" in pokemon_object.Species:
-            if pokemon_object.Gender == "F":
-                pokemon_object.Species = "NidoranF"
-            else:
-                pokemon_object.Species = "NidoranM"
+            # Get moves
+            get_moves(pokemon_object, generation, egg_move_chance)
 
-        if pokemon_object.Species == "Farfetch'd":
-            pokemon_object.Species = "Farfetchd"
+            # A few Pokemon have names that PKHeX doesn't like -- this fixes that
+            if "Nidoran" in pokemon_object.Species:
+                if pokemon_object.Gender == "F":
+                    pokemon_object.Species = "NidoranF"
+                else:
+                    pokemon_object.Species = "NidoranM"
 
-        if pokemon_object.Species.lower() == "mime_jr.":
-            pokemon_object.Species = "MimeJr"
+            if pokemon_object.Species == "Farfetch'd":
+                pokemon_object.Species = "Farfetchd"
 
-        if "-" in pokemon_object.Species:
-            pokemon_object.Species = pokemon_object.Species.replace("-", "")
+            if pokemon_object.Species.lower() == "mime_jr.":
+                pokemon_object.Species = "MimeJr"
 
-        # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
-        output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
-        output_string = output_string + ","
+            if "-" in pokemon_object.Species:
+                pokemon_object.Species = pokemon_object.Species.replace("-", "")
+
+            # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
+            output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
+            output_string = output_string + ","
 
         loop_counter += 1
 
@@ -317,4 +321,4 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
 if __name__ == '__main__':
     # Number of pokemon to generate, generation, % chance of egg moves, % chance of hidden abilities, % chance of shiny
-    print(generate_pokemon(10, 7, 50, 50, 100))
+    print(generate_pokemon(20, 6, 25, 50, 1))
