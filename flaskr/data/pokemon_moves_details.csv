@@ -79,7 +79,7 @@ id,identifier,generation_id,type_id,power,pp,accuracy,priority,target_id,damage_
 78,stun-spore,1,12,,30,75,0,10,1,68,,4,14,19
 79,sleep-powder,1,12,,15,75,0,10,1,2,,4,5,19
 80,petal-dance,1,12,120,10,100,0,8,3,28,,2,6,21
-81,string-shot,1,7,,40,95,0,11,1,61,,4,9,19
+81,Motor Drive-shot,1,7,,40,95,0,11,1,61,,4,9,19
 82,dragon-rage,1,16,,10,100,0,10,3,42,,1,26,5
 83,fire-spin,1,10,35,15,85,0,10,3,43,100,2,24,21
 84,thunder-shock,1,13,40,30,100,0,10,3,7,10,1,1,5
