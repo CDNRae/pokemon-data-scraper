@@ -19,7 +19,7 @@
       "AncientPower",
       "Bite",
       "Body Slam",
-      "Double-Edge",
+      "DoubleEdge",
       "Icicle Spear*",
       "Mud Shot",
       "Rock Slide",
@@ -66,7 +66,7 @@
       "Bite",
       "Body Slam",
       "Curse",
-      "Double-Edge",
+      "DoubleEdge",
       "Fissure",
       "Icicle Spear*",
       "Mud Shot",
@@ -91,7 +91,7 @@
         "Level": "08"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "13"
       },
       {
@@ -139,7 +139,7 @@
       "Bite",
       "Body Slam",
       "Curse",
-      "Double-Edge",
+      "DoubleEdge",
       "Fissure",
       "Icicle Crash",
       "Icicle Spear*",
@@ -165,9 +165,9 @@
       "Bite",
       "Body Slam",
       "Curse",
-      "Double-Edge",
+      "DoubleEdge",
       "Fissure",
-      "Freeze-Dry*",
+      "FreezeDry*",
       "Icicle Crash",
       "Icicle Spear*",
       "Mud Shot",
@@ -192,7 +192,7 @@
         "Level": "08"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "11"
       },
       {
@@ -244,9 +244,9 @@
       "Bite",
       "Body Slam",
       "Curse",
-      "Double-Edge",
+      "DoubleEdge",
       "Fissure",
-      "Freeze-Dry*",
+      "FreezeDry*",
       "Icicle Crash",
       "Icicle Spear",
       "Mud Shot",
@@ -257,9 +257,9 @@
       "Bite",
       "Body Slam",
       "Curse",
-      "Double-Edge",
+      "DoubleEdge",
       "Fissure",
-      "Freeze-Dry*",
+      "FreezeDry*",
       "Icicle Crash",
       "Icicle Spear",
       "Mud Shot",
@@ -284,7 +284,7 @@
         "Level": "08"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "11"
       },
       {
@@ -344,7 +344,7 @@
         "Level": "08"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "11"
       },
       {

@@ -12,7 +12,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "06"
       },
       {
@@ -55,7 +55,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "06"
       },
       {
@@ -90,7 +90,7 @@
       "Baton Pass",
       "Counter",
       "Cross Poison",
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Metal Claw",
       "Night Slash",
@@ -105,7 +105,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "05"
       },
       {
@@ -141,11 +141,11 @@
         "Level": "34"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "38"
       },
       {
-        "Name": "X-Scissor",
+        "Name": "XScissor",
         "Level": "42"
       },
       {
@@ -160,7 +160,7 @@
       "Baton Pass",
       "Counter",
       "Cross Poison",
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Metal Claw",
       "Night Slash",
@@ -184,7 +184,7 @@
       "Baton Pass",
       "Counter",
       "Cross Poison",
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Metal Claw",
       "Night Slash",
@@ -233,7 +233,7 @@
         "Level": "27"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "30"
       },
       {
@@ -241,7 +241,7 @@
         "Level": "35"
       },
       {
-        "Name": "X-Scissor",
+        "Name": "XScissor",
         "Level": "40"
       },
       {
@@ -264,7 +264,7 @@
       "Baton Pass",
       "Counter",
       "Cross Poison",
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Metal Claw",
       "Night Slash",
@@ -278,7 +278,7 @@
       "Baton Pass",
       "Counter",
       "Cross Poison",
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Metal Claw",
       "Night Slash",
@@ -327,7 +327,7 @@
         "Level": "27"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "30"
       },
       {
@@ -335,7 +335,7 @@
         "Level": "35"
       },
       {
-        "Name": "X-Scissor",
+        "Name": "XScissor",
         "Level": "40"
       },
       {
@@ -387,7 +387,7 @@
         "Level": "27"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "30"
       },
       {
@@ -395,7 +395,7 @@
         "Level": "35"
       },
       {
-        "Name": "X-Scissor",
+        "Name": "XScissor",
         "Level": "40"
       },
       {

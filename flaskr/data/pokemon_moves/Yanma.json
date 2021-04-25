@@ -136,7 +136,7 @@
         "Level": "46"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "49"
       },
       {
@@ -151,7 +151,7 @@
   },
   "V": {
     "egg_moves": [
-      "Double-Edge",
+      "DoubleEdge",
       "Faint Attack",
       "Feint",
       "Leech Life",
@@ -216,7 +216,7 @@
         "Level": "46"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "49"
       },
       {
@@ -231,7 +231,7 @@
   },
   "VI": {
     "egg_moves": [
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Feint Attack",
       "Leech Life",
@@ -296,7 +296,7 @@
         "Level": "46"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "49"
       },
       {
@@ -311,7 +311,7 @@
   },
   "VII": {
     "egg_moves": [
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Feint Attack",
       "Leech Life",
@@ -321,7 +321,7 @@
       "Signal Beam",
       "Silver Wind",
       "Whirlwind",
-      "Double-Edge",
+      "DoubleEdge",
       "Feint",
       "Feint Attack",
       "Leech Life",
@@ -386,7 +386,7 @@
         "Level": "46"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "49"
       },
       {
@@ -450,7 +450,7 @@
         "Level": "46"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "49"
       },
       {

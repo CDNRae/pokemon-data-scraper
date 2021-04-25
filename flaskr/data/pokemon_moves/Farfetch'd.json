@@ -14,7 +14,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "07"
       },
       {
@@ -60,7 +60,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "06"
       },
       {
@@ -107,7 +107,7 @@
       "Gust",
       "Leaf BladeHGSS",
       "Mirror Move",
-      "Mud-Slap",
+      "MudSlap",
       "Night Slash",
       "Quick Attack",
       "Steel Wing"
@@ -122,7 +122,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "1"
       },
       {
@@ -145,7 +145,7 @@
       "Gust",
       "Leaf Blade",
       "Mirror Move",
-      "Mud-Slap",
+      "MudSlap",
       "Night Slash",
       "Quick Attack",
       "Revenge",
@@ -163,7 +163,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "01"
       },
       {
@@ -238,7 +238,7 @@
       "Gust",
       "Leaf Blade",
       "Mirror Move",
-      "Mud-Slap",
+      "MudSlap",
       "Night Slash",
       "Quick Attack",
       "Revenge",
@@ -338,7 +338,7 @@
       "Gust",
       "Leaf Blade",
       "Mirror Move",
-      "Mud-Slap",
+      "MudSlap",
       "Night Slash",
       "Quick Attack",
       "Revenge",
@@ -356,7 +356,7 @@
       "Gust",
       "Leaf Blade",
       "Mirror Move",
-      "Mud-Slap",
+      "MudSlap",
       "Night Slash",
       "Quick Attack",
       "Revenge",

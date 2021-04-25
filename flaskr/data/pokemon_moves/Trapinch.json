@@ -15,7 +15,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "09"
       },
       {
@@ -59,7 +59,7 @@
         "Level": "01"
       },
       {
-        "Name": "Sand-Attack",
+        "Name": "SandAttack",
         "Level": "09"
       },
       {
@@ -155,7 +155,7 @@
         "Level": "01"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "005"
       },
       {
@@ -249,7 +249,7 @@
         "Level": "01"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "05"
       },
       {
@@ -317,7 +317,7 @@
         "Level": "01"
       },
       {
-        "Name": "Mud-Slap",
+        "Name": "MudSlap",
         "Level": "05"
       },
       {

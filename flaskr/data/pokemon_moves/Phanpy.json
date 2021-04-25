@@ -37,7 +37,7 @@
         "Level": "41"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "49"
       }
     ]
@@ -85,7 +85,7 @@
         "Level": "41"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "49"
       }
     ]
@@ -152,7 +152,7 @@
         "Level": "37"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "42"
       }
     ]
@@ -168,7 +168,7 @@
       "Head Smash",
       "Heavy Slam",
       "Ice Shard",
-      "Mud-Slap",
+      "MudSlap",
       "Snore"
     ],
     "regular_moves": [
@@ -221,7 +221,7 @@
         "Level": "37"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "42"
       }
     ]
@@ -237,7 +237,7 @@
       "Head Smash",
       "Heavy Slam",
       "Ice Shard",
-      "Mud-Slap",
+      "MudSlap",
       "Play Rough",
       "Snore"
     ],
@@ -272,7 +272,7 @@
       "Heavy Slam",
       "High HorsepowerUSUM",
       "Ice Shard",
-      "Mud-Slap",
+      "MudSlap",
       "Play Rough",
       "Snore",
       "Ancient Power",
@@ -285,7 +285,7 @@
       "Heavy Slam",
       "High HorsepowerUSUM",
       "Ice Shard",
-      "Mud-Slap",
+      "MudSlap",
       "Play Rough",
       "Snore"
     ],
@@ -339,7 +339,7 @@
         "Level": "37"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "42"
       },
       {
@@ -391,7 +391,7 @@
         "Level": "37"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "42"
       }
     ]

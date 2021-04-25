@@ -3,7 +3,7 @@
     "egg_moves": [
       "Amnesia*",
       "Confusion",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Growl",
       "Pay Day",
@@ -24,7 +24,7 @@
     "egg_moves": [
       "Amnesia*",
       "Confusion",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Helping Hand",
       "Psych Up*",
@@ -78,7 +78,7 @@
       "Amnesia*",
       "Aromatherapy",
       "Confusion",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Helping Hand",
       "Psych Up*",
@@ -131,7 +131,7 @@
         "Level": "28"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "31"
       },
       {
@@ -158,7 +158,7 @@
       "Aromatherapy",
       "Confusion",
       "Cotton Guard",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Endure",
       "Helping Hand",
@@ -219,7 +219,7 @@
         "Level": "34"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "37"
       },
       {
@@ -246,7 +246,7 @@
       "Aromatherapy",
       "Confusion",
       "Cotton Guard",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Endure",
       "Grassy Terrain",
@@ -312,7 +312,7 @@
         "Level": "34"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "37"
       },
       {
@@ -339,7 +339,7 @@
       "Aromatherapy",
       "Confusion",
       "Cotton Guard",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Endure",
       "Grassy Terrain",
@@ -351,7 +351,7 @@
       "Aromatherapy",
       "Confusion",
       "Cotton Guard",
-      "Double-Edge",
+      "DoubleEdge",
       "Encore",
       "Endure",
       "Grassy Terrain",
@@ -422,7 +422,7 @@
         "Level": "034"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "037"
       },
       {
@@ -502,7 +502,7 @@
         "Level": "034"
       },
       {
-        "Name": "U-turn",
+        "Name": "Uturn",
         "Level": "037"
       },
       {

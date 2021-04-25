@@ -40,7 +40,7 @@
         "Level": "43"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "50"
       }
     ]
@@ -88,7 +88,7 @@
         "Level": "43"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "50"
       }
     ]
@@ -96,7 +96,7 @@
   "IV": {
     "egg_moves": [
       "Counter",
-      "Double-Edge",
+      "DoubleEdge",
       "Flail*",
       "Pin Missile",
       "Power TrickHGSS",
@@ -120,7 +120,7 @@
   "V": {
     "egg_moves": [
       "Counter",
-      "Double-Edge",
+      "DoubleEdge",
       "Endure",
       "Flail",
       "Pin Missile",
@@ -185,7 +185,7 @@
         "Level": "42"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "45"
       }
     ]
@@ -193,7 +193,7 @@
   "VI": {
     "egg_moves": [
       "Counter",
-      "Double-Edge",
+      "DoubleEdge",
       "Endure",
       "Flail",
       "Pin Missile",
@@ -258,7 +258,7 @@
         "Level": "42"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "45"
       }
     ]
@@ -266,7 +266,7 @@
   "VII": {
     "egg_moves": [
       "Counter",
-      "Double-Edge",
+      "DoubleEdge",
       "Endure",
       "Flail",
       "Pin Missile",
@@ -277,7 +277,7 @@
       "Swift",
       "Toxic Spikes",
       "Counter",
-      "Double-Edge",
+      "DoubleEdge",
       "Endure",
       "Flail",
       "Pin Missile",
@@ -342,7 +342,7 @@
         "Level": "42"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "45"
       },
       {
@@ -398,7 +398,7 @@
         "Level": "42"
       },
       {
-        "Name": "Double-Edge",
+        "Name": "DoubleEdge",
         "Level": "45"
       }
     ]

@@ -97,7 +97,7 @@
   "IV": {
     "egg_moves": [
       "Bide",
-      "Double-Edge",
+      "DoubleEdge",
       "False Swipe",
       "Flail*",
       "Harden",
@@ -166,7 +166,7 @@
   "V": {
     "egg_moves": [
       "Bide",
-      "Double-Edge",
+      "DoubleEdge",
       "Flail",
       "Focus Punch\u2021",
       "Harden",
@@ -201,7 +201,7 @@
   "VI": {
     "egg_moves": [
       "Bide",
-      "Double-Edge",
+      "DoubleEdge",
       "Flail",
       "Focus Punch",
       "Harden",
@@ -245,7 +245,7 @@
   "VII": {
     "egg_moves": [
       "Bide",
-      "Double-Edge",
+      "DoubleEdge",
       "Flail",
       "Focus Punch\u2021",
       "Harden",
@@ -255,7 +255,7 @@
       "Rock Blast",
       "Seismic Toss",
       "Bide",
-      "Double-Edge",
+      "DoubleEdge",
       "Flail",
       "Focus Punch\u2021",
       "Harden",
