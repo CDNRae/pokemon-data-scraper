@@ -2,44 +2,24 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 1,1,11,Bulbasaur,Overgrow,Chlorophyll,1,Grass,Poison,
 4,1,41,Charmander,Blaze,Solar Power,1,Fire,,Flying
 7,1,71,Squirtle,Torrent,Rain Dish,1,Water,,
-58,1,581,Growlithe,"Intimidate,Flash Fire",Justified,1,Fire,,
 95,1,951,Onix,"Rock Head,Sturdy",Weak Armor,1,Rock,Ground,"Steel,-Rock"
 104,1,1041,Cubone,"Rock Head,Lightning Rod",Battle Armor,1,Ground,,
 111,1,1111,Rhyhorn,"Lightning Rod,Rock Head",Reckless,1,Ground,Rock,
 116,1,1161,Horsea,"Swift Swim,Sniper",Damp,1,Water,,Dragon
-131,1,1311,Lapras,"Water Absorb,Shell Armor",Hydration,1,Water,Ice,
-138,1,1381,Omanyte,"Swift Swim,Shell Armor",Weak Armor,1,Rock,Water,
-140,1,1401,Kabuto,"Swift Swim,Battle Armor",Weak Armor,1,Rock,Water,
 142,1,1421,Aerodactyl,"Rock Head,Pressure",Unnerve,1,Rock,Flying,
 147,1,1471,Dratini,Shed Skin,Marvel Scale,1,Dragon,,Flying
-152,1,1521,Chikorita,Overgrow,Leaf guard,2,Grass,,
 158,1,1581,Totodile,Torrent,Sheer Force,2,Water,,
-194,1,1941,Wooper,"Damp,Water Absorb",Unaware,2,Water,Ground,
-220,1,2201,Swinub,"Oblivious,Snow Cloak",Thick Fat,2,Ice,Ground,
 246,1,2461,Larvitar,Guts,Sand Veil,2,Rock,Ground,"Dark,-Ground"
 252,1,2521,Treecko,Overgrow,Unburden,3,Grass,,
-285,1,2851,Shroomish,"Effect Spore,Poison Heal",Quick Feet,3,Grass,,Fighting
-293,1,2931,Whismur,Soundproof,Rattled,3,Normal,,
 304,1,3041,Aron,"Sturdy,Rock Head",Heavy Metal,3,Steel,Rock,
-324,1,3241,Torkoal,"White Smoke,Drought",Shell Armor,3,Fire,,
 328,1,3281,Trapinch,"Hyper Cutter,Arena Trap",Sheer Force,3,Ground,,Dragon
 333,1,3331,Swablu,Natural Cure,Cloud Nine,3,Normal,Flying,Dragon
-343,1,3431,Baltoy,Levitate,,3,Psychic,Psychic,
-345,1,3451,Lileep,Suction Cups,Storm Drain,3,Rock,Grass,
-347,1,3471,Anorith,Battle Armor,Swift Swim,3,Rock,Water,
-369,1,3691,Relicanth,Swift Swim,Sturdy,3,Water,Rock,
 371,1,3711,Bagon,Rock Head,Sheer Force,3,Dragon,,Flying
 387,1,3871,Turtwig,Overgrow,Shell Armor,4,Grass,,Ground
 408,1,4081,Cranidos,Mold Breaker,Sheer Force,4,Rock,,
 410,1,4101,Shieldon,Sturdy,Soundproof,4,Rock,Steel,
-436,1,4361,Bronzor,"Levitate,Heatproof",Heavy Metal,4,Steel,Psychic,
-442,1,4421,Spiritomb,Pressure,Infiltrator,4,Ghost,Dark,
 443,1,4431,Gible,Sand Veil,Rough Skin,4,Dragon,Ground,
-446,1,4461,Munchlax,"Pickup,Thick Fat",Gluttony,4,Normal,,
-447,1,4471,Riolu,"Steadfast,Inner Focus",Prankster,4,Fighting,,Steel
-449,1,4491,Hippopotas,Sand Stream,Sand Force,4,Ground,,
 451,1,4511,Skorupi,"Battle Armor,Sniper",Keen Eye,4,Poison,Bug,"Dark,-Bug"
-453,1,4531,Croagunk,"Anticipation,Dry Skin",Poison Touch,4,Poison,Fighting,
 455,1,4551,Carnivine,Levitate,,4,Grass,,
 456,1,4561,Finneon,"Swift Swim,Storm Drain",Water Veil,4,Water,,
 458,1,4581,Mantyke,"Swift Swim,Water Absorb",Water Veil,4,Water,Flying,
@@ -145,37 +125,3 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 710,1,7101,Pumpkaboo,"Pickup,Frisk",Insomnia,6,Ghost,Grass,
 712,1,7121,Bergmite,"Own Tempo,Ice Body",Sturdy,6,Ice,,
 714,1,7141,Noibat,"Frisk,Infiltrator",Telepathy,6,Dragon,Flying,
-722,1,7221,Rowlet,Overgrow,Long Reach,7,Grass,,Ghost
-725,1,7251,Litten,Blaze,Intimidate,7,Fire,,Dark
-728,1,7281,Popplio,Torrent,Liquid Voice,7,Water,,Fairy
-731,1,7311,Pikipek,"Keen Eye,Skill Link",Pickup,7,Normal,Flying,
-734,1,7341,Yungoos,"Stakeout,Strong Jaw",Adaptability,7,Normal,,
-736,1,7361,Grubbin,Swarm,,7,Bug,,Electric
-739,1,7391,Crabrawler,"Hyper Cutter,Iron Fist",Anger Point,7,Fighting,,Ice
-741,1,7411,Oricorio,Dancer,,7,Flying,"Electric,Psychic,Ghost,Fire",
-742,1,7421,Cutiefly,"Honey Gather,Shield Dust",Sweet Veil,7,Bug,Fairy,
-744,1,7441,Rockruff,"Keen Eye,Own Tempo,Vital Spirit",Steadfast,7,Rock,,
-746,1,7461,Wishiwashi,Schooling,,7,Water,,
-747,1,7471,Mareanie,"Merciless,Limber",Regenerator,7,Poison,Water,
-749,1,7491,Mudbray,"Own Tempo,Stamina",Inner Focus,7,Ground,,
-751,1,7511,Dewpider,Water Bubble,Water Absorb,7,Water,Bug,
-753,1,7531,Fomantis,Leaf Guard,Contrary,7,Grass,,
-755,1,7551,Morelull,"Illuminate,Effect Spore",Rain Dish,7,Grass,Fairy,
-757,1,7571,Salandit,Corrosion,Oblivious,7,Poison,Fire,
-759,1,7591,Stufful,"Fluffy,Klutz",Cute Charm,7,Normal,,
-761,1,7611,Bounsweet,"Leaf Guard,Oblivious",Sweet Veil,7,Grass,,
-764,1,7641,Comfey,"Flower Veil,Triage",Natural Cure,7,Fairy,,
-765,1,7651,Oranguru,"Inner Focus,Telepathy",Symbiosis,7,Normal,Psychic,
-766,1,7661,Passimian,Receiver,Defiant,7,Fighting,,
-767,1,7671,Wimpod,Wimp Out,,7,Bug,Water,
-769,1,7691,Sandygast,Water Compaction,Sand Veil,7,Ghost,Ground,
-771,1,7711,Pyukumuku,Innards Out,Unaware,7,Water,,
-774,1,7741,Minior,Shields Down,,7,Rock,Flying,
-775,1,7751,Komala,Comatose,,7,Normal,,
-776,1,7761,Turtonator,Shell Armor,,7,Fire,Dragon,
-777,1,7771,Togedemaru,"Iron Barbs,Lightning Rod",Sturdy,7,Electric,Steel,
-778,1,7781,Mimikyu,Disguise,,7,Ghost,Fairy,
-779,1,7791,Bruxish,"Dazzling,Strong Jaw",Wonder Skin,7,Water,Psychic,
-780,1,7801,Drampa,"Berserk,Sap Sipper",Cloud Nine,7,Normal,Dragon,
-781,1,7811,Dhelmise,Steelworker,,7,Ghost,Grass,
-782,1,7821,Jangmo-o,"Bulletproof,Soundproof",Overcoat,7,Dragon,,Fighting

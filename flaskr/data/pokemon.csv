@@ -37,12 +37,13 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 79,1,791,Slowpoke,"Oblivious,Own Tempo",Regenerator,1,Water,Psychic,
 81,1,811,Magnemite,"Magnet Pull,Sturdy",Analytic,1,Electric,Steel,
 83,1,831,Farfetch'd,"Keen Eye,Inner Focus",Defiant,1,Normal,Flying,
+84,1,0,Doduo,"Run Away,Early Bird","Tangled Feet",1,"Normal, Flying",,
 86,1,861,Seel,"Thick Fat,Hydration",Ice Body,1,Water,,Ice
 88,1,881,Grimer,"Stench,Sticky Hold",Poison Touch,1,Poison,,
 88,2,882,Alolan_Grimer,"Poison Touch,Gluttony",Power of Alchemy,7,Poison,Dark,
 90,1,901,Shellder,"Shell Armor,Skill Link",Overcoat,1,Water,,Ice
 92,1,921,Gastly,Levitate,,1,Ghost,Poison,
-95,1,951,Onix,"Rock Head,Sturdy",Weak Armor,1,Rock,Ground,"Steel,-Rock"
+95,1,951,Onix,"Rock Head,Sturdy",Weak Armor,1,Rock,Ground,"Steel"
 96,1,961,Drowzee,"Insomnia,Forewarn",Inner Focus,1,Psychic,,
 98,1,981,Krabby,"Hyper Cutter,Shell Armor",Sheer Force,1,Water,,
 100,1,1001,Voltorb,"Soundproof,Static",Aftermath,1,Electric,,
@@ -55,12 +56,12 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 116,1,1161,Horsea,"Swift Swim,Sniper",Damp,1,Water,,Dragon
 118,1,1181,Goldeen,"Swift Swim,Water Veil",Lightning Rod,1,Water,,
 120,1,1201,Staryu,"Illuminate,Natural Cure",Analytic,1,Water,,Psychic
-123,1,1231,Scyther,"Swarm,Technician",Steadfast,1,Bug,Flying,"Steel,-Flying"
+123,1,1231,Scyther,"Swarm,Technician",Steadfast,1,Bug,Flying,"Steel"
 127,1,1271,Pinsir,"Hyper Cutter,Mold Breaker",Moxie,1,Bug,,
 128,1,1281,Tauros,"Intimidate,Anger Point",Sheer Force,1,Normal,,
 129,1,1291,Magikarp,Swift Swim,Rattled,1,Water,,Flying
 131,1,1311,Lapras,"Water Absorb,Shell Armor",Hydration,1,Water,Ice,
-133,1,1331,Eevee,"Run Away,Adaptability",Anticipation,1,Normal,,"-Normal,Fire,Water,Electric,Grass,Ice,Dark,Psychic,Fairy"
+133,1,1331,Eevee,"Run Away,Adaptability",Anticipation,1,Normal,,"Fire,Water,Electric,Grass,Ice,Dark,Psychic,Fairy"
 137,1,1371,Porygon,"Trace,Download",Analytic,1,Normal,,
 138,1,1381,Omanyte,"Swift Swim,Shell Armor",Weak Armor,1,Rock,Water,
 140,1,1401,Kabuto,"Swift Swim,Battle Armor",Weak Armor,1,Rock,Water,
@@ -115,7 +116,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 239,1,2391,Elekid,Static,Vital Spirit,2,Electric,,
 240,1,2401,Magby,Flame Body,Vital Spirit,2,Fire,,
 241,1,2411,Miltank,"Thick Fat,Scrappy",Sap Sipper,2,Normal,,
-246,1,2461,Larvitar,Guts,Sand Veil,2,Rock,Ground,"Dark,-Ground"
+246,1,2461,Larvitar,Guts,Sand Veil,2,Rock,Ground,"Dark"
 252,1,2521,Treecko,Overgrow,Unburden,3,Grass,,
 255,1,2551,Torchic,Blaze,Speed Boost,3,Fire,,Fighting
 258,1,2581,Mudkip,Torrent,Damp,3,Water,,Ground
@@ -126,14 +127,14 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 273,1,2731,Seedot,"Chlorophyll,Early Bird",Pickpocket,3,Grass,,Dark
 276,1,2761,Taillow,Guts,Scrappy,3,Normal,Flying,
 278,1,2781,Wingull,"Keen Eye,Hydration",Rain Dish,3,Water,Flying,
-280,1,2801,Ralts,"Synchronize,Trace",Telepathy,3,Psychic,Fairy,"Fighting,-Fairy"
-283,1,2831,Surskit,Swift Swim,Rain Dish,3,Bug,Water,"Flying,-Water"
+280,1,2801,Ralts,"Synchronize,Trace",Telepathy,3,Psychic,Fairy,"Fighting"
+283,1,2831,Surskit,Swift Swim,Rain Dish,3,Bug,Water,"Flying"
 285,1,2851,Shroomish,"Effect Spore,Poison Heal",Quick Feet,3,Grass,,Fighting
 287,1,2871,Slakoth,Truant,,3,Normal,,
-290,1,2901,Nincada,Compound Eyes,Run Away,3,Bug,Ground,"Flying,Ghost,-Ground"
+290,1,2901,Nincada,Compound Eyes,Run Away,3,Bug,Ground,"Flying,Ghost"
 293,1,2931,Whismur,Soundproof,Rattled,3,Normal,,
 296,1,2961,Makuhita,"Thick Fat,Guts",Sheer Force,3,Fighting,,
-298,1,2981,Azurill,"Thick Fat,Huge Power",Sap Sipper,3,Normal,Fairy,"Water,-Normal"
+298,1,2981,Azurill,"Thick Fat,Huge Power",Sap Sipper,3,Normal,Fairy,"Water"
 299,1,2991,Nosepass,"Sturdy,Magnet Pull",Sand Force,3,Rock,,Steel
 300,1,3001,Skitty,"Cute Charm,Normalize",Wonder Skin,3,Normal,,
 302,1,3021,Sableye,"Keen Eye,Stall",Prankster,3,Dark,Ghost,
@@ -208,7 +209,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 446,1,4461,Munchlax,"Pickup,Thick Fat",Gluttony,4,Normal,,
 447,1,4471,Riolu,"Steadfast,Inner Focus",Prankster,4,Fighting,,Steel
 449,1,4491,Hippopotas,Sand Stream,Sand Force,4,Ground,,
-451,1,4511,Skorupi,"Battle Armor,Sniper",Keen Eye,4,Poison,Bug,"Dark,-Bug"
+451,1,4511,Skorupi,"Battle Armor,Sniper",Keen Eye,4,Poison,Bug,"Dark"
 453,1,4531,Croagunk,"Anticipation,Dry Skin",Poison Touch,4,Poison,Fighting,
 455,1,4551,Carnivine,Levitate,,4,Grass,,
 456,1,4561,Finneon,"Swift Swim,Storm Drain",Water Veil,4,Water,,
@@ -301,7 +302,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 684,1,6841,Swirlix,Sweet Veil,Unburden,6,Fairy,,
 686,1,6861,Inkay,"Contrary,Suction Cups",Infiltrator,6,Dark,Psychic,
 688,1,6881,Binacle,"Tough Claws,Sniper",Pickpocket,6,Water,Rock,
-690,1,6901,Skrelp,"Poison Point,Poison Touch",Adaptability,6,Poison,Water,"Dragon,-Water"
+690,1,6901,Skrelp,"Poison Point,Poison Touch",Adaptability,6,Poison,Water,"Dragon"
 692,1,6921,Clauncher,Mega Launcher,,6,Water,,
 694,1,6941,Helioptile,"Dry Skin,Sand Veil",Solar Power,6,Normal,Electric,
 696,1,6961,Tyrunt,Strong Jaw,Sturdy,6,Rock,Dragon,
