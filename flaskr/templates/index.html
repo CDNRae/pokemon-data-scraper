@@ -25,21 +25,6 @@
         document.execCommand("copy");
     }
 
-    function selectAllOrNone() {
-        checkboxes = document.querySelectorAll('input[type=checkbox]');
-
-        for (let i = 1; i < checkboxes.length; i++) {
-            if (checkboxes[i].checked) {
-                checkboxes[i].checked = false;
-                checkboxes[i].disabled = false;
-            }
-            else {
-                checkboxes[i].checked = true;
-                checkboxes[i].disabled = true;
-            }
-        }
-    }
-
 </script>
 
 <div class="content-container">
@@ -66,9 +51,11 @@
     <div class="content-container-inner">
         <h2>Generate Pokemon</h2>
         <form action="/index" method="post" role="form" class="row g-3">
+            {{generatorForm.csrf}}
+
             <div class="col-md-6">
                 <label for="number_to_generate">Number of Pokemon to Generate:</label>
-                <input type="number" class="form-control" id="number_to_generate" name="number_to_generate" min="1" max="100" value="{{ user_data.number_to_generate }}">
+                <input type="number" class="form-control" id="number_to_generate" name="number_to_generate">
             </div>
 
             <div class="col-md-6">
@@ -84,50 +71,21 @@
             </div>
             <div class="col-md-4">
                 <label for="shiny_chance">Shiny Chance (%):</label>
-                <input type="number" class="form-control" id="shiny_chance" name="shiny_chance" min="1" max="100" value="{{ user_data.shiny_chance }}">
+                <input type="number" class="form-control" id="shiny_chance" name="shiny_chance">
             </div>
 
             <div class="col-md-4">
                 <label for="egg_move_chance">Egg Move Chance (%):</label>
-                <input type="number" class="form-control" id="egg_move_chance" name="egg_move_chance" min="1" max="100" value="{{ user_data.egg_move_chance }}">
+                <input type="number" class="form-control" id="egg_move_chance" name="egg_move_chance">
             </div>
 
             <div class="col-md-4">
                 <label for="hidden_ability_chance">Hidden Ability Chance (%):</label>
-                <input type="number" class="form-control" id="hidden_ability_chance" name="hidden_ability_chance" min="1" max="100" value="{{ user_data.hidden_ability_chance }}">
+                <input type="number" class="form-control" id="hidden_ability_chance" name="hidden_ability_chance">
             </div>
 
-            <fieldset>
-                Types to Include:<br>
-                <input type="checkbox" name="type" value="AllOrNone" id="AllOrNone" onchange="selectAllOrNone()" checked> Select/Deselect All<br>
-                <input type="checkbox" name="type" value="Normal" checked disabled> Normal<br>
-                <input type="checkbox" name="type" value="Fire" checked disabled> Fire<br>
-                <input type="checkbox" name="type" value="Fighting" checked disabled> Fighting<br>
-                <input type="checkbox" name="type" value="Water" checked disabled> Water<br>
-                <input type="checkbox" name="type" value="Flying" checked disabled> Flying<br>
-                <input type="checkbox" name="type" value="Grass" checked disabled> Grass<br>
-                <input type="checkbox" name="type" value="Poison" checked disabled> Poison<br>
-                <input type="checkbox" name="type" value="Electric" checked disabled> Electric<br>
-                <input type="checkbox" name="type" value="Ground" checked disabled> Ground<br>
-                <input type="checkbox" name="type" value="Psychic" checked disabled> Psychic<br>
-                <input type="checkbox" name="type" value="Rock" checked disabled> Rock<br>
-                <input type="checkbox" name="type" value="Ice" checked disabled> Ice<br>
-                <input type="checkbox" name="type" value="Bug" checked disabled> Bug<br>
-                <input type="checkbox" name="type" value="Dragon" checked disabled> Dragon<br>
-                <input type="checkbox" name="type" value="Ghost" checked disabled> Ghost<br>
-                <input type="checkbox" name="type" value="Dark" checked disabled> Dark<br>
-                <input type="checkbox" name="type" value="Steel" checked disabled> Steel<br>
-                <input type="checkbox" name="type" value="Fairy" checked disabled> Fairy<br>
-            </fieldset>
-
-            <input type="radio" id="first_form_only" name="type_form_restrictions" value="0">
-            <label for="first_form_only">Apply type restrictions to first form only</label><br>
-
-            <input type="radio" id="final_form_only" name="type_form_restrictions" value="1">
-            <label for="final_form_only">Consider type of final form only</label><br>
-
             <div class="generate-button">
-                <button type="submit">Generate</button>
+                <button action="submit">Generate</button>
             </div>
         </form>
     </div>
