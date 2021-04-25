@@ -18,7 +18,7 @@ female_only_pokemon = [
 ]
 
 male_only_pokemon = [
-    "Tyrogue", "Tauros", "Throh", "Sawk", "Rufflet", "Impidimp"
+    "Nidoran M", "Tyrogue", "Tauros", "Throh", "Sawk", "Rufflet", "Impidimp"
 ]
 
 # List of possible Pokemon natures
@@ -290,16 +290,16 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
         get_moves(pokemon_object, generation, egg_move_chance)
 
         # A few Pokemon have names that PKHeX doesn't like -- this fixes that
-        if "Nidoran" in pokemon_object.Species:
-            if pokemon_object.Gender == "F":
-                pokemon_object.Species = "NidoranF"
-            else:
-                pokemon_object.Species = "NidoranM"
+        if pokemon_object.Species == "Nidoran♀":
+            pokemon_object.Species = "NidoranF"
 
-        if pokemon_object.Species is "Farfetch'd":
+        if pokemon_object.Species == "Nidoran♂":
+            pokemon_object.Species = "Nidoran♂"
+
+        if pokemon_object.Species == "Farfetch'd":
             pokemon_object.Species = "Farfetchd"
 
-        if pokemon_object.Species.lower() is "mime_jr.":
+        if pokemon_object.Species.lower() == "mime_jr.":
             pokemon_object.Species = "MimeJr"
 
         if "-" in pokemon_object.Species:

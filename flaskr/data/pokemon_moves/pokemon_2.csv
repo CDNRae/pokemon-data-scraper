@@ -1,0 +1,127 @@
+NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON EVO
+1,1,11,Bulbasaur,Overgrow,Chlorophyll,1,Grass,Poison,
+4,1,41,Charmander,Blaze,Solar Power,1,Fire,,Flying
+7,1,71,Squirtle,Torrent,Rain Dish,1,Water,,
+95,1,951,Onix,"Rock Head,Sturdy",Weak Armor,1,Rock,Ground,"Steel,-Rock"
+104,1,1041,Cubone,"Rock Head,Lightning Rod",Battle Armor,1,Ground,,
+111,1,1111,Rhyhorn,"Lightning Rod,Rock Head",Reckless,1,Ground,Rock,
+116,1,1161,Horsea,"Swift Swim,Sniper",Damp,1,Water,,Dragon
+142,1,1421,Aerodactyl,"Rock Head,Pressure",Unnerve,1,Rock,Flying,
+147,1,1471,Dratini,Shed Skin,Marvel Scale,1,Dragon,,Flying
+158,1,1581,Totodile,Torrent,Sheer Force,2,Water,,
+246,1,2461,Larvitar,Guts,Sand Veil,2,Rock,Ground,"Dark,-Ground"
+252,1,2521,Treecko,Overgrow,Unburden,3,Grass,,
+304,1,3041,Aron,"Sturdy,Rock Head",Heavy Metal,3,Steel,Rock,
+328,1,3281,Trapinch,"Hyper Cutter,Arena Trap",Sheer Force,3,Ground,,Dragon
+333,1,3331,Swablu,Natural Cure,Cloud Nine,3,Normal,Flying,Dragon
+371,1,3711,Bagon,Rock Head,Sheer Force,3,Dragon,,Flying
+387,1,3871,Turtwig,Overgrow,Shell Armor,4,Grass,,Ground
+408,1,4081,Cranidos,Mold Breaker,Sheer Force,4,Rock,,
+410,1,4101,Shieldon,Sturdy,Soundproof,4,Rock,Steel,
+443,1,4431,Gible,Sand Veil,Rough Skin,4,Dragon,Ground,
+451,1,4511,Skorupi,"Battle Armor,Sniper",Keen Eye,4,Poison,Bug,"Dark,-Bug"
+455,1,4551,Carnivine,Levitate,,4,Grass,,
+456,1,4561,Finneon,"Swift Swim,Storm Drain",Water Veil,4,Water,,
+458,1,4581,Mantyke,"Swift Swim,Water Absorb",Water Veil,4,Water,Flying,
+459,1,4591,Snover,Snow Warning,Soundproof,4,Ice,Grass,
+479,1,4791,Rotom,Levitate,,4,Electric,Ghost,"Fire,Water,Flying,Ice,Grass"
+495,1,4951,Snivy,Overgrow,Contrary,5,Grass,,
+498,1,4981,Tepig,Blaze,Thick Fat,5,Fire,,Fighting
+501,1,5011,Oshawott,Torrent,Shell Armor,5,Water,,
+504,1,5041,Patrat,"Run Away,Keen Eye",Analytic,5,Normal,,
+506,1,5061,Lillipup,"Vital Spirit,Pickup",Run Away,5,Normal,,
+509,1,5091,Purrloin,"Limber,Unburden",Prankster,5,Dark,,
+511,1,5111,Pansage,Gluttony,Overgrow,5,Grass,,
+513,1,5131,Pansear,Gluttony,Blaze,5,Fire,,
+515,1,5151,Panpour,Gluttony,Torrent,5,Water,,
+517,1,5171,Munna,"Forewarn,Synchronize",Telepathy,5,Psychic,,
+519,1,5191,Pidove,"Big Pecks,Super Luck",Rivalry,5,Normal,Flying,
+522,1,5221,Blitzle,"Lightning Rod,Motor Drive",Sap Sipper,5,Electric,,
+524,1,5241,Roggenrola,"Sturdy,Weak Armor",Sand Force,5,Rock,,
+527,1,5271,Woobat,"Unaware,Klutz",Simple,5,Psychic,Flying,
+529,1,5291,Drilbur,"Sand Rush,Sand Force",Mold Breaker,5,Ground,,Steel
+531,1,5311,Audino,"Healer,Regenerator",Klutz,5,Normal,,
+532,1,5321,Timburr,"Guts,Sheer Force",Iron Fist,5,Fighting,,
+535,1,5351,Tympole,"Swift Swim,Hydration",Water Absorb,5,Water,,Ground
+538,1,5381,Throh,"Guts,Inner Focus",Mold Breaker,5,Fighting,,
+539,1,5391,Sawk,"Sturdy,Inner Focus",Mold Breaker,5,Fighting,,
+540,1,5401,Sewaddle,"Swarm,Chlorophyll",Overcoat,5,Bug,Grass,
+543,1,5431,Venipede,"Poison Point,Swarm",Speed Boost,5,Bug,Poison,
+546,1,5461,Cottonee,"Prankster,Infiltrator",Chlorophyll,5,Grass,,Fairy
+548,1,5481,Petilil,"Chlorophyll,Own Tempo",Leaf Guard,5,Grass,,
+550,1,5501,Basculin,"Reckless,Rock Head,Adaptability",Mold Breaker,5,Water,,
+551,1,5511,Sandile,"Intimidate,Moxie",Anger Point,5,Ground,Dark,
+554,1,5541,Darumaka,Hustle,Inner Focus,5,Fire,,
+556,1,5561,Maractus,"Water Absorb,Chlorophyll",Storm Drain,5,Grass,,
+557,1,5571,Dwebble,"Sturdy,Shell Armor",Weak Armor,5,Bug,Rock,
+559,1,5591,Scraggy,"Shed Skin,Moxie",Intimidate,5,Dark,Fighting,
+561,1,5611,Sigilyph,"Wonder Skin,Magic Guard",Tinted Lens,5,Psychic,Flying,
+562,1,5621,Yamask,Mummy,,5,Ghost,,
+564,1,5641,Tirtouga,"Solid Rock,Sturdy",Swift Swim,5,Water,Rock,
+566,1,5661,Archen,Defeatist,,5,Rock,Flying,
+568,1,5681,Trubbish,"Stench,Sticky Hold",Aftermath,5,Poison,,
+570,1,5701,Zorua,Illusion,,5,Dark,,
+572,1,5721,Minccino,"Cute Charm,Technician",Skill Link,5,Normal,,
+574,1,5741,Gothita,"Frisk,Competitive",Shadow Tag,5,Psychic,,
+577,1,5771,Solosis,"Overcoat,Magic Guard",Regenerator,5,Psychic,,
+580,1,5801,Ducklett,"Keen Eye,Big Pecks",Hydration,5,Water,Flying,
+582,1,5821,Vanillite,"Ice Body,Snow Cloak",Weak Armor,5,Ice,,
+585,1,5851,Deerling,"Chlorophyll,Sap Sipper",Serene Grace,5,Grass,,
+587,1,5871,Emolga,Static,Motor drive,5,Electric,Flying,
+588,1,5881,Karrablast,"Swarm,Shed Skin",No Guard,5,Bug,,
+590,1,5901,Foongus,Effect Spore,Regenerator,5,Grass,,
+592,1,5921,Frillish,"Water Absorb,Cursed Body",Damp,5,Water,Ghost,
+594,1,5941,Alomomola,"Healer,Hydration",Regenerator,5,Water,,
+595,1,5951,Joltik,"Compound Eyes,Unnerve",Swarm,5,Bug,Electric,
+597,1,5971,Ferroseed,Iron Barbs,,5,Grass,Steel,
+599,1,5991,Klink,"Plus,Minus",Clear Body,5,Steel,,
+602,1,6021,Tynamo,Levitate,,5,Electric,,
+605,1,6051,Elgyem,"Telepathy,Synchronize",Analytic,5,Psychic,,
+607,1,6071,Litwick,"Flash Fire,Flame Body",Infiltrator,5,Ghost,Fire,
+610,1,6101,Axew,"Rivalry,Mold Breaker",Unnerve,5,Dragon,,
+613,1,6131,Cubchoo,"Snow Cloak,Slush Rush",Rattled,5,Ice,,
+615,1,6151,Cryogonal,Levitate,,5,Ice,,
+616,1,6161,Shelmet,"Hydration,Shell Armor",Overcoat,5,Bug,,Steel
+618,1,6181,Stunfisk,"Stanfisk,Limber",Sand Veil,5,Electric,Ground,
+619,1,6191,Mienfoo,"Inner Focus,Regenerator",Reckless,5,Fighting,,
+621,1,6211,Druddigon,"Rough Skin,Sheer Force",Mold Breaker,5,Dragon,,
+622,1,6221,Golett,"Iron Fist,Klutz",No Guard,5,Ground,Ghost,
+624,1,6241,Pawniard,"Defiant,Inner Focus",Pressure,5,Dark,Steel,
+626,1,6261,Bouffalant,"Reckless,Sap Sipper",Soundproof,5,Normal,,
+627,1,6271,Rufflet,"Keen Eye,Sheer Force",Hustle,5,Normal,Flying,
+629,1,6291,Vullaby,"Big Pecks,Overcoat",Weak Armor,5,Dark,Flying,
+631,1,6311,Heatmor,"Gluttony,Flash Fire",White Smoke,5,Fire,,
+632,1,6321,Durant,"Swarm,Hustle",Truant,5,Bug,Steel,
+633,1,6331,Deino,Hustle,,5,Dark,Dragon,
+636,1,6361,Larvesta,Flame Body,Swarm,5,Bug,Fire,
+650,1,6501,Chespin,Overgrow,Bulletproof,6,Grass,,Fighting
+653,1,6531,Fennekin,Blaze,Magician,6,Fire,,Psychic
+656,1,6561,Froakie,Torrent,Protean,6,Water,,Dark
+659,1,6591,Bunnelby,"Pickup,Cheek Pouch",Huge Power,6,Normal,,Ground
+661,1,6611,Fletchling,Big Pecks,Gale Wings,6,Normal,Flying,Fire
+664,1,6641,Scatterbug,"Shield Dust,Compound Eyes",Friend Guard,6,Bug,,Flying
+667,1,6671,Litleo,"Rivalry,Unnerve",Moxie,6,Normal,Fire,
+669,1,6691,Flabébé,Flower Veil,Symbiosis,6,Fairy,,
+672,1,6721,Skiddo,Sap Sipper,Grass Pelt,6,Grass,,
+674,1,6741,Pancham,"Iron Fist,Mold Breaker",Scrappy,6,Fighting,,Dark
+676,1,6761,Furfrou,Fur Coat,,6,Normal,,
+677,1,6771,Espurr,"Keen Eye,Infiltrator",Own Tempo,6,Psychic,,
+679,1,6791,Honedge,No Guard,,6,Ghost,Steel,
+682,1,6821,Spritzee,Healer,Aroma Veil,6,Fairy,,
+684,1,6841,Swirlix,Sweet Veil,Unburden,6,Fairy,,
+686,1,6861,Inkay,"Contrary,Suction Cups",Infiltrator,6,Dark,Psychic,
+688,1,6881,Binacle,"Tough Claws,Sniper",Pickpocket,6,Water,Rock,
+690,1,6901,Skrelp,"Poison Point,Poison Touch",Adaptability,6,Poison,Water,"Dragon,-Water"
+692,1,6921,Clauncher,Mega Launcher,,6,Water,,
+694,1,6941,Helioptile,"Dry Skin,Sand Veil",Solar Power,6,Normal,Electric,
+696,1,6961,Tyrunt,Strong Jaw,Sturdy,6,Rock,Dragon,
+698,1,6981,Amaura,Refrigerate,Snow Warning,6,Rock,Ice,
+701,1,7011,Hawlucha,"Limber,Unburden",Mold Breaker,6,Fighting,Flying,
+702,1,7021,Dedenne,"Cheek Pouch,Pickup",Plus,6,Fairy,Electric,
+703,1,7031,Carbink,Clear Body,Sturdy,6,Rock,Fairy,
+704,1,7041,Goomy,"Sap Sipper,Hydration",Gooey,6,Dragon,,
+707,1,7071,Klefki,Prankster,Magician,6,Steel,Fairy,
+708,1,7081,Phantump,"Natural Cure,Frisk",Harvest,6,Ghost,Grass,
+710,1,7101,Pumpkaboo,"Pickup,Frisk",Insomnia,6,Ghost,Grass,
+712,1,7121,Bergmite,"Own Tempo,Ice Body",Sturdy,6,Ice,,
+714,1,7141,Noibat,"Frisk,Infiltrator",Telepathy,6,Dragon,Flying,
