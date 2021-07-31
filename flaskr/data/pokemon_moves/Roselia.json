@@ -76,7 +76,7 @@
   "IV": {
     "egg_moves": [
       "Cotton Spore",
-      "Extrasensory\u2020",
+      "Extrasensory",
       "Leaf Storm",
       "Mind Reader",
       "Pin Missile",
@@ -155,7 +155,7 @@
   "V": {
     "egg_moves": [
       "Cotton Spore",
-      "Extrasensory\u2020",
+      "Extrasensory",
       "Giga Drain",
       "GrassWhistle",
       "Leaf Storm",
@@ -170,80 +170,68 @@
     ],
     "regular_moves": [
       {
-        "Name": "011",
+        "Name": "Absorb",
         "Level": "01"
       },
       {
-        "Name": "0044",
-        "Level": "2"
+        "Name": "Growth",
+        "Level": "04"
       },
       {
-        "Name": "40",
-        "Level": "00\u2014}}\u2014"
+        "Name": "Poison Sting",
+        "Level": "7"
       },
       {
-        "Name": "100}}100%",
-        "Level": "015"
+        "Name": "Stun Spore",
+        "Level": "10"
       },
       {
-        "Name": "0000\u2014",
-        "Level": "Sta"
+        "Name": "Mega Drain",
+        "Level": "13"
       },
       {
-        "Name": "Special",
-        "Level": "Gra"
-      },
-      {
-        "Name": "Grass",
-        "Level": "Leech"
+        "Name": "Leech Seed",
+        "Level": "16"
       },
       {
         "Name": "Magical Leaf",
-        "Level": "019"
+        "Level": "19"
       },
       {
-        "Name": "02222",
-        "Level": "022"
+        "Name": "GrassWhistle",
+        "Level": "22"
       },
       {
-        "Name": "02525",
-        "Level": "1"
+        "Name": "Giga Drain",
+        "Level": "25"
       },
       {
-        "Name": "10",
-        "Level": "100}}100"
+        "Name": "Toxic Spikes",
+        "Level": "28"
       },
       {
-        "Name": "00\u2014}}\u2014%",
-        "Level": "0000"
+        "Name": "Sweet Scent",
+        "Level": "31"
       },
       {
-        "Name": "0000\u2014",
-        "Level": "Sta"
+        "Name": "Ingrain",
+        "Level": "34"
       },
       {
-        "Name": "Status",
-        "Level": "Gra"
-      },
-      {
-        "Name": "Grass",
-        "Level": "Petal "
+        "Name": "Petal Dance",
+        "Level": "37"
       },
       {
         "Name": "Toxic",
-        "Level": "040"
+        "Level": "40"
       },
       {
-        "Name": "04343",
-        "Level": "043"
+        "Name": "Aromatherapy",
+        "Level": "43 "
       },
       {
-        "Name": "04646",
-        "Level": "5"
-      },
-      {
-        "Name": "5",
-        "Level": "00\u2014}}\u2014"
+        "Name": "Synthesis",
+        "Level": "46"
       }
     ]
   },
@@ -251,7 +239,7 @@
     "egg_moves": [
       "Bullet Seed",
       "Cotton Spore",
-      "Extrasensory\u2020",
+      "Extrasensory",
       "Giga Drain",
       "Grass Whistle",
       "Leaf Storm",
@@ -339,7 +327,7 @@
     "egg_moves": [
       "Bullet Seed",
       "Cotton Spore",
-      "Extrasensory\u2020",
+      "Extrasensory",
       "Giga Drain",
       "Grass Whistle",
       "Leaf Storm",
@@ -354,7 +342,7 @@
       "Synthesis",
       "Bullet Seed",
       "Cotton Spore",
-      "Extrasensory\u2020",
+      "Extrasensory",
       "Giga Drain",
       "Grass Whistle",
       "Leaf Storm",

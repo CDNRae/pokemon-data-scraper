@@ -13,12 +13,12 @@ genderless_pokemon = [
 ]
 
 female_only_pokemon = [
-    "Nidoran F", "Illumise", "Happiny", "Kangaskhan", "Smoochum", "Miltank", "Petilil", "Vullaby", "Flabébé",
+    "NidoranF", "Illumise", "Happiny", "Kangaskhan", "Smoochum", "Miltank", "Petilil", "Vullaby", "Flabébé",
     "Bounsweet", "Hatenna", "Milcrey"
 ]
 
 male_only_pokemon = [
-    "Nidoran M", "Tyrogue", "Tauros", "Throh", "Sawk", "Rufflet", "Impidimp"
+    "NidoranM", "Tyrogue", "Tauros", "Throh", "Sawk", "Rufflet", "Impidimp"
 ]
 
 # List of possible Pokemon natures
@@ -288,19 +288,6 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
 
         # Get moves
         get_moves(pokemon_object, generation, egg_move_chance)
-
-        # A few Pokemon have names that PKHeX doesn't like -- this fixes that
-        if pokemon_object.Species == "Nidoran♀":
-            pokemon_object.Species = "NidoranF"
-
-        if pokemon_object.Species == "Nidoran♂":
-            pokemon_object.Species = "Nidoran♂"
-
-        if pokemon_object.Species == "Farfetch'd":
-            pokemon_object.Species = "Farfetchd"
-
-        if pokemon_object.Species.lower() == "mime_jr.":
-            pokemon_object.Species = "MimeJr"
 
         if "-" in pokemon_object.Species:
             pokemon_object.Species = pokemon_object.Species.replace("-", "")

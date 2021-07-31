@@ -11,8 +11,8 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 23,1,231,Ekans,"Intimidate,Shed Skin",Unnerve,1,Poison,,
 27,1,271,Sandshrew,Sand Veil,Sand Rush,1,Ground,,
 27,2,272,Alolan_Sandshrew,Snow Cloak,Slush Rush,7,Ice,Steel,
-29,1,291,Nidoran♀,"Poison Point,Rivalry",Hustle,1,Poison,,Ground
-32,1,321,Nidoran♂,"Poison Point,Rivalry",Hustle,1,Poison,,Ground
+29,1,291,NidoranF,"Poison Point,Rivalry",Hustle,1,Poison,,Ground
+32,1,321,NidoranM,"Poison Point,Rivalry",Hustle,1,Poison,,Ground
 37,1,371,Vulpix,Flash Fire,Drought,1,Fire,,
 37,2,372,Alolan_Vulpix,Snow Cloak,Snow Warning,7,Ice,,Fairy
 41,1,411,Zubat,Inner Focus,Infiltrator,1,Poison,Flying,
@@ -36,7 +36,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 77,1,771,Ponyta,"Run Away,Flash Fire",Flame Body,1,Fire,,
 79,1,791,Slowpoke,"Oblivious,Own Tempo",Regenerator,1,Water,Psychic,
 81,1,811,Magnemite,"Magnet Pull,Sturdy",Analytic,1,Electric,Steel,
-83,1,831,Farfetch'd,"Keen Eye,Inner Focus",Defiant,1,Normal,Flying,
+83,1,831,Farfetchd,"Keen Eye,Inner Focus",Defiant,1,Normal,Flying,
 84,1,0,Doduo,"Run Away,Early Bird","Tangled Feet",1,"Normal, Flying",,
 86,1,861,Seel,"Thick Fat,Hydration",Ice Body,1,Water,,Ice
 88,1,881,Grimer,"Stench,Sticky Hold",Poison Touch,1,Poison,,
@@ -201,7 +201,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 434,1,4341,Stunky,"Stench,Aftermath",Keen Eye,4,Poison,Dark,
 436,1,4361,Bronzor,"Levitate,Heatproof",Heavy Metal,4,Steel,Psychic,
 438,1,4381,Bonsly,"Sturdy,Rock Head",Rattled,4,Rock,,
-439,1,4391,Mime_jr.,"Soundproof,Filter",Technician,4,Psychic,Fairy,
+439,1,4391,MimeJr,"Soundproof,Filter",Technician,4,Psychic,Fairy,
 440,1,4401,Happiny,"Natural Cure,Serene Grace",Friend Guard,4,Normal,,
 441,1,4411,Chatot,"Keen Eye,Tangled Feet",Big Pecks,4,Normal,Flying,
 442,1,4421,Spiritomb,Pressure,Infiltrator,4,Ghost,Dark,
@@ -273,7 +273,7 @@ NUMBER,CODE,SERIAL,NAME,ABILITY,ABILITY HIDDEN,GENERATION,TYPE1,TYPE2,TYPES ON E
 613,1,6131,Cubchoo,"Snow Cloak,Slush Rush",Rattled,5,Ice,,
 615,1,6151,Cryogonal,Levitate,,5,Ice,,
 616,1,6161,Shelmet,"Hydration,Shell Armor",Overcoat,5,Bug,,Steel
-618,1,6181,Stunfisk,"Stanfisk,Limber",Sand Veil,5,Electric,Ground,
+618,1,6181,Stunfisk,"Static,Limber",Sand Veil,5,Electric,Ground,
 619,1,6191,Mienfoo,"Inner Focus,Regenerator",Reckless,5,Fighting,,
 621,1,6211,Druddigon,"Rough Skin,Sheer Force",Mold Breaker,5,Dragon,,
 622,1,6221,Golett,"Iron Fist,Klutz",No Guard,5,Ground,Ghost,
