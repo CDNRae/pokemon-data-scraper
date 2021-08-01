@@ -9,7 +9,7 @@ PokemonClass = pokemon.Pokemon
 genderless_pokemon = [
     "Arctovish", "Arctozolt", "Baltoy", "Beldum", "Bronzor", "Carbink", "Cryogonal", "Dhelmise", "Dracovish",
     "Dracozolt", "Falinks", "Golett", "Klink", "Lunatone", "Magnemite", "Minior", "Polteageist", "Porygon", "Rotom",
-    "Solrock", "Staryu", "Unknown", "Voltorb"
+    "Solrock", "Staryu", "Unown", "Voltorb"
 ]
 
 female_only_pokemon = [
