@@ -21,7 +21,7 @@ def create_app():
 
     @app.route('/index', methods=["GET", "POST"])
     def index():
-        generatorForm = GeneratorForm()
+        generator_form = GeneratorForm()
         pokemon_data = ""
         number_to_generate = 1
         generation = 2
@@ -30,7 +30,7 @@ def create_app():
         shiny_chance = 0
 
         if request.method == "GET":
-            return render_template("index.html", generatorForm=generatorForm, pokemon_data=pokemon_data)
+            return render_template("index.html", generator_form=generator_form, pokemon_data=pokemon_data)
         else:
             data = request.form
 
@@ -51,7 +51,7 @@ def create_app():
 
             pokemon_data = pokemon_generator.generate_pokemon(number_to_generate, generation, egg_move_chance,
                                                               hidden_ability_chance, shiny_chance)
-            return render_template("index.html", generatorForm=generatorForm, pokemon_data=pokemon_data)
+            return render_template("index.html", generator_form=generator_form, pokemon_data=pokemon_data)
 
     return app
 
