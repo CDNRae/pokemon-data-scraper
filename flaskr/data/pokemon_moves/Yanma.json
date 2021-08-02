@@ -73,7 +73,7 @@
   },
   "IV": {
     "egg_moves": [
-      "Faint Attack",
+      "FeintAttack",
       "Feint",
       "Leech Life",
       "Pursuit",
@@ -152,7 +152,7 @@
   "V": {
     "egg_moves": [
       "DoubleEdge",
-      "Faint Attack",
+      "FeintAttack",
       "Feint",
       "Leech Life",
       "Pursuit",

@@ -1,7 +1,7 @@
 {
   "II": {
     "egg_moves": [
-      "Faint Attack",
+      "FeintAttack",
       "Gust",
       "Pursuit",
       "Quick Attack",
@@ -41,7 +41,7 @@
   "III": {
     "egg_moves": [
       "Curse*",
-      "Faint Attack",
+      "FeintAttack",
       "Gust",
       "Pursuit",
       "Quick Attack",
@@ -94,7 +94,7 @@
     "egg_moves": [
       "Brave Bird",
       "Curse*",
-      "Faint Attack",
+      "FeintAttack",
       "Gust",
       "Hypnosis",
       "Nasty Plot",
@@ -155,7 +155,7 @@
       "Brave Bird",
       "Curse*",
       "Defog",
-      "Faint Attack",
+      "FeintAttack",
       "Giga Drain\u2021",
       "Gust",
       "Hypnosis",

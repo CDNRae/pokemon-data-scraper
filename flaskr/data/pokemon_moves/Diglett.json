@@ -3,7 +3,7 @@
     "egg_moves": [
       "AncientPower*",
       "Beat Up",
-      "Faint Attack",
+      "FeintAttack",
       "Pursuit",
       "Screech"
     ],
@@ -46,7 +46,7 @@
     "egg_moves": [
       "AncientPower",
       "Beat Up",
-      "Faint Attack",
+      "FeintAttack",
       "Pursuit",
       "Rock Slide",
       "Screech",
@@ -100,7 +100,7 @@
       "AncientPower",
       "Astonish",
       "Beat Up",
-      "Faint Attack",
+      "FeintAttack",
       "Mud Bomb",
       "Pursuit",
       "ReversalHGSS",
@@ -169,7 +169,7 @@
       "Astonish",
       "Beat Up",
       "Endure",
-      "Faint Attack",
+      "FeintAttack",
       "Final Gambit",
       "Headbutt",
       "Memento",

@@ -1,7 +1,7 @@
 {
   "II": {
     "egg_moves": [
-      "Faint Attack*",
+      "FeintAttack*",
       "Perish Song*",
       "Present*"
     ],
@@ -30,7 +30,7 @@
   },
   "III": {
     "egg_moves": [
-      "Faint Attack",
+      "FeintAttack",
       "Fake Tears",
       "Perish Song*",
       "Present*",
@@ -62,7 +62,7 @@
   "IV": {
     "egg_moves": [
       "Covet",
-      "Faint Attack",
+      "FeintAttack",
       "Fake Tears",
       "Gravity",
       "Last Resort",
@@ -101,7 +101,7 @@
     "egg_moves": [
       "Captivate",
       "Covet",
-      "Faint Attack",
+      "FeintAttack",
       "Fake Tears",
       "Gravity",
       "Last Resort",

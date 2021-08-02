@@ -2,7 +2,7 @@
   "II": {
     "egg_moves": [
       "Drill Peck",
-      "Faint Attack",
+      "FeintAttack",
       "Haze",
       "Quick Attack",
       "Steel Wing"
@@ -41,7 +41,7 @@
   "III": {
     "egg_moves": [
       "Drill Peck",
-      "Faint Attack",
+      "FeintAttack",
       "FeatherDance",
       "Haze",
       "Psych Up*",
@@ -87,7 +87,7 @@
   "IV": {
     "egg_moves": [
       "Drill Peck",
-      "Faint Attack",
+      "FeintAttack",
       "FeatherDance",
       "Haze",
       "Psych Up*",
@@ -163,7 +163,7 @@
   "V": {
     "egg_moves": [
       "Drill Peck",
-      "Faint Attack",
+      "FeintAttack",
       "FeatherDance",
       "Haze",
       "Quick Attack",

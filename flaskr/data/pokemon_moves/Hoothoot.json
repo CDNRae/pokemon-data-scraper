@@ -1,7 +1,7 @@
 {
   "II": {
     "egg_moves": [
-      "Faint Attack",
+      "FeintAttack",
       "Mirror Move",
       "Sky Attack\u2021C",
       "Supersonic",
@@ -49,7 +49,7 @@
   },
   "III": {
     "egg_moves": [
-      "Faint Attack",
+      "FeintAttack",
       "FeatherDance",
       "Mirror Move",
       "Sky Attack",
@@ -99,7 +99,7 @@
   "IV": {
     "egg_moves": [
       "Agility",
-      "Faint Attack",
+      "FeintAttack",
       "FeatherDance",
       "Mirror Move",
       "Night Shade",
@@ -127,7 +127,7 @@
     "egg_moves": [
       "Agility",
       "Defog",
-      "Faint Attack",
+      "FeintAttack",
       "FeatherDance",
       "Mirror Move",
       "Night Shade",

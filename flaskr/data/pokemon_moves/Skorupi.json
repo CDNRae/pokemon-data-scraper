@@ -11,7 +11,7 @@
     "egg_moves": [
       "Agility",
       "Confuse Ray",
-      "Faint Attack",
+      "FeintAttack",
       "Night Slash",
       "Pursuit",
       "SandAttack",
@@ -38,7 +38,7 @@
     "egg_moves": [
       "Agility",
       "Confuse Ray",
-      "Faint Attack",
+      "FeintAttack",
       "Iron Tail\u2021",
       "Night Slash",
       "Poison Tail",

@@ -2,7 +2,7 @@
   "II": {
     "egg_moves": [
       "Disable",
-      "Faint Attack",
+      "FeintAttack",
       "Flail",
       "Hypnosis",
       "Spite"
@@ -45,7 +45,7 @@
   "III": {
     "egg_moves": [
       "Disable",
-      "Faint Attack",
+      "FeintAttack",
       "Flail",
       "Heat Wave",
       "Howl",
@@ -105,7 +105,7 @@
       "Disable",
       "Energy Ball",
       "Extrasensory",
-      "Faint Attack",
+      "FeintAttack",
       "Flail",
       "Flare Blitz",
       "Heat Wave",
@@ -182,7 +182,7 @@
     "egg_moves": [
       "Disable",
       "Extrasensory",
-      "Faint Attack",
+      "FeintAttack",
       "Flail",
       "Flare Blitz",
       "Heat Wave",

@@ -41,7 +41,7 @@
   },
   "III": {
     "egg_moves": [
-      "Faint Attack",
+      "FeintAttack",
       "False Swipe",
       "Flail*",
       "Fury Attack"
@@ -92,7 +92,7 @@
   "IV": {
     "egg_moves": [
       "Close Combat",
-      "Faint Attack",
+      "FeintAttack",
       "False Swipe",
       "Feint",
       "Flail*",
@@ -162,7 +162,7 @@
     "egg_moves": [
       "Bug Bite",
       "Close Combat",
-      "Faint Attack",
+      "FeintAttack",
       "Feint",
       "Flail",
       "Fury Attack",
