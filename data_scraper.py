@@ -119,7 +119,6 @@ def get_move_data():
                         regular_move_column_counter = 1
                         regular_move_column_counter_increment = 7
 
-
                     while regular_move_column_counter < len(regular_move_columns):
                         move_level = regular_move_columns[regular_move_column_counter - 1].text
 
@@ -156,5 +155,169 @@ def get_move_data():
     print("Done")
 
 
+def get_hatchable_pokemon():
+    with open("C:/Users/clock/AppData/Roaming/JetBrains/PyCharmCE2020.3/scratches/scratch_3.json", "a+") as dataFile:
+        base_url = "https://pokeapi.co/api/v2/evolution-chain/"
+        counter = 237
+
+        response = requests.get(base_url + str(counter))
+        data = response.json()
+        json.dump(data["chain"]["species"], dataFile)
+
+        counter += 1
+
+        while counter < 467:
+            try:
+                response = requests.get(base_url + str(counter))
+                data = response.json()
+                json.dump(data["chain"]["species"], dataFile)
+                counter += 1
+            except Exception:
+                counter += 1
+                continue
+
+
+def get_list_of_pokemon_in_gen_pokedex():
+    list_of_pokemon_file = open("C:/Users/clock/AppData/Roaming/JetBrains/PyCharmCE2020.3/scratches/scratch_3.json")
+    list_of_pokemon_json = (json.load(list_of_pokemon_file))["list_of_pokemon"]
+    list_of_pokemon = []
+    list_of_pokemon_file.close()
+
+    for pokemon in list_of_pokemon_json:
+        list_of_pokemon.append(pokemon["name"])
+
+    generation = 2
+
+    with open("C:/Users/clock/AppData/Roaming/JetBrains/PyCharmCE2020.3/scratches/scratch_1.json",
+              "r") as national_dex_file:
+        national_dex = (json.load(national_dex_file))["pokemon_entries"]
+
+        list_of_pokemon_in_gen_dex = []
+
+        while generation <= 8:
+            national_dex_offset = 0
+            national_dex_cap = 0
+            gen_pokedex_filepath = "C:/Users/clock/PycharmProjects/pokemon_egg_generator/flaskr/data/pokedex/"
+
+            if generation == 2:
+                national_dex_offset = 0
+                national_dex_cap = 251
+                gen_pokedex_filepath += "gen_2.json"
+
+            elif generation == 3:
+                national_dex_offset = 251
+                national_dex_cap = 386
+                gen_pokedex_filepath += "gen_3.json"
+
+            elif generation == 4:
+                national_dex_offset = 386
+                national_dex_cap = 493
+                gen_pokedex_filepath += "gen_4.json"
+
+            elif generation == 5:
+                national_dex_offset = 493
+                national_dex_cap = 649
+                gen_pokedex_filepath += "gen_5.json"
+
+            elif generation == 6:
+                national_dex_offset = 649
+                national_dex_cap = 721
+                gen_pokedex_filepath += "gen_6.json"
+
+            elif generation == 7:
+                national_dex_offset = 721
+                national_dex_cap = 809
+                gen_pokedex_filepath += "gen_7.json"
+
+            elif generation == 8:
+                national_dex_offset = 809
+                national_dex_cap = 898
+                gen_pokedex_filepath += "gen_8.json"
+                
+            while national_dex_offset < national_dex_cap:
+                pokemon_name = national_dex[national_dex_offset]["pokemon_species"]["name"]
+
+                if pokemon_name in list_of_pokemon:
+                    list_of_pokemon_in_gen_dex.append(pokemon_name)
+
+                national_dex_offset += 1
+
+            gen_pokedex = open(gen_pokedex_filepath, "w")
+            json.dump(list_of_pokemon_in_gen_dex, gen_pokedex)
+
+            print(list_of_pokemon_in_gen_dex)
+            generation += 1
+            
+            
+def get_detailed_info_hatchable_pokemon():
+    list_of_pokemon_file = open("C:/Users/clock/AppData/Roaming/JetBrains/PyCharmCE2020.3/scratches/scratch_3.json")
+    list_of_pokemon = json.load(list_of_pokemon_file)
+
+    for pokemon in list_of_pokemon["list_of_pokemon"]:
+
+        # The refined pokemon object, to be stored as data
+        refined_pokemon = {
+            "name": pokemon["name"],
+            "primary_type": "",
+            "secondary_type": "",
+            "regular_abilities": [],
+            "hidden_ability": "",
+            "forms": [],
+            "regular_moves": {
+                "gold/silver": [],
+                "crystal": [],
+                "ruby/sapphire": [],
+                "emerald": [],
+                "diamond/pearl": [],
+                "platinum": [],
+                "black/white": [],
+                "black_2/white_2": [],
+                "x/y": [],
+                "omega_ruby/alpha_sapphire": [],
+                "sun/moon": [],
+                "ultra_sun/ultra_moon": [],
+                "sword/shield": [],
+                "brilliant_diamond/shining_pearl": []
+            },
+            "egg_moves": {
+                "crystal": [],
+                "ruby/sapphire": [],
+                "emerald": [],
+                "diamond/pearl": [],
+                "platinum": [],
+                "black/white": [],
+                "black_2/white_2": [],
+                "x/y": [],
+                "omega_ruby/alpha_sapphire": [],
+                "sun/moon": [],
+                "ultra_sun/ultra_moon": [],
+                "sword/shield": [],
+                "brilliant_diamond/shining_pearl": []
+            }
+        }
+        species_url = pokemon["url"].split("/")
+        pokemon_url = "https://pokeapi.co/api/v2/pokemon/" + species_url[len(species_url) - 2]
+
+        response = requests.get(pokemon["url"])
+        raw_pokemon_data = response.json()
+
+        # Get typing
+        for type in raw_pokemon_data["types"]:
+            if type["slot"] == 1:
+                refined_pokemon["primary_type"] = type["type"]["name"]
+            else:
+                refined_pokemon["secondary_type"] = type["type"]["name"]
+
+        # Get abilities, hidden and regular
+        for ability in raw_pokemon_data["abilities"]:
+            if ability["is_hidden"] is False:
+                refined_pokemon["regular_abilities"].append(ability["ability"]["name"])
+            else:
+                refined_pokemon["hidden_ability"].append(ability["ability"]["name"])
+
+
+
 if __name__ == '__main__':
-    get_move_data()
+    # get_hatchable_pokemon()
+    # get_list_of_pokemon_in_gen_pokedex()
+    get_detailed_info_hatchable_pokemon()

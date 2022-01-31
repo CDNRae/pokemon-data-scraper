@@ -38,6 +38,10 @@ generations = {
 }
 
 
+def lists_overlap(a, b):
+    return bool(set(a) & set(b))
+
+
 def get_gender(pokemon_object):
     """
     Determines the gender of a Pokemon.  Has a few checks for genderless, male-only, and female-only species.
@@ -302,6 +306,101 @@ def generate_pokemon(number_to_generate, generation, egg_move_chance, hidden_abi
     return output_string
 
 
+def generate_pokemon_of_types(number_to_generate, generation, egg_move_chance, hidden_ability_chance, shiny_chance,
+                              types):
+    # Setting up the output file, data, randomizer, etc.
+    output_string = "["
+    loop_counter = 0
+    random.seed()
+
+    # Get Pokemon from the specified generation
+    pokemon_list = pandas.read_csv("flaskr/data/pokemon.csv")
+    pokemon_list = pokemon_list[pokemon_list.GENERATION <= generation]
+
+    # Hidden abilities can only be had from Gen V onward; if it's earlier, we set hidden_ability_chance to 0 regardless
+    # of what the user picked
+    if hidden_ability_chance > 0 and generation < 5:
+        hidden_ability_chance = 0
+
+    while loop_counter < len(pokemon_list.index):
+        isPokemonOfType = False
+        pokemon = pokemon_list.iloc[loop_counter]
+
+        if pokemon["TYPE1"] in types:
+            isPokemonOfType = True
+
+        if pokemon["TYPE2"] in types:
+            isPokemonOfType = True
+
+        for tpe in types:
+            if type(pokemon["TYPES ON EVO"]) is not float and tpe in pokemon["TYPES ON EVO"]:
+                isPokemonOfType = True
+
+        if isPokemonOfType:
+            # Instantiate the Pokemon object that will hold all the data about the Pokemon
+            pokemon_object = PokemonClass()
+
+            # Get the Pokemon's species, set it on the object, along with its level
+
+            pokemon_object.Species = pokemon["NAME"]
+
+            pokemon_object.Level = 1
+
+            # Get gender
+            pokemon_object.Gender = get_gender(pokemon)
+
+            # If the Pokemon can be shiny, make a check to see whether the one being generated will be shiny
+            pokemon_object.isShiny = "false"
+
+            if shiny_chance > 0:
+                random_number = random.randint(1, 100)
+
+                if shiny_chance >= random_number:
+                    pokemon_object.isShiny = "true"
+
+            # Simple step to determine the Pokemon's nature.
+            random_number = random.randint(0, 24)
+            pokemon_object.Nature = natures[random_number]
+
+            # Get ability
+            pokemon_object.Ability = get_ability(pokemon, hidden_ability_chance)
+
+            # Next, IVs are determined by randomly generating numbers between 1 and 31.
+            random_number = random.randint(1, 31)
+            pokemon_object.HP = random_number
+
+            random_number = random.randint(1, 31)
+            pokemon_object.Atk = random_number
+
+            random_number = random.randint(1, 31)
+            pokemon_object.Def = random_number
+
+            random_number = random.randint(1, 31)
+            pokemon_object.SpA = random_number
+
+            random_number = random.randint(1, 31)
+            pokemon_object.SpD = random_number
+
+            random_number = random.randint(1, 31)
+            pokemon_object.Spe = random_number
+
+            # Get moves
+            get_moves(pokemon_object, generation, egg_move_chance)
+
+            if "-" in pokemon_object.Species:
+                pokemon_object.Species = pokemon_object.Species.replace("-", "")
+
+            # Convert Pokemon object to a dict, and use it to dump a JSON string to the output_file
+            output_string = output_string + pokemon_object.pokemon_as_dict().__str__()
+            output_string = output_string + ","
+
+        loop_counter += 1
+
+    output_string = output_string + "]"
+    return output_string
+
+
 if __name__ == '__main__':
     # Number of pokemon to generate, generation, % chance of egg moves, % chance of hidden abilities, % chance of shiny
-    print(generate_pokemon(10, 7, 50, 50, 100))
+    # print(generate_pokemon(30, 6, 50, 50, 1))
+    print(generate_pokemon_of_types(30, 6, 50, 50, 5, ["Dark"]))
