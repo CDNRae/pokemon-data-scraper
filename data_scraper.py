@@ -1,8 +1,5 @@
-import requests
-import pandas
-from bs4 import BeautifulSoup
 import json
-import time
+import requests
 
 generations = ["II", "III", "IV", "V", "VI", "VII", "VII"]
 
