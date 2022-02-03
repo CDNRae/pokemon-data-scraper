@@ -111,33 +111,51 @@ def to_camel_case(text):
     return s[0].capitalize() + ''.join(i.capitalize() for i in s[1:])
 
 
-# Get a list of Pokemon that can be obtained from an egg -- not entirely fool-proof as it will grab the first
-# Pokemon in an evolutionary chain... Which unfortunately means it WILL grab legendaries. You will need to clean out
-# egg_obtainable_pokemon.json to remove legendaries at this time.
+# Get a list of Pokemon that can be obtained from an egg, and their evolved forms (if any). The evolved forms will be
+# used to determine the future typing of a Pokemon
 def get_hatchable_pokemon():
-    with open("data/egg_obtainable_pokemon.json", "w+") as output_file:
-        base_url = "https://pokeapi.co/api/v2/evolution-chain/"
-        counter = 1  # PokeAPI's counter for evo chains starts at 1
-        list_of_pokemon = []
+    base_url = "https://pokeapi.co/api/v2/evolution-chain/"
+    num_evo_chains = 0
+    num_current_evo_chain = 1  # the evo chain IDs in PokeAPI start at 1
+    list_of_pokemon = []
+    output_file = open("data/egg_obtainable_pokemon.json", "w+")
 
-        response = requests.get(base_url + str(counter))
-        data = response.json()
-        list_of_pokemon.append(data["chain"]["species"])
+    response = requests.get(base_url)
+    data = response.json()
 
-        counter += 1
+    num_evo_chains = data["count"]
 
-        while counter < 448:
-            try:
-                response = requests.get(base_url + str(counter))
-                data = response.json()
-                if (data["chain"]["species"]["name"]).lower() not in non_obtainable_first_chains:
-                    list_of_pokemon.append(data["chain"]["species"])
-                counter += 1
-            except Exception:
-                counter += 1
-                continue
+    while num_current_evo_chain < num_evo_chains:
+        response = requests.get(base_url + str(num_current_evo_chain))
 
-        json.dump(list_of_pokemon, output_file)
+        if response.status_code == 200:
+            data = response.json()
+
+            # Make sure that the Pokemon at the beginning of the chain can be obtained through an egg
+            if (data["chain"]["species"]["name"]).lower() not in non_obtainable_first_chains:
+                pokemon = {
+                    "name": data["chain"]["species"]["name"],
+                    "url": data["chain"]["species"]["url"],
+                    "evolves_to": []
+                }
+
+                next_evo = data["chain"]["evolves_to"]
+
+                # Check for the next line in the evo chain
+                for evo in next_evo:
+                    pokemon["evolves_to"].append(evo["species"]["name"])
+
+                    if len(evo["evolves_to"]) > 0:
+                        for next_next_evo in evo["evolves_to"]:
+                            pokemon["evolves_to"].append(next_next_evo["species"]["name"])
+
+                list_of_pokemon.append(pokemon)
+
+        print(num_current_evo_chain)
+        num_current_evo_chain += 1
+
+    json.dump(list_of_pokemon, output_file)
+    output_file.close()
 
 
 # Gets a list of what egg-obtainable Pokemon are in each generation's Pokedex. It relies on the existence and proper
@@ -421,6 +439,6 @@ def get_detailed_info_hatchable_pokemon():
 
 
 if __name__ == '__main__':
-    # get_hatchable_pokemon()
+    get_hatchable_pokemon()
     # get_list_of_pokemon_in_gen_pokedex()
-    get_detailed_info_hatchable_pokemon()
+    # get_detailed_info_hatchable_pokemon()
