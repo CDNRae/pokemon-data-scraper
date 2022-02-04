@@ -564,9 +564,6 @@ def get_detailed_info_hatchable_pokemon():
 
 
 def get_type_list():
-    file_of_egg_obtainable_pokemon = open("data/egg_obtainable_pokemon.json")
-    egg_obtainable_pokemon = json.load(file_of_egg_obtainable_pokemon)
-
     output_file = open("data/pokemon_by_types.json", "w+")
     counter = 1
 
@@ -584,7 +581,11 @@ def get_type_list():
         "ground": [],
         "rock": [],
         "grass": [],
-        "bug": []
+        "bug": [],
+        "flying": [],
+        "poison": [],
+        "ghost": [],
+        "dragon": []
     }
 
     # < 19 because there are 18 types in Pokemon
@@ -593,10 +594,16 @@ def get_type_list():
         data = response.json()
 
         for pokemon in data["pokemon"]:
+            pokemon_by_type[data["name"]].append(pokemon["pokemon"]["name"])
 
+        counter += 1
+
+    json.dump(pokemon_by_type, output_file)
     output_file.close()
+
 
 if __name__ == '__main__':
     # get_hatchable_pokemon()
     # get_list_of_pokemon_in_gen_pokedex()
-    get_detailed_info_hatchable_pokemon()
+    # get_detailed_info_hatchable_pokemon()
+    get_type_list()
