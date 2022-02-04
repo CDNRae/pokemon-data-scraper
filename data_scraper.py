@@ -4,6 +4,8 @@ import requests
 generations = ["II", "III", "IV", "V", "VI", "VII", "VII"]
 
 # A list of Pokemon who cannot be legitimately obtained from an egg
+
+# A list of regional variants, which are simpler to hardcode than try and pull from the API
 non_obtainable_first_chains = ["articuno",
                                "zapdos",
                                "moltres",
@@ -96,10 +98,123 @@ non_obtainable_first_chains = ["articuno",
                                "enamorus",
                                "ditto"
                                ]
-alolan_variants = ["diglett-alola", "grimer-alola", "geodude-alola", "rattata-alola", "meowth-alola", "vulpix-alola",
-                   "sandshrew-alola"]
-galar_variants = ["zigzagoon-galar", "meowth-galar", "farfetchd-galar", "stunfisk-galar", "corsola-galar",
-                  "yamask-galar", "ponyta-galar", "darumaka-galar", "slowpoke-galar"]
+alolan_variants = [
+    {
+        "name": "diglett-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/diglett-alola/",
+        "evolves_to": [
+            "dugtrio-alola"
+        ]
+    },
+    {
+        "name": "grimer-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/grimer-alola/",
+        "evolves_to": [
+            "muk-alola"
+        ]
+    },
+    {
+        "name": "geodude-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/geodude-alola/",
+        "evolves_to": [
+            "graveller-alola",
+            "golem-alola"
+        ]
+    },
+    {
+        "name": "rattata-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/rattata-alola/",
+        "evolves_to": [
+            "raticate-alola"
+        ]
+    },
+    {
+        "name": "meowth-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/persian-alola/",
+        "evolves_to": [
+            "persian-alola"
+        ]
+    },
+    {
+        "name": "vulpix-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/vulpix-alola/",
+        "evolves_to": [
+            "ninetails-alola"
+        ]
+    },
+    {
+        "name": "sandshrew-alola",
+        "url": "https://pokeapi.co/api/v2/pokemon/sandshrew-alola/",
+        "evolves_to": [
+            "sandslash-alola"
+        ]
+    }
+]
+
+galar_variants = [
+    {
+        "name": "zigzagoon-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/zigzagoon-galar/",
+        "evolves_to": [
+            "linoone-galar",
+            "obstagoon"
+        ]
+    },
+    {
+        "name": "meowth-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/meowth-galar/",
+        "evolves_to": [
+            "perrserker"
+        ]
+    },
+    {
+        "name": "farfetchd-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/farfetchd-galar/",
+        "evolves_to": [
+            "sirfetchd"
+        ]
+    },
+    {
+        "name": "stunfisk-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/stunfisk-galar/",
+        "evolves_to": []
+    },
+    {
+        "name": "corsola-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/corsola-galar/",
+        "evolves_to": [
+            "cursola"
+        ]
+    },
+    {
+        "name": "yamask-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/yamask-galar/",
+        "evolves_to": [
+            "runerigus"
+        ]
+    },
+    {
+        "name": "ponyta-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/ponyta-galar/",
+        "evolves_to": [
+            "rapidash-galar"
+        ]
+    },
+    {
+        "name": "darumaka-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/darumaka-galar/",
+        "evolves_to": [
+            "darmanitan-galar"
+        ]
+    },
+    {
+        "name": "slowpoke-galar",
+        "url": "https://pokeapi.co/api/v2/pokemon/slowpoke-galar/",
+        "evolves_to": [
+            "slowbro-galar",
+            "slowking-galar"
+        ]
+    }]
 
 
 # Ripped from https://stackoverflow.com/questions/60978672/python-string-to-camelcase
@@ -120,14 +235,27 @@ def get_hatchable_pokemon():
     list_of_pokemon = []
     output_file = open("data/egg_obtainable_pokemon.json", "w+")
 
+    # Use the base URL to get a count of how many chains there are in PokeAPI
     response = requests.get(base_url)
     data = response.json()
 
     num_evo_chains = data["count"]
 
+    # Go through all the evo chains to:
+    #   1. Get the name of the first Pokemon in the chain (ie Bulbasaur) and its species URL in PokeAPI. The URL is used
+    #      later to get more detailed data (movesets, type, etc.)
+    #   2. Get a list of Pokemon higher up the evo chain. This will be used to determine typing of future evos, which
+    #      is needed by the Bulk Egg Importer.
+
+    # The resulting file still needs to be modified a bit however, because the evo chains don't take into consideration
+    # regional variants (i.e. it lists Meowth as evolving into Perserrker and Persian, which while technically correct,
+    # the Bulk Egg Importer needs to differentiate between Galarian Mewoth, Alolan Meowth, and regular Meowth). So
+    # Perserrker needs to be removed from the Meowth entry, and the same must be done for all variants like this.
     while num_current_evo_chain < num_evo_chains:
         response = requests.get(base_url + str(num_current_evo_chain))
 
+        # For some reason, not all of the IDs from 1 - num_evo_chains have data to return -- sometimes a 404 or
+        # similar error is sent back, so the response status is checked first
         if response.status_code == 200:
             data = response.json()
 
@@ -135,13 +263,20 @@ def get_hatchable_pokemon():
             if (data["chain"]["species"]["name"]).lower() not in non_obtainable_first_chains:
                 pokemon = {
                     "name": data["chain"]["species"]["name"],
-                    "url": data["chain"]["species"]["url"],
+                    "url": "",
                     "evolves_to": []
                 }
 
+                # The URL given by PokeAPI is for species, and doesn't contain the detailed breakdown of movesets, type,
+                # etc. that are needed, so the URL has to be messed with a bit to get what we need for later
+                pokemon_url = (data["chain"]["species"]["url"]).split("/")
+                pokemon["url"] = "https://pokeapi.co/api/v2/pokemon/"+ pokemon_url[len(pokemon_url) - 2]
+
+                # The following block of code gets the Pokemon's evolutions. Because of the way PokeAPI structures the
+                # evolution chain object, it looks a bit ugly -- the 2nd stage evo is nested in the 1st, and the 3rd+
+                # is nested in the 2nd.
                 next_evo = data["chain"]["evolves_to"]
 
-                # Check for the next line in the evo chain
                 for evo in next_evo:
                     pokemon["evolves_to"].append(evo["species"]["name"])
 
@@ -151,9 +286,13 @@ def get_hatchable_pokemon():
 
                 list_of_pokemon.append(pokemon)
 
-        print(num_current_evo_chain)
         num_current_evo_chain += 1
 
+    # Add regional variants
+    list_of_pokemon = list_of_pokemon + alolan_variants
+    list_of_pokemon = list_of_pokemon + galar_variants
+
+    # Dump all the data to the file
     json.dump(list_of_pokemon, output_file)
     output_file.close()
 
@@ -231,7 +370,7 @@ def get_list_of_pokemon_in_gen_pokedex():
             generation += 1
 
 
-def create_pokemon_object(pokemon, has_url):
+def create_pokemon_object(pokemon):
     # The refined pokemon object, to be stored as data
     refined_pokemon = {
         "name": "",
@@ -278,17 +417,9 @@ def create_pokemon_object(pokemon, has_url):
         }
     }
     response = ""
-    base_url = "https://pokeapi.co/api/v2/pokemon/"
 
-    # Alolan and Galar variants have to be gotten via name instead of ID, hence the if-statement
-    if has_url:
-        refined_pokemon["name"] = pokemon["name"]
-        split_url = pokemon["url"].split("/")
-        response = requests.get(base_url + split_url[len(split_url) - 2])
-
-    else:
-        refined_pokemon["name"] = pokemon
-        response = requests.get(base_url + pokemon)
+    refined_pokemon["name"] = pokemon["name"]
+    response = requests.get(pokemon["url"])
 
     raw_pokemon_data = response.json()
 
@@ -423,13 +554,7 @@ def get_detailed_info_hatchable_pokemon():
     all_refined_pokemon = []
 
     for pokemon in list_of_pokemon:
-        all_refined_pokemon.append(create_pokemon_object(pokemon, True))
-
-    for pokemon in alolan_variants:
-        all_refined_pokemon.append(create_pokemon_object(pokemon, False))
-
-    for pokemon in galar_variants:
-        all_refined_pokemon.append(create_pokemon_object(pokemon, False))
+        all_refined_pokemon.append(create_pokemon_object(pokemon))
 
     list_of_pokemon_file.close()
 
@@ -438,7 +563,40 @@ def get_detailed_info_hatchable_pokemon():
     output_file.close()
 
 
+def get_type_list():
+    file_of_egg_obtainable_pokemon = open("data/egg_obtainable_pokemon.json")
+    egg_obtainable_pokemon = json.load(file_of_egg_obtainable_pokemon)
+
+    output_file = open("data/pokemon_by_types.json", "w+")
+    counter = 1
+
+    pokemon_by_type = {
+        "normal": [],
+        "fighting": [],
+        "fire": [],
+        "water": [],
+        "ice": [],
+        "steel": [],
+        "dark": [],
+        "psychic": [],
+        "fairy": [],
+        "electric": [],
+        "ground": [],
+        "rock": [],
+        "grass": [],
+        "bug": []
+    }
+
+    # < 19 because there are 18 types in Pokemon
+    while counter < 19:
+        response = requests.get("https://pokeapi.co/api/v2/type/" + str(counter))
+        data = response.json()
+
+        for pokemon in data["pokemon"]:
+
+    output_file.close()
+
 if __name__ == '__main__':
-    get_hatchable_pokemon()
+    # get_hatchable_pokemon()
     # get_list_of_pokemon_in_gen_pokedex()
-    # get_detailed_info_hatchable_pokemon()
+    get_detailed_info_hatchable_pokemon()
